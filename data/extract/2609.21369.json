@@ -1,0 +1,18 @@
+{
+ "id": "2609.21369",
+ "title": "ProTracer: Proprioception-Guided Failure Diagnosis in Robot Manipulation",
+ "date": "2026-09",
+ "include": false,
+ "exclude_reason": "I1/I2: offline failure diagnosis from gripper/end-effector proprioception; no force/effort-driven manipulation policy evaluated",
+ "signal": "none",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [],
+ "n_values": []
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2609.22895",
+ "title": "H-VLA: Hierarchical Vision-Language-Action Model with Key-Action Reasoning and Motion Planning in a Unified Action Space",
+ "date": "2026-09-19",
+ "include": false,
+ "exclude_reason": "I1: no force/tactile/effort input",
+ "signal": "none",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [
+  "Positive practice noted: exact success counts per cell given in appendix Table 12"
+ ],
+ "n_values": []
+}
