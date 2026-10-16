@@ -1,0 +1,131 @@
+{
+ "id": "2609.29822",
+ "title": "Self-Supervised Anchoring of Fingertip Sensing to Proprioception and Proactive Actions for Robot Imitation Learning (PROPRA)",
+ "date": "2026-09-24",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": false,
+  "seeds_reported": true,
+  "success_defined": false,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "PickCup",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Image anchor + direct pair (VITaL-style)",
+   "nP": 60,
+   "sP": 49,
+   "nX": 60,
+   "sX": 46,
+   "source": "Table II p7",
+   "n_ambiguous": false,
+   "note": "n = 3 seeds x 20 trials pooled; rates are seed means"
+  },
+  {
+   "task": "PickSponge",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Image anchor (VITaL-style)",
+   "nP": 60,
+   "sP": 49,
+   "nX": 60,
+   "sX": 45,
+   "source": "Table II p7",
+   "n_ambiguous": false,
+   "note": "n = 3 seeds x 20 pooled"
+  },
+  {
+   "task": "MovePen",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Image anchor + direct pair (VITaL-style)",
+   "nP": 60,
+   "sP": 38,
+   "nX": 60,
+   "sX": 38,
+   "source": "Table II p7",
+   "n_ambiguous": false,
+   "note": "n = 3 seeds x 20 pooled; tie"
+  },
+  {
+   "task": "OpenLid",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Image anchor (VITaL-style)",
+   "nP": 60,
+   "sP": 44,
+   "nX": 60,
+   "sX": 46,
+   "source": "Table II p7",
+   "n_ambiguous": false,
+   "note": "n = 3 seeds x 20 pooled; baseline higher"
+  },
+  {
+   "task": "PickCup",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Vision only",
+   "nP": 60,
+   "sP": 49,
+   "nX": 60,
+   "sX": 7,
+   "source": "Tables I-II p3,p7",
+   "n_ambiguous": false,
+   "note": "n = 3 seeds x 20 pooled"
+  },
+  {
+   "task": "PickSponge",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Vision only",
+   "nP": 60,
+   "sP": 49,
+   "nX": 60,
+   "sX": 21,
+   "source": "Tables I-II p3,p7",
+   "n_ambiguous": false,
+   "note": "n = 3 seeds x 20 pooled"
+  },
+  {
+   "task": "MovePen",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Vision only",
+   "nP": 60,
+   "sP": 38,
+   "nX": 60,
+   "sX": 19,
+   "source": "Tables I-II p3,p7",
+   "n_ambiguous": false,
+   "note": "n = 3 seeds x 20 pooled"
+  },
+  {
+   "task": "OpenLid",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Vision only",
+   "nP": 60,
+   "sP": 44,
+   "nX": 60,
+   "sX": 26,
+   "source": "Tables I-II p3,p7",
+   "n_ambiguous": false,
+   "note": "n = 3 seeds x 20 pooled"
+  }
+ ],
+ "flags": [
+  "Signal = FSR tactile plus reflective optical proximity on the fingertip",
+  "Success counts recovered as seed-mean rate x 60; pooling across 3 training seeds ignores seed-level clustering",
+  "No-pretraining concatenation (own ablation that still uses sensors) excluded from B under D5",
+  "Positive practice noted: authors state PickCup/PickSponge gains over the image anchor are within seed variation; mean +/- SD over 3 seeds reported",
+  "Success criterion not explicitly defined in the text read"
+ ],
+ "n_values": [
+  60
+ ]
+}
