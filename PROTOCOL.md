@@ -112,3 +112,13 @@ analyze.py was first executed:
 (f) A7: Wald SPRT on discordant pairs of alternating P/X trials (H0 theta = 0.5), one-sided alpha = 0.025,
     beta = 0.2, designed for pX = 0.5 vs pP = 0.7, truncated at 500 pairs; 20,000 replicates per true effect.
 (g) Sensitivity: primary set excluding rows flagged n_ambiguous.
+
+D8 (2026-10-16, during independent verification). Note on timing: analyze.py had been run once on the
+unverified data (results not reported) before these rules were written; they were prompted by the blinded
+verifiers' screening and are applied uniformly. (a) I2 clarification: a paper whose real-robot outcomes are all
+partial-credit or progress scores, with no binary or binarisable success outcome, fails I2 (D2a continues to govern
+partial-credit tasks in papers that also report binary outcomes). Per-trial binary outcomes that are not labelled
+"success" (e.g. "no grasp failure", "stable") are binary and enter the tests. (b) Reporting fields: for the two
+judgement fields (randomized_init, success_defined), a coder disagreement that was not resolved by re-reading the
+paper is coded conservatively ("unclear" / false). (c) All other disagreements are resolved by checking the source;
+every change is logged in verify/adjudication_log.json with its reason.
