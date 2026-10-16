@@ -1,0 +1,169 @@
+{
+ "id": "2608.01824",
+ "title": "ReTouch: Empowering Contact-Rich Dexterous Manipulation with Online-Refined Tactile Prediction",
+ "date": "2026-08",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Button press",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Tactile-VLA",
+   "nP": 20,
+   "sP": 17,
+   "nX": 20,
+   "sX": 17,
+   "source": "Table 1 p6; n=20 p5",
+   "n_ambiguous": false,
+   "note": "only binary task; tie"
+  },
+  {
+   "task": "Pipette press",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "Tactile-VLA",
+   "nP": 20,
+   "sP": null,
+   "nX": 20,
+   "sX": null,
+   "source": "Tables 1-2 p6; rubric App. B.3",
+   "n_ambiguous": false,
+   "note": "score P 86.0 vs 84.5"
+  },
+  {
+   "task": "Bottle grasp",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "Tactile-VLA",
+   "nP": 20,
+   "sP": null,
+   "nX": 20,
+   "sX": null,
+   "source": "Tables 1-2 p6; rubric App. B.3",
+   "n_ambiguous": false,
+   "note": "score P 95.0 vs 82.5"
+  },
+  {
+   "task": "Cob grasp",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "Tactile-VLA",
+   "nP": 20,
+   "sP": null,
+   "nX": 20,
+   "sX": null,
+   "source": "Tables 1-2 p6; rubric App. B.3",
+   "n_ambiguous": false,
+   "note": "score P 100.0 vs 95.5"
+  },
+  {
+   "task": "Sponge wipe",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "Tactile-VLA",
+   "nP": 20,
+   "sP": null,
+   "nX": 20,
+   "sX": null,
+   "source": "Tables 1-2 p6; rubric App. B.3",
+   "n_ambiguous": false,
+   "note": "score P 87.5 vs 62.5"
+  },
+  {
+   "task": "Cabinet retrieval",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "ViTacFormer",
+   "nP": 20,
+   "sP": null,
+   "nX": 20,
+   "sX": null,
+   "source": "Tables 1-2 p6; rubric App. B.3",
+   "n_ambiguous": false,
+   "note": "score P 62.5 vs 67.5"
+  },
+  {
+   "task": "Liquid transfer",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "pi0.5+tactile",
+   "nP": 20,
+   "sP": null,
+   "nX": 20,
+   "sX": null,
+   "source": "Tables 1-2 p6; rubric App. B.3",
+   "n_ambiguous": false,
+   "note": "score P 69.0 vs 50.0"
+  },
+  {
+   "task": "Sponge wipe, held-out height",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "pi0.5+tactile",
+   "nP": 20,
+   "sP": null,
+   "nX": 20,
+   "sX": null,
+   "source": "Tables 1-2 p6; rubric App. B.3",
+   "n_ambiguous": false,
+   "note": "score P 42.5 vs 15.0"
+  },
+  {
+   "task": "Cob grasp, position shift",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 20,
+   "sP": null,
+   "nX": 20,
+   "sX": null,
+   "source": "Tables 1-2 p6; rubric App. B.3",
+   "n_ambiguous": false,
+   "note": "score P 98.5 vs 86.0"
+  },
+  {
+   "task": "Liquid transfer, lighting",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "pi0.5+tactile",
+   "nP": 20,
+   "sP": null,
+   "nX": 20,
+   "sX": null,
+   "source": "Tables 1-2 p6; rubric App. B.3",
+   "n_ambiguous": false,
+   "note": "score P 66.5 vs 46.5"
+  },
+  {
+   "task": "Bottle grasp, pull disturbance",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "pi0.5+tactile",
+   "nP": 20,
+   "sP": null,
+   "nX": 20,
+   "sX": null,
+   "source": "Tables 1-2 p6; rubric App. B.3",
+   "n_ambiguous": false,
+   "note": "score P 85.0 vs 55.0"
+  }
+ ],
+ "flags": [
+  "Six of seven tasks (and all four challenging settings) use weighted partial-credit scores reported as 'success rate' (App. B.3 says so explicitly): excluded from tests (D2a)",
+  "No own no-touch ablation; pi0/pi0.5 +/- tactile are external baselines",
+  "Single evaluator applies rubric on site",
+  "Date: v2 18 Aug 2026; v1 early Aug 2026"
+ ],
+ "n_values": [
+  20
+ ]
+}
