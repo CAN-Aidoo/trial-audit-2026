@@ -76,3 +76,9 @@ D2 (2026-10-16, during extraction of paper 3 of 87; no analysis run yet). Two co
 D3 (2026-10-16, during extraction, no analysis run). Clarifies a conflict between I3 and Section 4: a paper that is
 otherwise eligible but never states trial counts fails I3 and is excluded from the tests, but is kept in the data as
 "eligible_but_n_missing" and counted in the reporting statistics (A2), since missing n is itself a reporting outcome.
+
+D4 (2026-10-16, during extraction of paper 47 of 89; no analysis run). I1 clarification where the protocol was
+silent: a policy input that measures contact-induced deformation with a camera (e.g. an external camera tracking the
+deformation field of a compliant finger, analogous to GelSight-type optical tactile sensors) counts as "tactile".
+Tactile signals generated from RGB by a learned model also count when the policy consumes them through a tactile
+channel (applies to 2607.20683 FELT, coded earlier under the same reading). Both are flagged in the records.
