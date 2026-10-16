@@ -1,0 +1,125 @@
+{
+ "id": "2606.08555",
+ "title": "FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation",
+ "date": "2026-06-07",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": false,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Erase board",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "ForceVLA",
+   "nP": 20,
+   "sP": 15,
+   "nX": 20,
+   "sX": 11,
+   "source": "Table 1 p7; n=20 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Erase board",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "GE-Act (paper: vision-only backbone of FAWAM)",
+   "nP": 20,
+   "sP": 15,
+   "nX": 20,
+   "sX": 9,
+   "source": "Table 1 p7; p6",
+   "n_ambiguous": false,
+   "note": "D2b"
+  },
+  {
+   "task": "Peel cucumber",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "TA-VLA",
+   "nP": 20,
+   "sP": 19,
+   "nX": 20,
+   "sX": 17,
+   "source": "Table 1 p7; n=20 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Peel cucumber",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "GE-Act (paper: vision-only backbone of FAWAM)",
+   "nP": 20,
+   "sP": 19,
+   "nX": 20,
+   "sX": 10,
+   "source": "Table 1 p7; p6",
+   "n_ambiguous": false,
+   "note": "D2b"
+  },
+  {
+   "task": "Pivot box",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "TA-VLA",
+   "nP": 20,
+   "sP": 17,
+   "nX": 20,
+   "sX": 14,
+   "source": "Table 1 p7; n=20 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Pivot box",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "GE-Act (paper: vision-only backbone of FAWAM)",
+   "nP": 20,
+   "sP": 17,
+   "nX": 20,
+   "sX": 9,
+   "source": "Table 1 p7; p6",
+   "n_ambiguous": false,
+   "note": "D2b"
+  },
+  {
+   "task": "Wipe vase",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "ForceVLA",
+   "nP": 20,
+   "sP": 17,
+   "nX": 20,
+   "sX": 13,
+   "source": "Table 1 p7; n=20 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Wipe vase",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "GE-Act (paper: vision-only backbone of FAWAM)",
+   "nP": 20,
+   "sP": 17,
+   "nX": 20,
+   "sX": 11,
+   "source": "Table 1 p7; p6",
+   "n_ambiguous": false,
+   "note": "D2b"
+  }
+ ],
+ "flags": [
+  "Perturbation tests use 5 trials per setting",
+  "Success criterion per task not explicitly defined in the retrieved pages"
+ ]
+}

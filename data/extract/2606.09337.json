@@ -1,0 +1,73 @@
+{
+ "id": "2606.09337",
+ "title": "TORL-VLA: Tactile Guided Online Reinforcement Learning for Contact-Rich Manipulation",
+ "date": "2026-06-08",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Coffee cup",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "RLT",
+   "nP": 30,
+   "sP": 30,
+   "nX": 30,
+   "sX": 26,
+   "source": "Table 1 p7; n=30 p6/p12",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Latch",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "RLT",
+   "nP": 30,
+   "sP": 29,
+   "nX": 30,
+   "sX": 25,
+   "source": "Table 1 p7; n=30 p6/p12",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Egg",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "RLT",
+   "nP": 30,
+   "sP": 30,
+   "nX": 30,
+   "sX": 25,
+   "source": "Table 1 p7; n=30 p6/p12",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Full task",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "RLT",
+   "nP": 30,
+   "sP": 28,
+   "nX": 30,
+   "sX": 23,
+   "source": "Table 1 p7; n=30 p6/p12",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "No kind-A ablation: pi0.5 is a separate base model; 'w/o Wrench Context' keeps tactile in the reference model",
+  "Full task is a conjunction of the three subtasks, so it is not independent of them"
+ ]
+}

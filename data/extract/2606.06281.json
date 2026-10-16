@@ -1,0 +1,150 @@
+{
+ "id": "2606.06281",
+ "title": "Multi-Resolution Tactile Imitation Learning for Contact-Rich Robotic Manipulation",
+ "date": "2026-06-04",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Gear assembly",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Sparsh-X V+G+E",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 10,
+   "source": "Fig. 4 p7 / Table 7 p18; n=20 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Gear assembly",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "ViT-CNN (MiTaS stems, vision only)",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 8,
+   "source": "Table 7 p18",
+   "n_ambiguous": false,
+   "note": "D2b: same stems, tactile encoders omitted"
+  },
+  {
+   "task": "Board wiping",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Sparsh-X V+G+E",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 17,
+   "source": "Fig. 4 p7 / Table 7 p18; n=20 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Board wiping",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "ViT-CNN (MiTaS stems, vision only)",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 14,
+   "source": "Table 7 p18",
+   "n_ambiguous": false,
+   "note": "D2b: same stems, tactile encoders omitted"
+  },
+  {
+   "task": "Lamp installation",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Sparsh-X V+G+E",
+   "nP": 20,
+   "sP": 16,
+   "nX": 20,
+   "sX": 14,
+   "source": "Fig. 4 p7 / Table 7 p18; n=20 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Lamp installation",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "ViT-CNN (MiTaS stems, vision only)",
+   "nP": 20,
+   "sP": 16,
+   "nX": 20,
+   "sX": 4,
+   "source": "Table 7 p18",
+   "n_ambiguous": false,
+   "note": "D2b: same stems, tactile encoders omitted"
+  },
+  {
+   "task": "Key in lock",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Sparsh-X V+G+E",
+   "nP": 20,
+   "sP": 15,
+   "nX": 20,
+   "sX": 2,
+   "source": "Fig. 4 p7 / Table 7 p18; n=20 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Key in lock",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "ViT-CNN (MiTaS stems, vision only)",
+   "nP": 20,
+   "sP": 15,
+   "nX": 20,
+   "sX": 0,
+   "source": "Table 7 p18",
+   "n_ambiguous": false,
+   "note": "D2b: same stems, tactile encoders omitted"
+  },
+  {
+   "task": "Lightbulb connection",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Sparsh-X V+G+E",
+   "nP": 20,
+   "sP": 13,
+   "nX": 20,
+   "sX": 11,
+   "source": "Fig. 4 p7 / Table 7 p18; n=20 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Lightbulb connection",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "ViT-CNN (MiTaS stems, vision only)",
+   "nP": 20,
+   "sP": 13,
+   "nX": 20,
+   "sX": 0,
+   "source": "Table 7 p18",
+   "n_ambiguous": false,
+   "note": "D2b: same stems, tactile encoders omitted"
+  }
+ ],
+ "flags": [
+  "Co-training ablation shows mixed signs across tasks with n=20 (e.g. Key 55%->20%)"
+ ]
+}

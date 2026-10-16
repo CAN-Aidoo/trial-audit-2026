@@ -1,0 +1,21 @@
+{
+ "id": "2606.11767",
+ "title": "Blind Dexterous Grasping via Real2Sim2Real Tactile Policy Learning",
+ "date": "2026-06-10",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [],
+ "flags": [
+  "Real-robot evaluation has no external baseline and no no-tactile ablation (task is tactile-only); only a pretraining ablation: 27/100 vs 6/100",
+  "5 trials per object, 100 total",
+  "Table 1 caption says results use the calibrated simulator; Appendix C.1 says calibration is disabled in both Table 5 variants, yet the 'w/ Pretrain' row (16/50, 11/50) equals Table 1"
+ ]
+}

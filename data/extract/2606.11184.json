@@ -1,0 +1,74 @@
+{
+ "id": "2606.11184",
+ "title": "TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation",
+ "date": "2026-06-09",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "mixed",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Wire insertion",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "KineDex",
+   "nP": 20,
+   "sP": 12,
+   "nX": 20,
+   "sX": 6,
+   "source": "Table I p5; n=20 p6",
+   "n_ambiguous": false,
+   "note": "binary task"
+  },
+  {
+   "task": "Wiping perturbation",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "RDP",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 7,
+   "source": "Table I p5; p6",
+   "n_ambiguous": false,
+   "note": "perturbation trials are binary (p6)"
+  },
+  {
+   "task": "Swiping perturbation",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "RDP",
+   "nP": 20,
+   "sP": 17,
+   "nX": 20,
+   "sX": 13,
+   "source": "Table I p5",
+   "n_ambiguous": false,
+   "note": "Table III reports 90% for the same setting"
+  },
+  {
+   "task": "Adjustment perturbation",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "DP+Tactile+Force",
+   "nP": 20,
+   "sP": 17,
+   "nX": 20,
+   "sX": 7,
+   "source": "Table I p5",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "Wiping, Swiping, Adjustment, Locking (nominal) use partial-credit completion scores: excluded from tests (D2a)",
+  "Swiping-P for the full model is 85% in Table I and 90% in Table III",
+  "No kind-A ablation of the full model without touch/force"
+ ]
+}
