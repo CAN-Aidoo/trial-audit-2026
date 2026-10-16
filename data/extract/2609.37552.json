@@ -1,0 +1,92 @@
+{
+ "id": "2609.37552",
+ "title": "Wrench-ACT: Enhancing Robot Policies for Contact Rich Behavior Using Direct Wrench Control",
+ "date": "2026-09-29",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": true,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Peg Insertion",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Position ACT on VR data (pi_p_vr)",
+   "nP": 50,
+   "sP": 37,
+   "nX": 50,
+   "sX": 3,
+   "source": "Table II p5",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Fuse Clipping",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Position ACT on VR data (pi_p_vr)",
+   "nP": 50,
+   "sP": 44,
+   "nX": 50,
+   "sX": 48,
+   "source": "Table II p5",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Fan Insertion",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Position ACT on VR data (pi_p_vr)",
+   "nP": 50,
+   "sP": 29,
+   "nX": 50,
+   "sX": 4,
+   "source": "Table II p5",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Industrial Connector",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Position ACT on VR data (pi_p_vr)",
+   "nP": 50,
+   "sP": 40,
+   "nX": 50,
+   "sX": 6,
+   "source": "Table II p5",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Pen Writing",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Position ACT on VR data (pi_p_vr)",
+   "nP": 50,
+   "sP": 42,
+   "nX": 50,
+   "sX": 39,
+   "source": "Table II p5",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "Positive practice noted: 95% CIs, two-proportion z / Fisher exact tests with Bonferroni correction across five tasks; non-significant differences reported as such (Fuse Clipping, Pen Writing)",
+  "Cross-condition variants pi_p_b and pi_w_vr are the method's own ablations; excluded from B under D5",
+  "No kind-A row: no variant removes the measured wrench from the policy input",
+  "Table/figure inconsistency: Fig. 4 success counts differ from Table II for some cells (Fuse Clipping 45/52 vs 88% of 50; Industrial Connector 36/51 vs 80% of 50); also denominators != 50",
+  "Inference-frequency ablation uses n=25 vs nominal n=50"
+ ],
+ "n_values": [
+  50
+ ]
+}
