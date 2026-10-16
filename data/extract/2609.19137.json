@@ -1,0 +1,129 @@
+{
+ "id": "2609.19137",
+ "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+ "date": "2026-09-17",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Zero-shot whiteboard wiping",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Kinematic-only (same trajectory, zero force)",
+   "nP": 10,
+   "sP": 10,
+   "nX": 10,
+   "sX": 0,
+   "source": "Table I p5",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Zero-shot carrot peeling",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Kinematic-only",
+   "nP": 10,
+   "sP": 9,
+   "nX": 10,
+   "sX": 5,
+   "source": "Table I p5",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Zero-shot chocolate box stacking",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Kinematic-only",
+   "nP": 10,
+   "sP": 9,
+   "nX": 10,
+   "sX": 3,
+   "source": "Table I p5",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Zero-shot lamp button pressing",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Kinematic-only",
+   "nP": 10,
+   "sP": 8,
+   "nX": 10,
+   "sX": 0,
+   "source": "Table I p5",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "DP policy, wiping",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "DP w/o force input",
+   "nP": 10,
+   "sP": 9,
+   "nX": 10,
+   "sX": 8,
+   "source": "Table III p7",
+   "n_ambiguous": false,
+   "note": "P = DP w/ force input"
+  },
+  {
+   "task": "DP policy, peeling",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "DP w/o force input",
+   "nP": 10,
+   "sP": 10,
+   "nX": 10,
+   "sX": 8,
+   "source": "Table III p7",
+   "n_ambiguous": false,
+   "note": "P = DP w/ force input"
+  },
+  {
+   "task": "DP policy, stacking",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "DP w/o force input",
+   "nP": 10,
+   "sP": 8,
+   "nX": 10,
+   "sX": 8,
+   "source": "Table III p7",
+   "n_ambiguous": false,
+   "note": "P = DP w/ force input; tie"
+  },
+  {
+   "task": "DP policy, pressing",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "DP w/o force input",
+   "nP": 10,
+   "sP": 7,
+   "nX": 10,
+   "sX": 5,
+   "source": "Table III p7",
+   "n_ambiguous": false,
+   "note": "P = DP w/ force input"
+  }
+ ],
+ "flags": [
+  "Force regulation uses Franka joint-torque-based end-effector force estimates",
+  "Force-profile ablation (variable vs constant force, Table II) compares force-on variants; not coded as B (D5)",
+  "+/- SD reported for peak force and impulse, not success"
+ ],
+ "n_values": [
+  10
+ ]
+}
