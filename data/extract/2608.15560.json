@@ -1,0 +1,79 @@
+{
+ "id": "2608.15560",
+ "title": "REFORCE: Learning Force-aware Retargeting for Dexterous Manipulation",
+ "date": "2026-08-16",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Paper cup (force-safe success)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Reference policy + Admittance",
+   "nP": 10,
+   "sP": 7,
+   "nX": 10,
+   "sX": 6,
+   "source": "Table 2 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Paper cup (force-safe success)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Reference policy (no force feedback)",
+   "nP": 10,
+   "sP": 7,
+   "nX": 10,
+   "sX": 3,
+   "source": "Table 2 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Tongs (force-safe success)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Reference policy + Admittance",
+   "nP": 11,
+   "sP": 6,
+   "nX": 10,
+   "sX": 9,
+   "source": "Table 2 p7",
+   "n_ambiguous": false,
+   "note": "REFORCE n=11 vs 10; P below baseline"
+  },
+  {
+   "task": "Tongs (force-safe success)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Reference policy (no force feedback)",
+   "nP": 11,
+   "sP": 6,
+   "nX": 10,
+   "sX": 5,
+   "source": "Table 2 p7",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "Unequal n on tongs (11 vs 10), not explained",
+  "Mean +/- SD over 5 trials given for force-tracking error (Table 1), not for success",
+  "Three seeds reported only for the simulation ablation",
+  "Baseline (admittance) beats REFORCE on tongs force-safe success (9/10 vs 6/11); text acknowledges this"
+ ],
+ "n_values": [
+  10,
+  11
+ ]
+}
