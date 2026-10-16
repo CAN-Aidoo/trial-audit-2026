@@ -55,4 +55,12 @@ A7. Sequential testing illustration (SPRT / STEP-style) showing expected trials 
 - Authors of included papers may be contacted with their extracted numbers before posting, and corrections will be incorporated.
 
 ## Deviations
-(none yet)
+
+
+D1 (2026-10-16, before any extraction). The search tool caps searches per call and ranks recent work first, so
+nearly all hits from Q1-Q6 are from 2026 (Feb-Sep). To avoid claiming coverage we do not have, the audit window is
+narrowed to papers first posted 2026-01-01 to 2026-09-30, and the study is described as a snapshot of 2026 work
+retrieved by fixed queries, not a census of 2024-2026. Seed papers outside the window (FACTR 2502.17432,
+DexFruit 2508.07118) are excluded on date. Two pilot searches (each combining several queries) were run before Q1-Q6;
+papers found only by the pilots are logged but not screened, since the pilots are not protocol queries.
+Raw hits: data/raw_hits.py.
