@@ -1,0 +1,20 @@
+{
+ "id": "2609.39017",
+ "title": "OccluDex: Hierarchical 3D Visuo-Tactile Representation Learning for Egocentric Dexterous Manipulation under Self-Occlusion",
+ "date": "2026-09-30",
+ "include": false,
+ "exclude_reason": "I3: real-robot evaluation reports only the proposed method (17/20, 14/20); all baseline and ablation comparisons are in simulation",
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": false,
+  "seeds_reported": true,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [],
+ "flags": [
+  "Simulation results reported as mean +/- SD over three seeds of 100 episodes"
+ ],
+ "n_values": []
+}
