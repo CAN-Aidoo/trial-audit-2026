@@ -94,3 +94,21 @@ silent: the force/touch/effort signal must be an input to the policy or controll
 Methods that use such signals only as a training reward or training-time supervision, with a deployed policy that
 does not receive them, fail I1 (applies to 2609.33882 DexTaG, coded earlier under the same reading, and 2609.36785
 TaRL). To be re-checked for all earlier records during independent verification (task 16).
+
+D7 (2026-10-16, after extraction finished, before any analysis was run). Rules the protocol left open, fixed before
+analyze.py was first executed:
+(a) Multiple proposed variants or duplicate rows for the same (paper, task, kind): the primary analysis keeps the
+    first-listed row, which follows the order of the paper's own results table (its main configuration). The
+    all-rows set is reported as a sensitivity analysis. Rows pooled across tasks are kept (they never duplicate a
+    per-task row) and flagged.
+(b) A3-A5 use binary rows only (outcome "success"); other outcomes are counted in A1/A2 only (extends D2a).
+(c) A4 Holm family = all primary binary comparisons of one paper (kinds A and B together); results are also
+    reported by kind.
+(d) A6 "best of m": m is read as the number of candidate configurations of the proposed method from which the best
+    is reported against one shared baseline (the pattern seen in 2609.30969); m in {1, 3, 5}. Apparent improvement
+    = mean over the k tasks of (best variant - baseline), in percentage points. 200,000 replicates, seed 20261016.
+(e) A5 check: power of the two-sided Fisher exact test at the arcsine-approximation n is computed exactly by
+    enumerating all tables (rather than by Monte Carlo); the exact Fisher required n is also reported.
+(f) A7: Wald SPRT on discordant pairs of alternating P/X trials (H0 theta = 0.5), one-sided alpha = 0.025,
+    beta = 0.2, designed for pX = 0.5 vs pP = 0.7, truncated at 500 pairs; 20,000 replicates per true effect.
+(g) Sensitivity: primary set excluding rows flagged n_ambiguous.
