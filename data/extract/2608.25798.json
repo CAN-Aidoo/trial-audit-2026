@@ -1,0 +1,104 @@
+{
+ "id": "2608.25798",
+ "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
+ "date": "2026-08",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": false,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Close cap",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FTP-1",
+   "nP": 16,
+   "sP": 9,
+   "nX": 16,
+   "sX": 8,
+   "source": "Table 2 p8; n=16 p7, App. B.2",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Insert battery",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "GR00T N1.7",
+   "nP": 16,
+   "sP": 13,
+   "nX": 16,
+   "sX": 12,
+   "source": "Table 2 p8; n=16 p7, App. B.2",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Close lid",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "T-Rex",
+   "nP": 16,
+   "sP": 8,
+   "nX": 16,
+   "sX": 7,
+   "source": "Table 2 p8; n=16 p7, App. B.2",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Transfer liquid",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "T-Rex",
+   "nP": 16,
+   "sP": 8,
+   "nX": 16,
+   "sX": 5,
+   "source": "Table 2 p8; n=16 p7, App. B.2",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Wipe board",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FTP-1",
+   "nP": 16,
+   "sP": 12,
+   "nX": 16,
+   "sX": 12,
+   "source": "Table 2 p8; n=16 p7, App. B.2",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Stand bottle",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FTP-1/T-Rex",
+   "nP": 16,
+   "sP": 13,
+   "nX": 16,
+   "sX": 12,
+   "source": "Table 2 p8; n=16 p7, App. B.2",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "Percentages at n=16 are rounded (e.g. 56 = 9/16, 81 = 13/16); successes recovered exactly",
+  "Fixed-tactile ablation (Fig. 5) still uses touch; no no-touch ablation of TacForcing; GR00T N1.7 is the vision-only backbone, coded as baseline only (D2b)",
+  "Real-world average gain '15 percentage points' over strongest baseline; per-task gaps 0-3 trials of 16",
+  "Date: v1 Aug 2026; v2 29 Sep 2026"
+ ],
+ "n_values": [
+  16
+ ]
+}
