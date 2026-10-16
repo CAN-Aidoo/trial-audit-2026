@@ -1,0 +1,49 @@
+{
+ "id": "2607.11734",
+ "title": "NeuralActuator: Neural Actuation Modeling for Robot Dynamics and External Force Perception",
+ "date": "2026-07-13",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "current",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": false,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "BC pick-and-place (500 g)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Position-only BC (same policy without predicted force)",
+   "nP": 40,
+   "sP": 37,
+   "nX": 40,
+   "sX": 32,
+   "source": "Table XIII p14",
+   "n_ambiguous": true,
+   "note": "'averaged over 40 trials' read as 40 per condition"
+  },
+  {
+   "task": "BC go up-and-stay (400 g)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Position-only BC",
+   "nP": 40,
+   "sP": 38,
+   "nX": 40,
+   "sX": 34,
+   "source": "Table XIII p14",
+   "n_ambiguous": true,
+   "note": "as above"
+  }
+ ],
+ "flags": [
+  "Main contribution is force estimation (continuous); downstream policy comparison is the only binary-success comparison"
+ ],
+ "n_values": [
+  40
+ ]
+}
