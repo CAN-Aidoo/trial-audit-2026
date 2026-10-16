@@ -1,0 +1,106 @@
+{
+ "id": "2609.03889",
+ "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
+ "date": "2026-09",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "torque",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Whiteboard wiping (S5 final)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "ForceVLA",
+   "nP": 25,
+   "sP": 16,
+   "nX": 25,
+   "sX": 6,
+   "source": "Table 2 p6; 25 trials/task",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Door opening (S5 final)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "ForceVLA",
+   "nP": 25,
+   "sP": 13,
+   "nX": 25,
+   "sX": 3,
+   "source": "Table 2 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Handle press",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "w/o Force (pi0.5)",
+   "nP": 25,
+   "sP": 15,
+   "nX": 25,
+   "sX": 7,
+   "source": "Table 3 p6",
+   "n_ambiguous": true,
+   "note": "n for Table 3 not stated; assumed 25"
+  },
+  {
+   "task": "Push w/o closer",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "w/o Force (pi0.5)",
+   "nP": 25,
+   "sP": 18,
+   "nX": 25,
+   "sX": 3,
+   "source": "Table 3 p6",
+   "n_ambiguous": true,
+   "note": "n assumed 25"
+  },
+  {
+   "task": "Push w/ closer",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "w/o Force (pi0.5)",
+   "nP": 25,
+   "sP": 13,
+   "nX": 25,
+   "sX": 0,
+   "source": "Table 3 p6",
+   "n_ambiguous": true,
+   "note": "n assumed 25"
+  },
+  {
+   "task": "Board cleaned",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "w/o Force (pi0.5)",
+   "nP": 25,
+   "sP": 19,
+   "nX": 25,
+   "sX": 2,
+   "source": "Table 3 p6",
+   "n_ambiguous": true,
+   "note": "n assumed 25"
+  }
+ ],
+ "flags": [
+  "Signal: sensorless residual joint-torque estimate from proprioception",
+  "FWBC-GT (same method with real F/T) treated as oracle variant, not baseline",
+  "Text says door 'Manipulate' 56% but Table 2 S3 for FWBC-VLA is 64%",
+  "Text says adding BC gives 59.5% average; Table 3 row averages to 65 (listed as 65)",
+  "Estimator results use 3-5 seeds with s.d.; policy success has no uncertainty",
+  "Date: v1 early Sep 2026; v2 4 Sep 2026"
+ ],
+ "n_values": [
+  25
+ ]
+}
