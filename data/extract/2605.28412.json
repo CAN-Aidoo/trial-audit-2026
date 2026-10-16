@@ -1,0 +1,17 @@
+{
+ "id": "2605.28412",
+ "title": "Tactile-Proprioceptive Sensor Fusion for Contact Wrench Estimation in Whole-Body Physical Human-Robot Interaction",
+ "date": "2026-05-27",
+ "include": false,
+ "exclude_reason": "I1/I2: force-estimation for pHRI, no manipulation policy with binary success",
+ "signal": "mixed",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": false,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": []
+}
