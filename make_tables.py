@@ -76,4 +76,13 @@ for r in sp:
                 f"{float(r['P_decide_for_P']):.3f} & {float(r['P_undecided']):.3f}\\\\")
 rows += [r"\bottomrule", r"\end{tabular}"]
 open(os.path.join(P, "tab_sprt.tex"), "w").write("\n".join(rows) + "\n")
+# A5 design grid (D9)
+dg = list(csv.DictReader(open(os.path.join(ROOT, "results/design_grid.csv"))))
+rows = [r"\begin{tabular}{@{}rrrrr@{}}", r"\toprule",
+        r"Comparator rate & Target gain & Arcsine $n$ & Exact power at arcsine $n$ & Exact $n$\\ \midrule"]
+for r in dg:
+    rows.append(f"{float(r['p_base']):.1f} & +{100 * float(r['gain']):.0f} pts & {r['n_arcsine']} & "
+                f"{float(r['power_exact_at_arcsine_n']):.2f} & {r['n_exact']}\\\\")
+rows += [r"\bottomrule", r"\end{tabular}"]
+open(os.path.join(P, "tab_design.tex"), "w").write("\n".join(rows) + "\n")
 print("tables written to paper/")

@@ -135,6 +135,35 @@ for r in rows:
 
 log("A3/A5 done")
 
+# ------------------------------------------------------------------ A5 revised (D9): power for pre-set gains
+# Post hoc power at the observed rates restates the p-value (Hoenig & Heisey 2001), so the reported
+# A5 summary uses fixed target gains instead: exact two-sided Fisher power, equal arms of the smaller
+# reported n, to detect a gain of delta points over the comparator's observed rate.
+GAINS = (0.15, 0.20, 0.30)
+
+
+def preset_power(pX, n, delta):
+    base = min(pX, 1 - delta)          # keep the improved rate inside [0, 1]
+    return S.fisher_power_exact(base + delta, base, n)
+
+
+for row in rows:
+    for g in GAINS:
+        row[f"power_gain{int(g * 100)}"] = (preset_power(row["pX"], row["n_reported_per_arm"], g)
+                                            if row["primary"] and row["n_reported_per_arm"] <= 400 else float("nan"))
+
+# design grid: what the arcsine formula recommends vs what the exact test needs
+DESIGN = []
+for base in (0.1, 0.3, 0.5, 0.7):
+    for g in GAINS:
+        if base + g > 0.95 + 1e-9:
+            continue
+        na = S.n_arcsine(base + g, base)
+        DESIGN.append(dict(p_base=base, gain=g, n_arcsine=na,
+                           power_exact_at_arcsine_n=S.fisher_power_exact(base + g, base, na),
+                           n_exact=S.n_fisher_exact(base + g, base)))
+log("A5 pre-set gains and design grid done")
+
 
 # ------------------------------------------------------------------ summaries
 def frac(x):
@@ -171,6 +200,11 @@ def comp_summary(rs):
                                              if not math.isnan(r["n_fisher_exact"])),
         mdd_median_pts=float(np.nanmedian(mdd) * 100) if rs else float("nan"),
         mdd_undetectable_share=frac(math.isnan(m) for m in mdd),
+        **{f"share_power80_gain{int(g * 100)}": frac(r[f"power_gain{int(g * 100)}"] >= 0.8 for r in rs
+                                                       if not math.isnan(r[f"power_gain{int(g * 100)}"]))
+           for g in GAINS},
+        **{f"median_power_gain{int(g * 100)}": float(np.nanmedian([r[f"power_gain{int(g * 100)}"] for r in rs]))
+           for g in GAINS},
     )
 
 
@@ -296,13 +330,14 @@ for r in included:
 write_csv(os.path.join(OUT, "papers.csv"), paper_rows)
 write_csv(os.path.join(OUT, "null_sim.csv"), A6)
 write_csv(os.path.join(OUT, "sprt.csv"), A7)
+write_csv(os.path.join(OUT, "design_grid.csv"), DESIGN)
 
 summary = dict(records=len(records), included=len(included), binary_rows=len(rows), primary_rows=len(prim),
                papers_with_primary=len({r["paper"] for r in prim}),
                A1=A1, A2=A2, A3=A3, A4=A4, A6_grid_size=len(A6),
                A6_headline={f"n{d['n']}_k{d['k']}_p{d['p']}_m{d['m']}": d for d in A6
                             if d["p"] == 0.5},
-               A7=A7, A7_fixed_n_fisher_0p7_vs_0p5=fixed_n)
+               A7=A7, A7_fixed_n_fisher_0p7_vs_0p5=fixed_n, A5_design_grid=DESIGN)
 json.dump(summary, open(os.path.join(OUT, "summary.json"), "w"), indent=1, default=str)
 
 # LaTeX macros: \Audit<Name>{value}; percentages rounded to whole numbers
@@ -358,6 +393,17 @@ M["ExactChecked"] = A3["primary_all"]["n_exact_checked"]
 M["ShareExactPowerBelowSeventy"] = pct(A3["primary_all"]["share_exact_power_below_0p7"])
 M["MedianExactReqN"] = num(A3["primary_all"]["n_fisher_exact_median"])
 M["ShareAdequateExactN"] = pct(A3["primary_all"]["share_reported_n_adequate_exact"])
+for key, tag in (("primary_all", ""), ("primary_B", "B"), ("primary_A", "A")):
+    for g, gname in ((15, "Fifteen"), (20, "Twenty"), (30, "Thirty")):
+        M[f"SharePow{tag}{gname}"] = pct(A3[key][f"share_power80_gain{g}"])
+        M[f"MedPow{tag}{gname}"] = num(A3[key][f"median_power_gain{g}"], 2)
+dg = [x["power_exact_at_arcsine_n"] for x in DESIGN]
+M["DesignPowMin"] = num(min(dg), 2)
+M["DesignPowMax"] = num(max(dg), 2)
+M["DesignPowMedian"] = num(float(np.median(dg)), 2)
+M["DesignCells"] = len(DESIGN)
+M["DesignExactOverArcsineMax"] = num(max(x["n_exact"] / x["n_arcsine"] for x in DESIGN), 2)
+M["DesignExactOverArcsineMedian"] = num(float(np.median([x["n_exact"] / x["n_arcsine"] for x in DESIGN])), 2)
 d = {(x["n"], x["k"], x["p"], x["m"]): x for x in A6}
 M["NullTenOneFiveOne"] = pct(d[(10, 1, 0.5, 1)]["P_ge_10"])
 M["NullTenThreeFiveThree"] = pct(d[(10, 3, 0.5, 3)]["P_ge_10"])
