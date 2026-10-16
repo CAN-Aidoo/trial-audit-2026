@@ -1,0 +1,37 @@
+{
+ "id": "2609.07747",
+ "title": "Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction (DEX-X)",
+ "date": "2026-09",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Cube picking (real)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "No Tactile",
+   "nP": 30,
+   "sP": 28,
+   "nX": 30,
+   "sX": 11,
+   "source": "Table 2 p7",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "Real-world has no external baselines (baselines are simulation-only); only the observation ablation is testable",
+  "Date: v3 1 Oct 2026; v1 Sep 2026 within window"
+ ],
+ "n_values": [
+  30
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "id": "2609.07002",
+ "title": "WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation",
+ "date": "2026-09-07",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Duck rotation (real)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Open-loop replay",
+   "nP": 10,
+   "sP": 10,
+   "nX": 10,
+   "sX": 6,
+   "source": "Table 3 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Cross block rotation (real)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Open-loop replay",
+   "nP": 10,
+   "sP": 10,
+   "nX": 10,
+   "sX": 6,
+   "source": "Table 3 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Corner block rotation (real)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Open-loop replay",
+   "nP": 10,
+   "sP": 10,
+   "nX": 10,
+   "sX": 7,
+   "source": "Table 3 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Double-notched block, unseen (real)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "OlR/TD/IHR",
+   "nP": 10,
+   "sP": 8,
+   "nX": 10,
+   "sX": 0,
+   "source": "Table 3 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Large-scale real z-rotation, 20 objects",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "In-Hand Rotation",
+   "nP": 200,
+   "sP": 175,
+   "nX": 200,
+   "sX": 53,
+   "source": "Table 6 p9",
+   "n_ambiguous": false,
+   "note": "aggregate over 20 objects x 10 trials"
+  }
+ ],
+ "flags": [
+  "Real-robot baselines exclude 'IHR + WSM-denoised depth' (uses the paper's own module; duck 8/10, cross 8/10, corner 10/10)",
+  "Tactile is a binary contact stream; tactile ablations (zero/dropout) are simulation-only, so no real kind-A",
+  "95% CIs reported for simulation metrics only, not real-robot success",
+  "Real success scored by four video annotators, averaged"
+ ],
+ "n_values": [
+  10,
+  200
+ ]
+}
