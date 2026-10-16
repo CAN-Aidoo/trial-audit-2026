@@ -42,7 +42,8 @@
  ],
  "flags": [
   "Simulation tasks (250 rollouts over 5 checkpoints) excluded as non-real",
-  "No kind-A ablation: visuomotor/visuotactile DP are separate baselines (D2b)"
+  "No kind-A ablation: visuomotor/visuotactile DP are separate baselines (D2b)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   15

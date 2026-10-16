@@ -14,7 +14,8 @@
  },
  "comparisons": [],
  "flags": [
-  "Positive practice noted: means +/- SD over five trials and significance test on position error (p<0.001) and roll error (p=0.121, reported as not significant)"
+  "Positive practice noted: means +/- SD over five trials and significance test on position error (p<0.001) and roll error (p=0.121, reported as not significant)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": []
 }

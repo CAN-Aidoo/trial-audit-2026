@@ -14,7 +14,8 @@
  },
  "comparisons": [],
  "flags": [
-  "Real-world results reported as best of up to three attempts (30 references) and per attempt; authors report both"
+  "Real-world results reported as best of up to three attempts (30 references) and per attempt; authors report both",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": []
 }

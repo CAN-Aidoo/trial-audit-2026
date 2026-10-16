@@ -10,7 +10,7 @@
   "sig_test": false,
   "seeds_reported": false,
   "success_defined": true,
-  "randomized_init": "yes"
+  "randomized_init": "unclear"
  },
  "comparisons": [
   {
@@ -108,7 +108,7 @@
    "task": "Sponge wipe, held-out height",
    "outcome": "partial credit",
    "kind": "B",
-   "baseline_name": "pi0.5+tactile",
+   "baseline_name": "Tactile-VLA",
    "nP": 20,
    "sP": null,
    "nX": 20,
@@ -161,7 +161,8 @@
   "Six of seven tasks (and all four challenging settings) use weighted partial-credit scores reported as 'success rate' (App. B.3 says so explicitly): excluded from tests (D2a)",
   "No own no-touch ablation; pi0/pi0.5 +/- tactile are external baselines",
   "Single evaluator applies rubric on site",
-  "Date: v2 18 Aug 2026; v1 early Aug 2026"
+  "Date: v2 18 Aug 2026; v1 early Aug 2026",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

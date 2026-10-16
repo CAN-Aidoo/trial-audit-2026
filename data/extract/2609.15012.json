@@ -2,8 +2,8 @@
  "id": "2609.15012",
  "title": "Atomic Motion Coordinate for Language-Steerable and Force-Responsive Manipulation",
  "date": "2026-09",
- "include": true,
- "exclude_reason": null,
+ "include": false,
+ "exclude_reason": "I2 (D8): all real-robot outcomes are partial-credit or progress scores; no binary or binarisable success outcome reported",
  "signal": "force",
  "reporting": {
   "ci_or_errorbars": false,
@@ -69,7 +69,8 @@
  "flags": [
   "Primary metric is mean normalized task progress (4- or 5-point rubric): excluded from tests (D2a)",
   "Fruit tasks use force-free AMC only (not a force comparison)",
-  "Date: v3 6 Oct 2026; v1 Sep 2026"
+  "Date: v3 6 Oct 2026; v1 Sep 2026",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   50

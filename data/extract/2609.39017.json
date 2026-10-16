@@ -14,7 +14,8 @@
  },
  "comparisons": [],
  "flags": [
-  "Simulation results reported as mean +/- SD over three seeds of 100 episodes"
+  "Simulation results reported as mean +/- SD over three seeds of 100 episodes",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": []
 }

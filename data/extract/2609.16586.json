@@ -14,7 +14,8 @@
  },
  "comparisons": [],
  "flags": [
-  "A side comparison with real fingertip tactile arrays (Fig. 9) is not the method's input"
+  "A side comparison with real fingertip tactile arrays (Fig. 9) is not the method's input",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": []
 }

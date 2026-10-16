@@ -2,8 +2,8 @@
  "id": "2606.17055",
  "title": "T-Rex: Tactile-Reactive Dexterous Manipulation",
  "date": "2026-06-15",
- "include": true,
- "exclude_reason": null,
+ "include": false,
+ "exclude_reason": "I2 (D8): all real-robot outcomes are partial-credit or progress scores; no binary or binarisable success outcome reported",
  "signal": "tactile",
  "reporting": {
   "ci_or_errorbars": false,
@@ -42,7 +42,8 @@
  ],
  "flags": [
   "Primary metric labelled 'success rate' is an additive partial-credit rubric score (App. F)",
-  "16 rollouts per task"
+  "16 rollouts per task",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   16

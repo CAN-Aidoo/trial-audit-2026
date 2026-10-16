@@ -14,7 +14,8 @@
  },
  "comparisons": [],
  "flags": [
-  "10 real trials per method (Fig. 6, Table 4)"
+  "10 real trials per method (Fig. 6, Table 4)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   10

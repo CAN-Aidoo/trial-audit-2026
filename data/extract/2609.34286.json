@@ -14,7 +14,8 @@
  },
  "comparisons": [],
  "flags": [
-  "Positive practice noted: three training runs per model and episode-grouped 95% intervals"
+  "Positive practice noted: three training runs per model and episode-grouped 95% intervals",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": []
 }

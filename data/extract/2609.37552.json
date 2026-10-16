@@ -84,7 +84,8 @@
   "Cross-condition variants pi_p_b and pi_w_vr are the method's own ablations; excluded from B under D5",
   "No kind-A row: no variant removes the measured wrench from the policy input",
   "Table/figure inconsistency: Fig. 4 success counts differ from Table II for some cells (Fuse Clipping 45/52 vs 88% of 50; Industrial Connector 36/51 vs 80% of 50); also denominators != 50",
-  "Inference-frequency ablation uses n=25 vs nominal n=50"
+  "Inference-frequency ablation uses n=25 vs nominal n=50",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   50

@@ -17,11 +17,11 @@
    "task": "Coffee cup",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "RLT",
+   "baseline_name": "ForceVLA",
    "nP": 30,
    "sP": 30,
    "nX": 30,
-   "sX": 26,
+   "sX": 21,
    "source": "Table 1 p7; n=30 p6/p12",
    "n_ambiguous": false,
    "note": ""
@@ -30,11 +30,11 @@
    "task": "Latch",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "RLT",
+   "baseline_name": "ForceVLA",
    "nP": 30,
    "sP": 29,
    "nX": 30,
-   "sX": 25,
+   "sX": 20,
    "source": "Table 1 p7; n=30 p6/p12",
    "n_ambiguous": false,
    "note": ""
@@ -43,11 +43,11 @@
    "task": "Egg",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "RLT",
+   "baseline_name": "ForceVLA",
    "nP": 30,
    "sP": 30,
    "nX": 30,
-   "sX": 25,
+   "sX": 22,
    "source": "Table 1 p7; n=30 p6/p12",
    "n_ambiguous": false,
    "note": ""
@@ -56,11 +56,11 @@
    "task": "Full task",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "RLT",
+   "baseline_name": "ForceVLA",
    "nP": 30,
    "sP": 28,
    "nX": 30,
-   "sX": 23,
+   "sX": 15,
    "source": "Table 1 p7; n=30 p6/p12",
    "n_ambiguous": false,
    "note": ""
@@ -68,7 +68,8 @@
  ],
  "flags": [
   "No kind-A ablation: pi0.5 is a separate base model; 'w/o Wrench Context' keeps tactile in the reference model",
-  "Full task is a conjunction of the three subtasks, so it is not independent of them"
+  "Full task is a conjunction of the three subtasks, so it is not independent of them",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   30

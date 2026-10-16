@@ -6,7 +6,7 @@
  "exclude_reason": null,
  "signal": "tactile",
  "reporting": {
-  "ci_or_errorbars": false,
+  "ci_or_errorbars": true,
   "sig_test": false,
   "seeds_reported": false,
   "success_defined": true,
@@ -31,7 +31,8 @@
   "Benchmark study with no single proposed method: 25 encoder x fusion configurations x 4 tasks, n=20 per condition (2,180 rollouts)",
   "Per-condition success rates shown only in a figure (Fig. 3); only USB-C has both a tactile and the vision-only rate stated in text",
   "Paper states real-world evaluations need large scale for reliable statistics, but no CIs or tests are reported; average column gives SD across tasks only",
-  "Kind-A row compares a post-hoc best configuration with vision-only; this is the best-of-m selection pattern modelled in A6"
+  "Kind-A row compares a post-hoc best configuration with vision-only; this is the best-of-m selection pattern modelled in A6",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

@@ -98,7 +98,8 @@
   "Text says door 'Manipulate' 56% but Table 2 S3 for FWBC-VLA is 64%",
   "Text says adding BC gives 59.5% average; Table 3 row averages to 65 (listed as 65)",
   "Estimator results use 3-5 seeds with s.d.; policy success has no uncertainty",
-  "Date: v1 early Sep 2026; v2 4 Sep 2026"
+  "Date: v1 early Sep 2026; v2 4 Sep 2026",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   25

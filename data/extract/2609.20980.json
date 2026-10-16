@@ -142,12 +142,39 @@
    "source": "Sec. IV-D p7, Fig. 6",
    "n_ambiguous": false,
    "note": "81.25% vs 53.75% of 80"
+  },
+  {
+   "outcome": "success",
+   "n_ambiguous": false,
+   "note": "",
+   "task": "Low illumination, 4 tasks pooled",
+   "kind": "A",
+   "baseline_name": "w/o Tactile",
+   "nP": 80,
+   "sP": 64,
+   "nX": 80,
+   "sX": 32,
+   "source": "robustness table (40.0% of 80)"
+  },
+  {
+   "outcome": "success",
+   "n_ambiguous": false,
+   "note": "",
+   "task": "Visual clutter, 4 tasks pooled",
+   "kind": "A",
+   "baseline_name": "w/o Tactile",
+   "nP": 80,
+   "sP": 65,
+   "nX": 80,
+   "sX": 22,
+   "source": "robustness table (27.5% of 80)"
   }
  ],
  "flags": [
   "Baselines are author re-implementations of prior fusion strategies (FiLM, concat-and-gating)",
   "'Fine-tuned VLA' in Table I (13,11,12,11 of 20) and 'w/o Tactile' in Table II (11,13,12,11) have the same average but Peg/Chip values swapped",
-  "Task success criteria not stated explicitly in text retrieved"
+  "Task success criteria not stated explicitly in text retrieved",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20,

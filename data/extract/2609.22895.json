@@ -14,7 +14,8 @@
  },
  "comparisons": [],
  "flags": [
-  "Positive practice noted: exact success counts per cell given in appendix Table 12"
+  "Positive practice noted: exact success counts per cell given in appendix Table 12",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": []
 }

@@ -9,8 +9,8 @@
   "ci_or_errorbars": false,
   "sig_test": false,
   "seeds_reported": false,
-  "success_defined": true,
-  "randomized_init": "yes"
+  "success_defined": false,
+  "randomized_init": "unclear"
  },
  "comparisons": [
   {
@@ -95,11 +95,11 @@
    "task": "Key in lock",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "Sparsh-X V+G+E",
+   "baseline_name": "Sparsh-X V+G",
    "nP": 20,
    "sP": 15,
    "nX": 20,
-   "sX": 2,
+   "sX": 4,
    "source": "Fig. 4 p7 / Table 7 p18; n=20 p7",
    "n_ambiguous": false,
    "note": ""
@@ -145,7 +145,8 @@
   }
  ],
  "flags": [
-  "Co-training ablation shows mixed signs across tasks with n=20 (e.g. Key 55%->20%)"
+  "Co-training ablation shows mixed signs across tasks with n=20 (e.g. Key 55%->20%)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

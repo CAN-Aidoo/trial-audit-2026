@@ -70,7 +70,8 @@
   "Unequal n on tongs (11 vs 10), not explained",
   "Mean +/- SD over 5 trials given for force-tracking error (Table 1), not for success",
   "Three seeds reported only for the simulation ablation",
-  "Baseline (admittance) beats REFORCE on tongs force-safe success (9/10 vs 6/11); text acknowledges this"
+  "Baseline (admittance) beats REFORCE on tongs force-safe success (9/10 vs 6/11); text acknowledges this",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   10,

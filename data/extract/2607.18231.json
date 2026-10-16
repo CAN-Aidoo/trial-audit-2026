@@ -10,7 +10,7 @@
   "sig_test": false,
   "seeds_reported": false,
   "success_defined": true,
-  "randomized_init": "yes"
+  "randomized_init": "unclear"
  },
  "comparisons": [
   {
@@ -94,7 +94,8 @@
  ],
  "flags": [
   "18 trials per task (6 per target count N or 9 per cup position)",
-  "Counts reported alongside percentages"
+  "Counts reported alongside percentages",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   18

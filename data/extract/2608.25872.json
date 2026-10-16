@@ -157,19 +157,6 @@
    "note": ""
   },
   {
-   "task": "Cap, 2 cm training, unseen",
-   "outcome": "success",
-   "kind": "B",
-   "baseline_name": "DP3-Wrist",
-   "nP": 5,
-   "sP": 4,
-   "nX": 5,
-   "sX": 1,
-   "source": "Table V p9",
-   "n_ambiguous": true,
-   "note": "n for unseen scales not stated; assumed 5"
-  },
-  {
    "task": "Cap, 6 cm training, seen",
    "outcome": "success",
    "kind": "B",
@@ -181,19 +168,6 @@
    "source": "Table V p9",
    "n_ambiguous": true,
    "note": "n assumed 5"
-  },
-  {
-   "task": "Cap, 6 cm training, unseen",
-   "outcome": "success",
-   "kind": "B",
-   "baseline_name": "DP3-Wrist",
-   "nP": 5,
-   "sP": 4,
-   "nX": 5,
-   "sX": 2,
-   "source": "Table V p9",
-   "n_ambiguous": true,
-   "note": "n assumed 5"
   }
  ],
  "flags": [
@@ -202,7 +176,8 @@
   "Cap unscrewing: VISTA SR 90% in Table II but 100% in Table VI, with identical baseline rows and DR values",
   "Table IV: SR + FR exceed 100% for VISTA-Cat seen (80/80) and DP3 unseen (40/80)",
   "Robustness tests use 5 trials per configuration; 'significant enhancement' claimed without a test",
-  "OOD grasp Table III n not stated; not coded"
+  "OOD grasp Table III n not stated; not coded",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   5,

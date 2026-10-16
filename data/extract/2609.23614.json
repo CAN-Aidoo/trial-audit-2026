@@ -14,7 +14,8 @@
  },
  "comparisons": [],
  "flags": [
-  "Positive practice noted: success reported as mean +/- SD over three runs of 20 episodes"
+  "Positive practice noted: success reported as mean +/- SD over three runs of 20 episodes",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

@@ -2,8 +2,8 @@
  "id": "2603.13869",
  "title": "TransDex: Pre-training Visuo-Tactile Policy with Point Cloud Reconstruction for Dexterous Manipulation of Transparent Objects",
  "date": "2026-03-14",
- "include": false,
- "exclude_reason": "I3: number of trials for the main and ablation comparisons not stated (rates are multiples of 10%; generalisation tests state 5 attempts)",
+ "include": true,
+ "exclude_reason": null,
  "signal": "tactile",
  "reporting": {
   "ci_or_errorbars": false,
@@ -16,7 +16,8 @@
  "flags": [
   "Otherwise eligible; main Table I and ablation Table II (w/o Tac: pouring 0% vs 100%, rotating 20% vs 70%) lack n",
   "Shaking task uses 0.5 partial credit",
-  "Text says 'significantly higher' without a test"
+  "Text says 'significantly higher' without a test",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "eligible_but_n_missing": true,
  "n_values": []

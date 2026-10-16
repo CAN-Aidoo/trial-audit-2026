@@ -43,7 +43,8 @@
  "flags": [
   "No no-force ablation; fixed switch-ratio ablations (box 12/20, 10/20; line 14/20, 14/20) still use force, not coded",
   "+/- values are for force/tracking metrics, not success rate",
-  "Fig. 5 shows ten trajectories per method while SR uses 20 trials"
+  "Fig. 5 shows ten trajectories per method while SR uses 20 trials",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

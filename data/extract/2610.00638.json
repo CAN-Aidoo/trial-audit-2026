@@ -207,77 +207,13 @@
    "source": "Table 3 p9",
    "n_ambiguous": false,
    "note": "P = TacDyn-WAM (pretrained)"
-  },
-  {
-   "task": "Stack Cups",
-   "outcome": "success",
-   "kind": "A",
-   "baseline_name": "InternVLA-A1 (base model, vision-only)",
-   "nP": 20,
-   "sP": 19,
-   "nX": 20,
-   "sX": 11,
-   "source": "Table 3 p9",
-   "n_ambiguous": false,
-   "note": "P = TacDyn-WAM (pretrained)"
-  },
-  {
-   "task": "Remove Plug",
-   "outcome": "success",
-   "kind": "A",
-   "baseline_name": "InternVLA-A1 (base model, vision-only)",
-   "nP": 20,
-   "sP": 17,
-   "nX": 20,
-   "sX": 4,
-   "source": "Table 3 p9",
-   "n_ambiguous": false,
-   "note": "P = TacDyn-WAM (pretrained)"
-  },
-  {
-   "task": "Insert Plug",
-   "outcome": "success",
-   "kind": "A",
-   "baseline_name": "InternVLA-A1 (base model, vision-only)",
-   "nP": 20,
-   "sP": 18,
-   "nX": 20,
-   "sX": 9,
-   "source": "Table 3 p9",
-   "n_ambiguous": false,
-   "note": "P = TacDyn-WAM (pretrained)"
-  },
-  {
-   "task": "Unscrew Cup Lid",
-   "outcome": "success",
-   "kind": "A",
-   "baseline_name": "InternVLA-A1 (base model, vision-only)",
-   "nP": 20,
-   "sP": 11,
-   "nX": 20,
-   "sX": 2,
-   "source": "Table 3 p9",
-   "n_ambiguous": false,
-   "note": "P = TacDyn-WAM (pretrained)"
-  },
-  {
-   "task": "Wipe Whiteboard",
-   "outcome": "success",
-   "kind": "A",
-   "baseline_name": "InternVLA-A1 (base model, vision-only)",
-   "nP": 20,
-   "sP": 20,
-   "nX": 20,
-   "sX": 14,
-   "source": "Table 3 p9",
-   "n_ambiguous": false,
-   "note": "P = TacDyn-WAM (pretrained)"
   }
  ],
  "flags": [
   "Kind A = InternVLA-A1, which the paper identifies as its own base model without the tactile modules (D2b)",
   "Two proposed variants (with and without OmniViTac pretraining); pretrained variant also uses extra data, so its B and A gaps mix data and method effects",
-  "arXiv ID is 2610.* but the paper is dated 30 Sep 2026, inside the D1 window"
+  "arXiv ID is 2610.* but the paper is dated 30 Sep 2026, inside the D1 window",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

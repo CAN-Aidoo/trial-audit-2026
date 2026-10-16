@@ -57,7 +57,8 @@
   "Signal = joint torque (measured on the real robot, predicted inside the world model) as policy input; P = ACT trained on HapticWorld demonstrations",
   "'HapticWorld w/o feedback' (14, 5, 6 of 20) is the method's own ablation that still uses torque; excluded from B under D5. Real-world-data policy is an upper-bound reference, not a baseline",
   "No kind-A row: the vision-only IWS pipeline differs from P in both simulator and policy input, and is an external method (D2b)",
-  "Claims sim-real agreement 'within three trials out of twenty' without an interval"
+  "Claims sim-real agreement 'within three trials out of twenty' without an interval",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

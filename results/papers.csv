@@ -2,50 +2,47 @@ paper,title,signal,ci_or_errorbars,sig_test,seeds_reported,success_defined,rando
 2602.22088,Force Policy: Learning Hybrid Force-Position Control Policy under Interaction Frame for Contact-Rich Manipulation,force,True,False,False,True,yes,16,4,1,5 10 20
 2603.05687,Contact-Grounded Policy: Dexterous Visuotactile Policy with Generative Contact Grounding,tactile,False,False,False,True,yes,2,0,0,15
 2603.08342,PhaForce: Phase-Scheduled Visual-Force Policy Learning with Slow Planning and Fast Correction for Contact-Rich Manipulation,force,False,False,False,True,yes,5,0,0,20
-2606.04825,HapTile: A Haptic-Informed Vision-Tactile-Language-Action Dataset for Contact-Rich Imitation Learning,tactile,False,False,False,True,yes,16,4,1,10
-2606.06281,Multi-Resolution Tactile Imitation Learning for Contact-Rich Robotic Manipulation,tactile,False,False,False,True,yes,10,6,5,20
-2606.08555,FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation,force,False,False,False,False,yes,8,2,1,20
-2606.09337,TORL-VLA: Tactile Guided Online Reinforcement Learning for Contact-Rich Manipulation,tactile,False,False,False,True,yes,4,0,0,30
+2603.13869,TransDex: Pre-training Visuo-Tactile Policy with Point Cloud Reconstruction for Dexterous Manipulation of Transparent Objects,tactile,False,False,False,True,unclear,0,0,0,
+2606.04825,HapTile: A Haptic-Informed Vision-Tactile-Language-Action Dataset for Contact-Rich Imitation Learning,tactile,False,False,False,False,unclear,16,4,1,10
+2606.06281,Multi-Resolution Tactile Imitation Learning for Contact-Rich Robotic Manipulation,tactile,False,False,False,False,unclear,10,6,5,20
+2606.08555,FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation,force,False,False,False,False,unclear,8,2,1,20
+2606.09337,TORL-VLA: Tactile Guided Online Reinforcement Learning for Contact-Rich Manipulation,tactile,False,False,False,True,yes,4,4,4,30
 2606.10818,IMPACT: Learning Internal-Model Predictive Control for Forceful Robotic Manipulation,torque,False,False,False,False,unclear,4,2,2,25
 2606.11184,TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation,mixed,False,False,False,True,unclear,4,2,2,20
-2606.11767,Blind Dexterous Grasping via Real2Sim2Real Tactile Policy Learning,tactile,False,False,False,True,yes,0,0,0,5 100
-2606.12406,FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning,current,False,False,False,True,unclear,0,0,0,20
-2606.13232,WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning,tactile,False,False,False,True,unclear,0,0,0,25
-2606.14218,Universal Manipulation Exoskeleton: Learning Compliant Whole-body Policies with Real-time Torque Feedback,torque,False,False,False,True,unclear,8,4,2,20
-2606.17055,T-Rex: Tactile-Reactive Dexterous Manipulation,tactile,False,False,False,True,yes,0,0,0,16
-2606.30988,Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force,force,False,False,False,True,yes,3,0,0,10 15
+2606.11767,Blind Dexterous Grasping via Real2Sim2Real Tactile Policy Learning,tactile,False,False,False,True,unclear,0,0,0,5 100
+2606.13232,WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning,tactile,False,False,False,False,unclear,0,0,0,25
+2606.14218,Universal Manipulation Exoskeleton: Learning Compliant Whole-body Policies with Real-time Torque Feedback,torque,False,False,False,True,unclear,4,2,2,20
+2606.30988,Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force,force,False,False,False,True,yes,1,0,0,10 15
 2607.02503,VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation,tactile,False,False,False,True,unclear,6,1,0,20
 2607.03387,Feeling the Unexpected: ResTacVLA for Contact-Rich Manipulation via Residual Tactile Representation,tactile,False,False,False,True,unclear,10,1,0,15 25
-2607.03529,Current as Touch: Proprioceptive Contact Feedback for Compliant Dexterous Manipulation,current,False,False,False,True,unclear,5,4,2,12 15 52 60
-2607.03723,OmniTacTune: Policy-Agnostic Real-World RL for Tactile Residual Adaptation of Visual Policies,tactile,False,False,False,True,yes,8,8,8,20
+2607.03529,Current as Touch: Proprioceptive Contact Feedback for Compliant Dexterous Manipulation,current,False,False,False,True,unclear,14,9,6,12 15 52 60
+2607.03723,OmniTacTune: Policy-Agnostic Real-World RL for Tactile Residual Adaptation of Visual Policies,tactile,False,False,False,False,yes,8,8,8,20
 2607.07287,TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation,tactile,False,False,False,False,unclear,12,9,1,100
 2607.11734,NeuralActuator: Neural Actuation Modeling for Robot Dynamics and External Force Perception,current,False,False,False,False,unclear,2,0,0,40
 2607.14236,Never Too Late for Force: Accelerating VLA Post-Training with Reactive Force Injection,force,True,False,False,True,unclear,1,1,1,30
 2607.14578,Beyond Implicit Force: Evaluating Explicit Force-Torque Proxies in Action Chunking with Transformers,current,False,False,False,True,yes,6,3,2,10 20
-2607.18231,FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation,force,False,False,False,True,yes,6,3,2,18
+2607.18231,FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation,force,False,False,False,True,unclear,6,3,2,18
 2607.20683,FELT: Generating Tactile Signals from Vision for Visuo-Tactile Manipulation,tactile,False,False,False,True,yes,8,0,0,20
 2607.20912,URF: A Unified Robot Control-Policy Framework for Stable Contact Aware Manipulation,force,False,False,False,True,yes,2,2,2,20
 2607.22530,ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation,tactile,True,False,False,True,yes,8,4,4,50
-2608.01102,CAAT: Contact-Aware Attention Scaling and Tactile Masking for Data-Efficient Contact-Rich Manipulation,tactile,False,False,False,False,yes,9,1,0,20
-2608.01824,ReTouch: Empowering Contact-Rich Dexterous Manipulation with Online-Refined Tactile Prediction,tactile,False,False,False,True,yes,1,0,0,20
+2608.01102,CAAT: Contact-Aware Attention Scaling and Tactile Masking for Data-Efficient Contact-Rich Manipulation,tactile,False,False,False,False,yes,0,0,0,20
+2608.01824,ReTouch: Empowering Contact-Rich Dexterous Manipulation with Online-Refined Tactile Prediction,tactile,False,False,False,True,unclear,1,0,0,20
 2608.15009,ForceU-VLA: A Force-Aware Vision-Language-Action Model for Embodied Ultrasound Scanning,force,False,False,False,True,unclear,10,5,1,45
 2608.15560,REFORCE: Learning Force-aware Retargeting for Dexterous Manipulation,tactile,False,False,False,True,unclear,4,0,0,10 11
 2608.25798,TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback,tactile,False,False,False,False,unclear,6,0,0,16
-2608.25872,VISTA: Visually Inferred Spatial ConTact Attention for Contact-Rich Manipulation,tactile,False,False,False,True,unclear,14,2,0,5 10
+2608.25872,VISTA: Visually Inferred Spatial ConTact Attention for Contact-Rich Manipulation,tactile,False,False,False,True,unclear,12,2,0,5 10
 2609.03889,FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation,torque,False,False,False,True,unclear,6,6,6,25
 2609.05832,CR-VLA-Force / CC-VLA: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation,force,False,False,False,False,unclear,0,0,0,24 25
 2609.07002,WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation,tactile,False,False,False,True,unclear,5,2,2,10 200
 2609.07747,Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction (DEX-X),tactile,False,False,False,True,unclear,1,1,1,30
-2609.12549,STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation,tactile,False,False,False,True,yes,6,2,2,20
-2609.14156,Visible Touch: Rendering Contact for Visuomotor Policies,tactile,True,False,True,True,yes,8,3,2,30
-2609.15012,Atomic Motion Coordinate for Language-Steerable and Force-Responsive Manipulation,force,False,False,False,True,unclear,0,0,0,50
-2609.15921,Touch2Trace: Tactile-Driven Imitation Learning for Dexterous Cable Tracing,tactile,False,False,True,True,yes,4,3,3,30
-2609.16504,UniDex-ViTac: Learning Unified Visuo-Tactile Dexterous Manipulation Policy from Human Video Data,tactile,False,False,True,True,yes,11,0,0,10
+2609.12549,STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation,tactile,False,False,False,True,yes,6,1,1,20
+2609.14156,Visible Touch: Rendering Contact for Visuomotor Policies,tactile,False,False,False,True,unclear,8,3,2,30
+2609.15921,Touch2Trace: Tactile-Driven Imitation Learning for Dexterous Cable Tracing,tactile,True,False,True,True,yes,4,4,4,30
+2609.16504,UniDex-ViTac: Learning Unified Visuo-Tactile Dexterous Manipulation Policy from Human Video Data,tactile,False,False,False,True,yes,11,0,0,10
 2609.18242,ForceDelta-VLA: Distilling Force-Conditioned Action Corrections for Contact-Rich Manipulation,torque,False,False,False,False,unclear,12,2,1,20 30 40
 2609.18497,TAO-Force: Unifying Force-Aware Perception and Fast-Slow Control for Contact-Rich Manipulation,force,False,False,False,True,unclear,12,6,5,30
 2609.19137,Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation,force,False,False,False,True,yes,8,3,2,10
-2609.20649,DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation,tactile,False,False,False,True,unclear,0,0,0,10
-2609.20980,ForeTac-VLA: A Forecasting-Based Tactile-Vision-Language-Action Model for Contact-Rich Robotic Manipulation,tactile,False,False,False,False,unclear,10,6,3,20 80
+2609.20980,ForeTac-VLA: A Forecasting-Based Tactile-Vision-Language-Action Model for Contact-Rich Robotic Manipulation,tactile,False,False,False,False,unclear,12,8,5,20 80
 2609.22840,ForceRFT: Refining VLA Actions through Force-Guided Residual Reinforcement Learning,force,False,False,False,True,unclear,3,3,3,30
 2609.23800,ContactDP: Contact-Guided Diffusion Policy for Tight Insertion Tasks,mixed,False,False,False,True,yes,3,3,3,50
 2609.23888,HapticWAM: Distilling Imagined Touch into a World-Action Model without Inference-Time Tactile Sensing,current,True,True,False,True,yes,3,2,2,10 20
@@ -53,11 +50,10 @@ paper,title,signal,ci_or_errorbars,sig_test,seeds_reported,success_defined,rando
 2609.25785,VisForce: Visual Grounding of Current and Desired Forces for Goal-Conditioned Dexterous Manipulation,force,True,False,False,True,unclear,3,3,3,20
 2609.29017,CALM: Current Aligned Link Manipulation for Single Arm Oversized Object Lifting,current,False,False,False,True,yes,0,0,0,30 10
 2609.29822,Self-Supervised Anchoring of Fingertip Sensing to Proprioception and Proactive Actions for Robot Imitation Learning (PROPRA),tactile,True,False,True,False,unclear,8,4,4,60
-2609.30969,TACTIC: Understanding Tactile Encoders and Conditioning for Contact-rich Robot Manipulation Policies,tactile,False,False,False,True,unclear,1,0,0,20
+2609.30969,TACTIC: Understanding Tactile Encoders and Conditioning for Contact-rich Robot Manipulation Policies,tactile,True,False,False,True,unclear,1,0,0,20
 2609.31924,HapticWorld: an Interactive World Simulator with Real-time Torque Feedback,force,False,False,False,True,yes,3,3,3,20
 2609.34006,TacGooseBumps: Retrofitting Normal-Only Tactile Sensors with Shear Encoding for Learning Contact-Rich Manipulation,tactile,False,False,False,True,yes,1,1,1,20
-2609.34182,Unified Visual-Tactile-Action Modeling from Human Demonstrations for Dexterous Manipulation (UVTA),tactile,False,False,False,True,yes,0,0,0,10
-2609.36596,HACo: Learning Haptic Active Compliance for Force-Aware Dexterous Manipulation,tactile+torque,False,False,False,True,unclear,10,9,7,20
-2609.37433,FP2: Equipping Robotic Foundation Models with Force Control,force,False,False,False,True,yes,6,3,3,25
+2609.36596,HACo: Learning Haptic Active Compliance for Force-Aware Dexterous Manipulation,tactile+torque,False,False,True,True,unclear,10,9,7,20
+2609.37433,FP2: Equipping Robotic Foundation Models with Force Control,force,False,False,False,True,unclear,6,3,3,25
 2609.37552,Wrench-ACT: Enhancing Robot Policies for Contact Rich Behavior Using Direct Wrench Control,force,True,True,False,True,unclear,5,3,3,50
 2610.00638,TacDyn-WAM: Learning Implicit Tactile Dynamics in a Heterogeneous Visuo-Tactile World Action Model,tactile,False,False,False,True,yes,10,2,0,20

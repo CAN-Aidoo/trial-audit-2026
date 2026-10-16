@@ -1,0 +1,427 @@
+[
+ {
+  "paper": "2603.13869",
+  "change": "include False -> True, eligible_but_n_missing",
+  "reason": "rule D3: eligible papers that never state n are kept as eligible_but_n_missing, not excluded (first coding applied I3 exclusion, inconsistent with D3)"
+ },
+ {
+  "paper": "2606.17055",
+  "change": "include True -> False",
+  "reason": "D8: verifier screening; papers with only partial-credit outcomes fail I2"
+ },
+ {
+  "paper": "2609.34182",
+  "change": "include True -> False",
+  "reason": "D8: verifier screening; papers with only partial-credit outcomes fail I2"
+ },
+ {
+  "paper": "2606.12406",
+  "change": "include True -> False",
+  "reason": "D8: verifier screening; papers with only partial-credit outcomes fail I2"
+ },
+ {
+  "paper": "2609.15012",
+  "change": "include True -> False",
+  "reason": "D8: verifier screening; papers with only partial-credit outcomes fail I2"
+ },
+ {
+  "paper": "2609.20649",
+  "change": "include True -> False",
+  "reason": "D8: verifier screening; papers with only partial-credit outcomes fail I2"
+ },
+ {
+  "paper": "2602.22088",
+  "change": "row 2 (Scrape off Sticker Easy (full off), B): {'baseline_name': 'RISE-2', 'sX': 8} -> {'baseline_name': 'pi0.5 / RDP (tie)', 'sX': 7}",
+  "reason": "D5: RISE-2 is Force Policy's own global vision module ('our global vision policy'); strongest eligible are pi0.5 and RDP, 7/10 (Table II)"
+ },
+ {
+  "paper": "2602.22088",
+  "change": "row 6 (Push and Flip unseen obj 1, B): {'baseline_name': 'RISE-2 / TA-VLA (tie)'} -> {'baseline_name': 'TA-VLA'}",
+  "reason": "D5: RISE-2 ineligible as B; TA-VLA has the same count"
+ },
+ {
+  "paper": "2602.22088",
+  "change": "row 12 (Push and Flip unseen obj 4, B): {'baseline_name': 'RISE-2 / pi0.5 (tie)'} -> {'baseline_name': 'pi0.5'}",
+  "reason": "D5: RISE-2 ineligible as B; pi0.5 has the same count"
+ },
+ {
+  "paper": "2607.22530",
+  "change": "row 0 (Charger plugging, B): {'baseline_name': 'pi0.5+tactile, expert-only data', 'sX': 10} -> {'baseline_name': 'pi0.5 (vision-only), expert-only data', 'sX': 9}",
+  "reason": "D5: pi0.5+tactile expert-only is the proposed pipeline without ViTacWorld data and still uses touch; strongest eligible B is pi0.5 vision-only expert-only (Table I: 18/28/48/28% of 50)"
+ },
+ {
+  "paper": "2607.22530",
+  "change": "row 2 (Cucumber peeling, B): {'baseline_name': 'pi0.5+tactile, expert-only data', 'sX': 22} -> {'baseline_name': 'pi0.5 (vision-only), expert-only data', 'sX': 14}",
+  "reason": "D5: pi0.5+tactile expert-only is the proposed pipeline without ViTacWorld data and still uses touch; strongest eligible B is pi0.5 vision-only expert-only (Table I: 18/28/48/28% of 50)"
+ },
+ {
+  "paper": "2607.22530",
+  "change": "row 4 (U-Block insertion, B): {'baseline_name': 'pi0.5+tactile, expert-only data', 'sX': 36} -> {'baseline_name': 'pi0.5 (vision-only), expert-only data', 'sX': 24}",
+  "reason": "D5: pi0.5+tactile expert-only is the proposed pipeline without ViTacWorld data and still uses touch; strongest eligible B is pi0.5 vision-only expert-only (Table I: 18/28/48/28% of 50)"
+ },
+ {
+  "paper": "2607.22530",
+  "change": "row 6 (Cuboid insertion, B): {'baseline_name': 'pi0.5+tactile, expert-only data', 'sX': 18} -> {'baseline_name': 'pi0.5 (vision-only), expert-only data', 'sX': 14}",
+  "reason": "D5: pi0.5+tactile expert-only is the proposed pipeline without ViTacWorld data and still uses touch; strongest eligible B is pi0.5 vision-only expert-only (Table I: 18/28/48/28% of 50)"
+ },
+ {
+  "paper": "2606.09337",
+  "change": "row 0 (Coffee cup, B): {'baseline_name': 'RLT', 'sX': 26} -> {'baseline_name': 'ForceVLA', 'sX': 21}",
+  "reason": "D5: RLT uses TORL-VLA's frozen wrench-aware reference model (App. A.3.1); strongest eligible B is ForceVLA (Table 1)"
+ },
+ {
+  "paper": "2606.09337",
+  "change": "row 1 (Latch, B): {'baseline_name': 'RLT', 'sX': 25} -> {'baseline_name': 'ForceVLA', 'sX': 20}",
+  "reason": "D5: RLT uses TORL-VLA's frozen wrench-aware reference model (App. A.3.1); strongest eligible B is ForceVLA (Table 1)"
+ },
+ {
+  "paper": "2606.09337",
+  "change": "row 2 (Egg, B): {'baseline_name': 'RLT', 'sX': 25} -> {'baseline_name': 'ForceVLA', 'sX': 22}",
+  "reason": "D5: RLT uses TORL-VLA's frozen wrench-aware reference model (App. A.3.1); strongest eligible B is ForceVLA (Table 1)"
+ },
+ {
+  "paper": "2606.09337",
+  "change": "row 3 (Full task, B): {'baseline_name': 'RLT', 'sX': 23} -> {'baseline_name': 'ForceVLA', 'sX': 15}",
+  "reason": "D5: RLT uses TORL-VLA's frozen wrench-aware reference model (App. A.3.1); strongest eligible B is ForceVLA (Table 1)"
+ },
+ {
+  "paper": "2609.12549",
+  "change": "row 0 (Earbud flipping, B): {'baseline_name': 'pi0.5', 'sX': 3} -> {'baseline_name': 'LDA-1B-Dex', 'sX': 8}",
+  "reason": "LDA-1B-Dex 0.40 (8/20) exceeds pi0.5 0.15 on earbud flipping (Table I); pi0.5-Dex w/o STAR is a touch-using ablation (D5)"
+ },
+ {
+  "paper": "2606.06281",
+  "change": "row 6 (Key in lock, B): {'baseline_name': 'Sparsh-X V+G+E', 'sX': 2} -> {'baseline_name': 'Sparsh-X V+G', 'sX': 4}",
+  "reason": "Sparsh-X V+G scores 20% (4/20) on Key in Lock, above V+G+E 10% (Table 7)"
+ },
+ {
+  "paper": "2609.14156",
+  "change": "row 0 (Lift (pick), B): {'baseline_name': 'Tac-View', 'sX': 16} -> {'baseline_name': 'Baseline (pi0.5, no contact input)', 'sX': 20}",
+  "reason": "Plain pi0.5 Baseline 20/30 exceeds Tac-View 16/30 on Lift (Table 15); Position-Only uses the proposed overlay pipeline (D5)"
+ },
+ {
+  "paper": "2609.14156",
+  "change": "row 2 (Lift (pick), B): {'baseline_name': 'Tac-View', 'sX': 16} -> {'baseline_name': 'Baseline (pi0.5, no contact input)', 'sX': 20}",
+  "reason": "Plain pi0.5 Baseline 20/30 exceeds Tac-View 16/30 on Lift (Table 15); Position-Only uses the proposed overlay pipeline (D5)"
+ },
+ {
+  "paper": "2609.15921",
+  "change": "row 2 (Cable tracing SR@10 (Ethernet straight), B): {'baseline_name': 'DP Proprio+Tactile (30 Hz)', 'sX': 30, 'note': 'baseline at 30 Hz vs P at 60 Hz; baseline higher'} -> {'baseline_name': 'DP Proprio (no tactile)', 'sX': 0, 'note': ''}",
+  "reason": "D5: DP Proprio+Tactile shares the proposed frozen ViT-MAE tactile encoder (Sec. 4.2); strongest eligible B is DP Proprio, 0% SR@10 and SR@20 (Table 1)"
+ },
+ {
+  "paper": "2609.15921",
+  "change": "row 3 (Cable tracing SR@20 (Ethernet straight), B): {'baseline_name': 'DP Proprio+Tactile (30 Hz)', 'sX': 0, 'note': ''} -> {'baseline_name': 'DP Proprio (no tactile)', 'sX': 0, 'note': ''}",
+  "reason": "D5: DP Proprio+Tactile shares the proposed frozen ViT-MAE tactile encoder (Sec. 4.2); strongest eligible B is DP Proprio, 0% SR@10 and SR@20 (Table 1)"
+ },
+ {
+  "paper": "2608.01824",
+  "change": "row 7 (Sponge wipe, held-out height, B): {'baseline_name': 'pi0.5+tactile'} -> {'baseline_name': 'Tactile-VLA'}",
+  "reason": "Tactile-VLA 25.0 exceeds pi0.5+tactile 15.0 (partial-credit row; name only)"
+ },
+ {
+  "paper": "2608.01102",
+  "change": "row 0 removed (Lift bottle [ACT], B, vs Gate)",
+  "reason": "D5: every real-world baseline (Gate, Concat) includes Dynamic Tactile Masking, one of CAAT's two proposed components; no eligible B"
+ },
+ {
+  "paper": "2608.01102",
+  "change": "row 1 removed (Open box [ACT], B, vs Gate/Concat)",
+  "reason": "D5: every real-world baseline (Gate, Concat) includes Dynamic Tactile Masking, one of CAAT's two proposed components; no eligible B"
+ },
+ {
+  "paper": "2608.01102",
+  "change": "row 2 removed (Powerbank extraction [ACT], B, vs Gate)",
+  "reason": "D5: every real-world baseline (Gate, Concat) includes Dynamic Tactile Masking, one of CAAT's two proposed components; no eligible B"
+ },
+ {
+  "paper": "2608.01102",
+  "change": "row 3 removed (Lift bottle [Diffusion Policy], B, vs Gate)",
+  "reason": "D5: every real-world baseline (Gate, Concat) includes Dynamic Tactile Masking, one of CAAT's two proposed components; no eligible B"
+ },
+ {
+  "paper": "2608.01102",
+  "change": "row 4 removed (Open box [Diffusion Policy], B, vs Gate)",
+  "reason": "D5: every real-world baseline (Gate, Concat) includes Dynamic Tactile Masking, one of CAAT's two proposed components; no eligible B"
+ },
+ {
+  "paper": "2608.01102",
+  "change": "row 5 removed (Powerbank extraction [Diffusion Policy], B, vs Gate/Concat)",
+  "reason": "D5: every real-world baseline (Gate, Concat) includes Dynamic Tactile Masking, one of CAAT's two proposed components; no eligible B"
+ },
+ {
+  "paper": "2608.01102",
+  "change": "row 6 removed (Lift bottle [pi0], B, vs Concat)",
+  "reason": "D5: every real-world baseline (Gate, Concat) includes Dynamic Tactile Masking, one of CAAT's two proposed components; no eligible B"
+ },
+ {
+  "paper": "2608.01102",
+  "change": "row 7 removed (Open box [pi0], B, vs Gate)",
+  "reason": "D5: every real-world baseline (Gate, Concat) includes Dynamic Tactile Masking, one of CAAT's two proposed components; no eligible B"
+ },
+ {
+  "paper": "2608.01102",
+  "change": "row 8 removed (Powerbank extraction [pi0], B, vs Gate)",
+  "reason": "D5: every real-world baseline (Gate, Concat) includes Dynamic Tactile Masking, one of CAAT's two proposed components; no eligible B"
+ },
+ {
+  "paper": "2606.30988",
+  "change": "row 1 removed (Peg insertion (finetune task), B, vs Diffusion Policy)",
+  "reason": "D5: the Diffusion Policy comparator is trained with MuSe's continual-learning pipeline including F/T (an ablation that still uses the signal)"
+ },
+ {
+  "paper": "2606.30988",
+  "change": "row 2 removed (Peg insertion (pretrain task, backward transfer), B, vs Pretraining Only)",
+  "reason": "D5: 'Pretraining Only' is MuSe's own pretrained model, still using F/T"
+ },
+ {
+  "paper": "2606.30988",
+  "change": "row 4 (Pick and place, A): {'kind': 'B'} -> {'kind': 'A'}",
+  "reason": "'No F/T' is the method without F/T: kind A, not B (D2b)"
+ },
+ {
+  "paper": "2606.14218",
+  "change": "row 1 removed (Box pushing, B, vs No-torque)",
+  "reason": "D5: the No-torque comparator is the method's own policy with torque removed (coded as kind A); it contains the proposed method's components and is not eligible as B"
+ },
+ {
+  "paper": "2606.14218",
+  "change": "row 3 removed (Box flipping, B, vs No-torque)",
+  "reason": "D5: the No-torque comparator is the method's own policy with torque removed (coded as kind A); it contains the proposed method's components and is not eligible as B"
+ },
+ {
+  "paper": "2606.14218",
+  "change": "row 5 removed (GPU picking, B, vs No-torque)",
+  "reason": "D5: the No-torque comparator is the method's own policy with torque removed (coded as kind A); it contains the proposed method's components and is not eligible as B"
+ },
+ {
+  "paper": "2606.14218",
+  "change": "row 7 removed (Fridge drink retrieval, B, vs No-torque)",
+  "reason": "D5: the No-torque comparator is the method's own policy with torque removed (coded as kind A); it contains the proposed method's components and is not eligible as B"
+ },
+ {
+  "paper": "2607.03723",
+  "change": "row 1 removed (Peg-in-hole, A, vs PLD (visual only residual RL))",
+  "reason": "PLD (visual only) is the original PLD method, not OmniTacTune with touch removed (verifier; confirmed App. A.3)"
+ },
+ {
+  "paper": "2607.03723",
+  "change": "row 3 removed (Charger insertion, A, vs PLD (visual only residual RL))",
+  "reason": "PLD (visual only) is the original PLD method, not OmniTacTune with touch removed (verifier; confirmed App. A.3)"
+ },
+ {
+  "paper": "2607.03723",
+  "change": "row 5 removed (Cap opening, A, vs PLD (visual only residual RL))",
+  "reason": "PLD (visual only) is the original PLD method, not OmniTacTune with touch removed (verifier; confirmed App. A.3)"
+ },
+ {
+  "paper": "2607.03723",
+  "change": "row 7 removed (Box opening, A, vs PLD (visual only residual RL))",
+  "reason": "PLD (visual only) is the original PLD method, not OmniTacTune with touch removed (verifier; confirmed App. A.3)"
+ },
+ {
+  "paper": "2607.03723",
+  "change": "row added: Peg-in-hole A vs Frozen visual base policy (no tactile residual) 20/20 vs 8/20",
+  "reason": "frozen visual base policy = OmniTacTune with the tactile residual removed; base success 40/10/5/5% over 20 trials (Sec. 4.1)"
+ },
+ {
+  "paper": "2607.03723",
+  "change": "row added: Charger insertion A vs Frozen visual base policy (no tactile residual) 20/20 vs 2/20",
+  "reason": "frozen visual base policy = OmniTacTune with the tactile residual removed; base success 40/10/5/5% over 20 trials (Sec. 4.1)"
+ },
+ {
+  "paper": "2607.03723",
+  "change": "row added: Cap opening A vs Frozen visual base policy (no tactile residual) 18/20 vs 1/20",
+  "reason": "frozen visual base policy = OmniTacTune with the tactile residual removed; base success 40/10/5/5% over 20 trials (Sec. 4.1)"
+ },
+ {
+  "paper": "2607.03723",
+  "change": "row added: Box opening A vs Frozen visual base policy (no tactile residual) 17/20 vs 1/20",
+  "reason": "frozen visual base policy = OmniTacTune with the tactile residual removed; base success 40/10/5/5% over 20 trials (Sec. 4.1)"
+ },
+ {
+  "paper": "2610.00638",
+  "change": "row 15 removed (Stack Cups, A, vs InternVLA-A1 (base model, vision-only))",
+  "reason": "pretrained variant vs InternVLA-A1 confounds touch with extra visuo-tactile pretraining; not a no-signal ablation of that variant"
+ },
+ {
+  "paper": "2610.00638",
+  "change": "row 16 removed (Remove Plug, A, vs InternVLA-A1 (base model, vision-only))",
+  "reason": "pretrained variant vs InternVLA-A1 confounds touch with extra visuo-tactile pretraining; not a no-signal ablation of that variant"
+ },
+ {
+  "paper": "2610.00638",
+  "change": "row 17 removed (Insert Plug, A, vs InternVLA-A1 (base model, vision-only))",
+  "reason": "pretrained variant vs InternVLA-A1 confounds touch with extra visuo-tactile pretraining; not a no-signal ablation of that variant"
+ },
+ {
+  "paper": "2610.00638",
+  "change": "row 18 removed (Unscrew Cup Lid, A, vs InternVLA-A1 (base model, vision-only))",
+  "reason": "pretrained variant vs InternVLA-A1 confounds touch with extra visuo-tactile pretraining; not a no-signal ablation of that variant"
+ },
+ {
+  "paper": "2610.00638",
+  "change": "row 19 removed (Wipe Whiteboard, A, vs InternVLA-A1 (base model, vision-only))",
+  "reason": "pretrained variant vs InternVLA-A1 confounds touch with extra visuo-tactile pretraining; not a no-signal ablation of that variant"
+ },
+ {
+  "paper": "2608.25872",
+  "change": "row 11 removed (Cap, 2 cm training, unseen, B, vs DP3-Wrist)",
+  "reason": "n for unseen-scale tests not stated (verifier); assumed n not recoverable (I3 rule)"
+ },
+ {
+  "paper": "2608.25872",
+  "change": "row 13 removed (Cap, 6 cm training, unseen, B, vs DP3-Wrist)",
+  "reason": "n for unseen-scale tests not stated (verifier); assumed n not recoverable (I3 rule)"
+ },
+ {
+  "paper": "2607.03529",
+  "change": "row 0 (teleop foam-cup stacking (novice), A): {'outcome': 'no grasp failure', 'n_ambiguous': True} -> {'outcome': 'success', 'n_ambiguous': True}",
+  "reason": "per-grasp binary outcome (no grasp failure); paper states 15 trials per user but rates are multiples of 1/60, consistent with 4 grasps per stacking trial; kept n=60 grasps, flagged ambiguous (grasps within a trial are not independent)"
+ },
+ {
+  "paper": "2607.03529",
+  "change": "row 1 (teleop foam-cup stacking (novice), B): {'outcome': 'no grasp failure', 'n_ambiguous': True} -> {'outcome': 'success', 'n_ambiguous': True}",
+  "reason": "per-grasp binary outcome (no grasp failure); paper states 15 trials per user but rates are multiples of 1/60, consistent with 4 grasps per stacking trial; kept n=60 grasps, flagged ambiguous (grasps within a trial are not independent)"
+ },
+ {
+  "paper": "2607.03529",
+  "change": "row 2 (teleop foam-cup stacking (skilled), A): {'outcome': 'no grasp failure', 'n_ambiguous': True} -> {'outcome': 'success', 'n_ambiguous': True}",
+  "reason": "per-grasp binary outcome (no grasp failure); paper states 15 trials per user but rates are multiples of 1/60, consistent with 4 grasps per stacking trial; kept n=60 grasps, flagged ambiguous (grasps within a trial are not independent)"
+ },
+ {
+  "paper": "2607.03529",
+  "change": "row 3 (teleop foam-cup stacking (skilled), B): {'outcome': 'no grasp failure', 'n_ambiguous': True} -> {'outcome': 'success', 'n_ambiguous': True}",
+  "reason": "per-grasp binary outcome (no grasp failure); paper states 15 trials per user but rates are multiples of 1/60, consistent with 4 grasps per stacking trial; kept n=60 grasps, flagged ambiguous (grasps within a trial are not independent)"
+ },
+ {
+  "paper": "2607.03529",
+  "change": "row 8 (bottle holding 0g, A): {'outcome': 'stable'} -> {'outcome': 'success'}",
+  "reason": "per-trial binary outcome (stable vs slipped/fell)"
+ },
+ {
+  "paper": "2607.03529",
+  "change": "row 9 (bottle holding 150g, A): {'outcome': 'stable'} -> {'outcome': 'success'}",
+  "reason": "per-trial binary outcome (stable vs slipped/fell)"
+ },
+ {
+  "paper": "2607.03529",
+  "change": "row 10 (bottle holding 250g, A): {'outcome': 'stable'} -> {'outcome': 'success'}",
+  "reason": "per-trial binary outcome (stable vs slipped/fell)"
+ },
+ {
+  "paper": "2607.03529",
+  "change": "row 11 (bottle holding 350g (OOD), A): {'outcome': 'stable'} -> {'outcome': 'success'}",
+  "reason": "per-trial binary outcome (stable vs slipped/fell)"
+ },
+ {
+  "paper": "2607.03529",
+  "change": "row added: single-card picking (tolerant) A vs w/o Current (ACT baseline) 47/52 vs 34/52",
+  "reason": "missing row reported by verifier; Table 4 tolerant success 90.4% vs 65.4% of 52"
+ },
+ {
+  "paper": "2609.20980",
+  "change": "row added: Low illumination, 4 tasks pooled A vs w/o Tactile 64/80 vs 32/80",
+  "reason": "missing A rows reported by verifier: fine-tuned VLA without tactile, pooled 4 tasks x 20"
+ },
+ {
+  "paper": "2609.20980",
+  "change": "row added: Visual clutter, 4 tasks pooled A vs w/o Tactile 65/80 vs 22/80",
+  "reason": "as above"
+ },
+ {
+  "paper": "2609.14156",
+  "change": "reporting.ci_or_errorbars: True -> False",
+  "reason": "real-robot table reports counts only; error bars are on LIBERO simulation results"
+ },
+ {
+  "paper": "2609.14156",
+  "change": "reporting.seeds_reported: True -> False",
+  "reason": "seeds stated for simulation only"
+ },
+ {
+  "paper": "2609.16504",
+  "change": "reporting.seeds_reported: True -> False",
+  "reason": "real-robot policy seeds not stated (5 evaluation seeds in sim)"
+ },
+ {
+  "paper": "2609.15921",
+  "change": "reporting.ci_or_errorbars: False -> True",
+  "reason": "mean +/- std across 3 seeds (Sec. 5.1)"
+ },
+ {
+  "paper": "2609.15921",
+  "change": "reporting.seeds_reported: True -> True",
+  "reason": "3 seeds x 10 rollouts"
+ },
+ {
+  "paper": "2609.30969",
+  "change": "reporting.ci_or_errorbars: False -> True",
+  "reason": "SD shown in the average column of Fig. 3 (verifier)"
+ },
+ {
+  "paper": "2609.36596",
+  "change": "reporting.seeds_reported: False -> True",
+  "reason": "single seed (42) stated"
+ },
+ {
+  "paper": "2607.03723",
+  "change": "reporting.success_defined: True -> False",
+  "reason": "task goals described but no explicit success criterion (checked)"
+ },
+ {
+  "paper": "2607.18231",
+  "change": "reporting.randomized_init: yes -> unclear",
+  "reason": "rule D8b: unresolved coder disagreement on a judgement field coded conservatively"
+ },
+ {
+  "paper": "2608.01824",
+  "change": "reporting.randomized_init: yes -> unclear",
+  "reason": "rule D8b: unresolved coder disagreement on a judgement field coded conservatively"
+ },
+ {
+  "paper": "2609.37433",
+  "change": "reporting.randomized_init: yes -> unclear",
+  "reason": "rule D8b: unresolved coder disagreement on a judgement field coded conservatively"
+ },
+ {
+  "paper": "2606.04825",
+  "change": "reporting.randomized_init: yes -> unclear",
+  "reason": "rule D8b: unresolved coder disagreement on a judgement field coded conservatively"
+ },
+ {
+  "paper": "2606.11767",
+  "change": "reporting.randomized_init: yes -> unclear",
+  "reason": "rule D8b: unresolved coder disagreement on a judgement field coded conservatively"
+ },
+ {
+  "paper": "2606.06281",
+  "change": "reporting.randomized_init: yes -> unclear",
+  "reason": "rule D8b: unresolved coder disagreement on a judgement field coded conservatively"
+ },
+ {
+  "paper": "2606.08555",
+  "change": "reporting.randomized_init: yes -> unclear",
+  "reason": "rule D8b: unresolved coder disagreement on a judgement field coded conservatively"
+ },
+ {
+  "paper": "2609.14156",
+  "change": "reporting.randomized_init: yes -> unclear",
+  "reason": "rule D8b: unresolved coder disagreement on a judgement field coded conservatively"
+ },
+ {
+  "paper": "2606.04825",
+  "change": "reporting.success_defined: True -> False",
+  "reason": "rule D8b: unresolved coder disagreement on a judgement field coded conservatively"
+ },
+ {
+  "paper": "2606.06281",
+  "change": "reporting.success_defined: True -> False",
+  "reason": "rule D8b: unresolved coder disagreement on a judgement field coded conservatively"
+ },
+ {
+  "paper": "2606.13232",
+  "change": "reporting.success_defined: True -> False",
+  "reason": "rule D8b: unresolved coder disagreement on a judgement field coded conservatively"
+ }
+]

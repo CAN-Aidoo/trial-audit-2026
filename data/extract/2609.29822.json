@@ -123,7 +123,8 @@
   "Success counts recovered as seed-mean rate x 60; pooling across 3 training seeds ignores seed-level clustering",
   "No-pretraining concatenation (own ablation that still uses sensors) excluded from B under D5",
   "Positive practice noted: authors state PickCup/PickSponge gains over the image anchor are within seed variation; mean +/- SD over 3 seeds reported",
-  "Success criterion not explicitly defined in the text read"
+  "Success criterion not explicitly defined in the text read",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   60

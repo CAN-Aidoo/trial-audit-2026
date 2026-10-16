@@ -6,22 +6,22 @@
  "exclude_reason": null,
  "signal": "tactile",
  "reporting": {
-  "ci_or_errorbars": true,
+  "ci_or_errorbars": false,
   "sig_test": false,
-  "seeds_reported": true,
+  "seeds_reported": false,
   "success_defined": true,
-  "randomized_init": "yes"
+  "randomized_init": "unclear"
  },
  "comparisons": [
   {
    "task": "Lift (pick)",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "Tac-View",
+   "baseline_name": "Baseline (pi0.5, no contact input)",
    "nP": 30,
    "sP": 24,
    "nX": 30,
-   "sX": 16,
+   "sX": 20,
    "source": "Table 15 p28; Fig. 7 p8",
    "n_ambiguous": false,
    "note": "P = Visible Touch Multi-arrows"
@@ -43,11 +43,11 @@
    "task": "Lift (pick)",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "Tac-View",
+   "baseline_name": "Baseline (pi0.5, no contact input)",
    "nP": 30,
    "sP": 23,
    "nX": 30,
-   "sX": 16,
+   "sX": 20,
    "source": "Table 15 p28; Fig. 7 p8",
    "n_ambiguous": false,
    "note": "P = Visible Touch Avg. Arrow"
@@ -228,7 +228,8 @@
   "Seeds and +/- SD reported for LIBERO simulation success only; real-robot counts have no intervals",
   "Correlation p-values reported for task-property analysis (sim), not for method comparisons",
   "Position-Only and binary-contact variants are ablations, not coded as B (D5)",
-  "Date: v2 7 Oct 2026; v1 Sep 2026"
+  "Date: v2 7 Oct 2026; v1 Sep 2026",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   30

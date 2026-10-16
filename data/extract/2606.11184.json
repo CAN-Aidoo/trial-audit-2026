@@ -69,7 +69,8 @@
  "flags": [
   "Wiping, Swiping, Adjustment, Locking (nominal) use partial-credit completion scores: excluded from tests (D2a)",
   "Swiping-P for the full model is 85% in Table I and 90% in Table III",
-  "No kind-A ablation of the full model without touch/force"
+  "No kind-A ablation of the full model without touch/force",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

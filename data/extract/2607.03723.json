@@ -9,7 +9,7 @@
   "ci_or_errorbars": false,
   "sig_test": false,
   "seeds_reported": false,
-  "success_defined": true,
+  "success_defined": false,
   "randomized_init": "yes"
  },
  "comparisons": [
@@ -27,19 +27,6 @@
    "note": ""
   },
   {
-   "task": "Peg-in-hole",
-   "outcome": "success",
-   "kind": "A",
-   "baseline_name": "PLD (visual only residual RL)",
-   "nP": 20,
-   "sP": 20,
-   "nX": 20,
-   "sX": 12,
-   "source": "Table 1 p6",
-   "n_ambiguous": false,
-   "note": "D2b: same residual-RL setting without tactile"
-  },
-  {
    "task": "Charger insertion",
    "outcome": "success",
    "kind": "B",
@@ -51,19 +38,6 @@
    "source": "Table 1 p6; n=20 final p7",
    "n_ambiguous": false,
    "note": ""
-  },
-  {
-   "task": "Charger insertion",
-   "outcome": "success",
-   "kind": "A",
-   "baseline_name": "PLD (visual only residual RL)",
-   "nP": 20,
-   "sP": 20,
-   "nX": 20,
-   "sX": 6,
-   "source": "Table 1 p6",
-   "n_ambiguous": false,
-   "note": "D2b: same residual-RL setting without tactile"
   },
   {
    "task": "Cap opening",
@@ -79,19 +53,6 @@
    "note": ""
   },
   {
-   "task": "Cap opening",
-   "outcome": "success",
-   "kind": "A",
-   "baseline_name": "PLD (visual only residual RL)",
-   "nP": 20,
-   "sP": 18,
-   "nX": 20,
-   "sX": 8,
-   "source": "Table 1 p6",
-   "n_ambiguous": false,
-   "note": "D2b: same residual-RL setting without tactile"
-  },
-  {
    "task": "Box opening",
    "outcome": "success",
    "kind": "B",
@@ -105,22 +66,62 @@
    "note": ""
   },
   {
-   "task": "Box opening",
    "outcome": "success",
+   "n_ambiguous": false,
+   "note": "",
+   "task": "Peg-in-hole",
    "kind": "A",
-   "baseline_name": "PLD (visual only residual RL)",
+   "baseline_name": "Frozen visual base policy (no tactile residual)",
+   "nP": 20,
+   "sP": 20,
+   "nX": 20,
+   "sX": 8,
+   "source": "Sec. 4.1 p7; Table 1"
+  },
+  {
+   "outcome": "success",
+   "n_ambiguous": false,
+   "note": "",
+   "task": "Charger insertion",
+   "kind": "A",
+   "baseline_name": "Frozen visual base policy (no tactile residual)",
+   "nP": 20,
+   "sP": 20,
+   "nX": 20,
+   "sX": 2,
+   "source": "Sec. 4.1 p7; Table 1"
+  },
+  {
+   "outcome": "success",
+   "n_ambiguous": false,
+   "note": "",
+   "task": "Cap opening",
+   "kind": "A",
+   "baseline_name": "Frozen visual base policy (no tactile residual)",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 1,
+   "source": "Sec. 4.1 p7; Table 1"
+  },
+  {
+   "outcome": "success",
+   "n_ambiguous": false,
+   "note": "",
+   "task": "Box opening",
+   "kind": "A",
+   "baseline_name": "Frozen visual base policy (no tactile residual)",
    "nP": 20,
    "sP": 17,
    "nX": 20,
-   "sX": 4,
-   "source": "Table 1 p6",
-   "n_ambiguous": false,
-   "note": "D2b: same residual-RL setting without tactile"
+   "sX": 1,
+   "source": "Sec. 4.1 p7; Table 1"
   }
  ],
  "flags": [
   "Training-curve checkpoints use 10 trials, final models 20 trials",
-  "Baselines are re-implementations adapted by the authors"
+  "Baselines are re-implementations adapted by the authors",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

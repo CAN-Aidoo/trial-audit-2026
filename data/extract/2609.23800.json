@@ -57,7 +57,8 @@
   "Text states 50 episodes per connector, but several success rates (0.977, 0.958, 0.657, 0.704, 0.874, 0.932) are not multiples of 1/50",
   "Only baseline is a vision-only diffusion policy using the same controller (coded as kind A)",
   "Zero-shot results (Table IV) give rates without trial counts; not coded",
-  "+/- SD reported for completion time and forces, not success"
+  "+/- SD reported for completion time and forces, not success",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   50

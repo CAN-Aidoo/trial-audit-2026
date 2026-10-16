@@ -13,6 +13,8 @@
   "randomized_init": "yes"
  },
  "comparisons": [],
- "flags": [],
+ "flags": [
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
+ ],
  "n_values": []
 }

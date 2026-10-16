@@ -27,19 +27,6 @@
    "note": ""
   },
   {
-   "task": "Box pushing",
-   "outcome": "success",
-   "kind": "B",
-   "baseline_name": "No-torque",
-   "nP": 20,
-   "sP": 18,
-   "nX": 20,
-   "sX": 10,
-   "source": "Table 1 p6",
-   "n_ambiguous": false,
-   "note": "strongest baseline is the no-torque ablation"
-  },
-  {
    "task": "Box flipping",
    "outcome": "success",
    "kind": "A",
@@ -51,19 +38,6 @@
    "source": "Table 1 p6; n=20 p5",
    "n_ambiguous": false,
    "note": ""
-  },
-  {
-   "task": "Box flipping",
-   "outcome": "success",
-   "kind": "B",
-   "baseline_name": "No-torque",
-   "nP": 20,
-   "sP": 17,
-   "nX": 20,
-   "sX": 0,
-   "source": "Table 1 p6",
-   "n_ambiguous": false,
-   "note": "strongest baseline is the no-torque ablation"
   },
   {
    "task": "GPU picking",
@@ -79,19 +53,6 @@
    "note": ""
   },
   {
-   "task": "GPU picking",
-   "outcome": "success",
-   "kind": "B",
-   "baseline_name": "No-torque",
-   "nP": 20,
-   "sP": 19,
-   "nX": 20,
-   "sX": 15,
-   "source": "Table 1 p6",
-   "n_ambiguous": false,
-   "note": "strongest baseline is the no-torque ablation"
-  },
-  {
    "task": "Fridge drink retrieval",
    "outcome": "success",
    "kind": "A",
@@ -103,23 +64,11 @@
    "source": "Table 1 p6; n=20 p5",
    "n_ambiguous": false,
    "note": ""
-  },
-  {
-   "task": "Fridge drink retrieval",
-   "outcome": "success",
-   "kind": "B",
-   "baseline_name": "No-torque",
-   "nP": 20,
-   "sP": 19,
-   "nX": 20,
-   "sX": 18,
-   "source": "Table 1 p6",
-   "n_ambiguous": false,
-   "note": "strongest baseline is the no-torque ablation"
   }
  ],
  "flags": [
-  "Rates reported as fractions (0.90 etc.); text gives counts 18/20, 17/20, 19/20, 19/20"
+  "Rates reported as fractions (0.90 etc.); text gives counts 18/20, 17/20, 19/20, 19/20",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

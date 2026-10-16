@@ -15,7 +15,7 @@
  "comparisons": [
   {
    "task": "teleop foam-cup stacking (novice)",
-   "outcome": "no grasp failure",
+   "outcome": "success",
    "kind": "A",
    "baseline_name": "w/o Current",
    "nP": 60,
@@ -28,7 +28,7 @@
   },
   {
    "task": "teleop foam-cup stacking (novice)",
-   "outcome": "no grasp failure",
+   "outcome": "success",
    "kind": "B",
    "baseline_name": "Retargeting",
    "nP": 60,
@@ -41,7 +41,7 @@
   },
   {
    "task": "teleop foam-cup stacking (skilled)",
-   "outcome": "no grasp failure",
+   "outcome": "success",
    "kind": "A",
    "baseline_name": "w/o Current",
    "nP": 60,
@@ -54,7 +54,7 @@
   },
   {
    "task": "teleop foam-cup stacking (skilled)",
-   "outcome": "no grasp failure",
+   "outcome": "success",
    "kind": "B",
    "baseline_name": "Retargeting",
    "nP": 60,
@@ -119,7 +119,7 @@
   },
   {
    "task": "bottle holding 0g",
-   "outcome": "stable",
+   "outcome": "success",
    "kind": "A",
    "baseline_name": "w/o Current (ACT baseline)",
    "nP": 12,
@@ -132,7 +132,7 @@
   },
   {
    "task": "bottle holding 150g",
-   "outcome": "stable",
+   "outcome": "success",
    "kind": "A",
    "baseline_name": "w/o Current (ACT baseline)",
    "nP": 12,
@@ -145,7 +145,7 @@
   },
   {
    "task": "bottle holding 250g",
-   "outcome": "stable",
+   "outcome": "success",
    "kind": "A",
    "baseline_name": "w/o Current (ACT baseline)",
    "nP": 12,
@@ -158,7 +158,7 @@
   },
   {
    "task": "bottle holding 350g (OOD)",
-   "outcome": "stable",
+   "outcome": "success",
    "kind": "A",
    "baseline_name": "w/o Current (ACT baseline)",
    "nP": 12,
@@ -181,12 +181,26 @@
    "source": "Table 4, p7; n=52 p9",
    "n_ambiguous": false,
    "note": "55.8%=29/52, 76.9%=40/52"
+  },
+  {
+   "outcome": "success",
+   "n_ambiguous": false,
+   "note": "",
+   "task": "single-card picking (tolerant)",
+   "kind": "A",
+   "baseline_name": "w/o Current (ACT baseline)",
+   "nP": 52,
+   "sP": 47,
+   "nX": 52,
+   "sX": 34,
+   "source": "Table 4 p7"
   }
  ],
  "flags": [
   "Foam-cup paragraph (p8) repeats wiping text and states 100% success, while Table 1 reports grasp failure 6.7%/3.3% for w/ Current; recorded as text-table inconsistency",
   "Ablation tables in appendix use 10 trials per setting",
-  "In policy tasks the baseline is ACT without current, i.e. the same as the no-current ablation; recorded as kind A only"
+  "In policy tasks the baseline is ACT without current, i.e. the same as the no-current ablation; recorded as kind A only",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   12,
