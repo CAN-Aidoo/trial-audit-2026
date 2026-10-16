@@ -1,0 +1,180 @@
+{
+ "id": "2607.07287",
+ "title": "TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation",
+ "date": "2026-07-08",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": false,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Water flower (clean)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FTP-1",
+   "nP": 100,
+   "sP": 72,
+   "nX": 100,
+   "sX": 56,
+   "source": "Table 1 p10; n p8",
+   "n_ambiguous": true,
+   "note": "text: '100 real-robot evaluation rollouts' per task; read as 100 per method and setting (rates such as 39%, 57% are not multiples of 2, so not 50 per setting)"
+  },
+  {
+   "task": "Tabletop clearing (clean)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Pi-0.5",
+   "nP": 100,
+   "sP": 76,
+   "nX": 100,
+   "sX": 66,
+   "source": "Table 1 p10; n p8",
+   "n_ambiguous": true,
+   "note": "text: '100 real-robot evaluation rollouts' per task; read as 100 per method and setting (rates such as 39%, 57% are not multiples of 2, so not 50 per setting)"
+  },
+  {
+   "task": "Cup insertion (clean)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FTP-1",
+   "nP": 100,
+   "sP": 66,
+   "nX": 100,
+   "sX": 48,
+   "source": "Table 1 p10; n p8",
+   "n_ambiguous": true,
+   "note": "text: '100 real-robot evaluation rollouts' per task; read as 100 per method and setting (rates such as 39%, 57% are not multiples of 2, so not 50 per setting)"
+  },
+  {
+   "task": "Power plug insertion (clean)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FTP-1",
+   "nP": 100,
+   "sP": 45,
+   "nX": 100,
+   "sX": 32,
+   "source": "Table 1 p10; n p8",
+   "n_ambiguous": true,
+   "note": "text: '100 real-robot evaluation rollouts' per task; read as 100 per method and setting (rates such as 39%, 57% are not multiples of 2, so not 50 per setting)"
+  },
+  {
+   "task": "Pot wiping (clean)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FTP-1",
+   "nP": 100,
+   "sP": 70,
+   "nX": 100,
+   "sX": 57,
+   "source": "Table 1 p10; n p8",
+   "n_ambiguous": true,
+   "note": "text: '100 real-robot evaluation rollouts' per task; read as 100 per method and setting (rates such as 39%, 57% are not multiples of 2, so not 50 per setting)"
+  },
+  {
+   "task": "Tissue pulling (clean)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FTP-1",
+   "nP": 100,
+   "sP": 61,
+   "nX": 100,
+   "sX": 43,
+   "source": "Table 1 p10; n p8",
+   "n_ambiguous": true,
+   "note": "text: '100 real-robot evaluation rollouts' per task; read as 100 per method and setting (rates such as 39%, 57% are not multiples of 2, so not 50 per setting)"
+  },
+  {
+   "task": "Water flower (perturbed)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FTP-1",
+   "nP": 100,
+   "sP": 60,
+   "nX": 100,
+   "sX": 39,
+   "source": "Table 1 p10",
+   "n_ambiguous": true,
+   "note": "text: '100 real-robot evaluation rollouts' per task; read as 100 per method and setting (rates such as 39%, 57% are not multiples of 2, so not 50 per setting)"
+  },
+  {
+   "task": "Tabletop clearing (perturbed)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Pi-0.5",
+   "nP": 100,
+   "sP": 62,
+   "nX": 100,
+   "sX": 44,
+   "source": "Table 1 p10",
+   "n_ambiguous": true,
+   "note": "text: '100 real-robot evaluation rollouts' per task; read as 100 per method and setting (rates such as 39%, 57% are not multiples of 2, so not 50 per setting)"
+  },
+  {
+   "task": "Cup insertion (perturbed)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FTP-1",
+   "nP": 100,
+   "sP": 52,
+   "nX": 100,
+   "sX": 34,
+   "source": "Table 1 p10",
+   "n_ambiguous": true,
+   "note": "text: '100 real-robot evaluation rollouts' per task; read as 100 per method and setting (rates such as 39%, 57% are not multiples of 2, so not 50 per setting)"
+  },
+  {
+   "task": "Power plug insertion (perturbed)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FTP-1",
+   "nP": 100,
+   "sP": 35,
+   "nX": 100,
+   "sX": 20,
+   "source": "Table 1 p10",
+   "n_ambiguous": true,
+   "note": "text: '100 real-robot evaluation rollouts' per task; read as 100 per method and setting (rates such as 39%, 57% are not multiples of 2, so not 50 per setting)"
+  },
+  {
+   "task": "Pot wiping (perturbed)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FTP-1",
+   "nP": 100,
+   "sP": 57,
+   "nX": 100,
+   "sX": 42,
+   "source": "Table 1 p10",
+   "n_ambiguous": true,
+   "note": "text: '100 real-robot evaluation rollouts' per task; read as 100 per method and setting (rates such as 39%, 57% are not multiples of 2, so not 50 per setting)"
+  },
+  {
+   "task": "Tissue pulling (perturbed)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FTP-1",
+   "nP": 100,
+   "sP": 56,
+   "nX": 100,
+   "sX": 34,
+   "source": "Table 1 p10",
+   "n_ambiguous": true,
+   "note": "text: '100 real-robot evaluation rollouts' per task; read as 100 per method and setting (rates such as 39%, 57% are not multiples of 2, so not 50 per setting)"
+  }
+ ],
+ "flags": [
+  "w/o tactile ablation reported only as a stacked bar chart (Fig. 5); not extractable",
+  "Largest per-condition n in the corpus so far"
+ ],
+ "n_values": [
+  100
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "id": "2607.18231",
+ "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
+ "date": "2026-07-20",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Find block under cups",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi-MEM (visual memory)",
+   "nP": 18,
+   "sP": 18,
+   "nX": 18,
+   "sX": 14,
+   "source": "Table 1 p7; n=18 App. B.2",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Find block under cups",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "State history only (force VAE replaced by state VAE)",
+   "nP": 18,
+   "sP": 18,
+   "nX": 18,
+   "sX": 18,
+   "source": "Table 1 p7",
+   "n_ambiguous": false,
+   "note": "D2b"
+  },
+  {
+   "task": "Press button N times",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi-MEM (visual memory)",
+   "nP": 18,
+   "sP": 13,
+   "nX": 18,
+   "sX": 6,
+   "source": "Table 1 p7; n=18 App. B.2",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Press button N times",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "State history only (force VAE replaced by state VAE)",
+   "nP": 18,
+   "sP": 13,
+   "nX": 18,
+   "sX": 2,
+   "source": "Table 1 p7",
+   "n_ambiguous": false,
+   "note": "D2b"
+  },
+  {
+   "task": "Wipe bowl N rounds",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi-MEM (visual memory)",
+   "nP": 18,
+   "sP": 14,
+   "nX": 18,
+   "sX": 9,
+   "source": "Table 1 p7; n=18 App. B.2",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Wipe bowl N rounds",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "State history only (force VAE replaced by state VAE)",
+   "nP": 18,
+   "sP": 14,
+   "nX": 18,
+   "sX": 2,
+   "source": "Table 1 p7",
+   "n_ambiguous": false,
+   "note": "D2b"
+  }
+ ],
+ "flags": [
+  "18 trials per task (6 per target count N or 9 per cup position)",
+  "Counts reported alongside percentages"
+ ],
+ "n_values": [
+  18
+ ]
+}

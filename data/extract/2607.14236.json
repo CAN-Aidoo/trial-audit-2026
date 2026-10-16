@@ -1,0 +1,51 @@
+{
+ "id": "2607.14236",
+ "title": "Never Too Late for Force: Accelerating VLA Post-Training with Reactive Force Injection",
+ "date": "2026-07-15",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Hanoi ring placement (final checkpoint)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 w/ Online DAgger (same loop without force)",
+   "nP": 30,
+   "sP": 18,
+   "nX": 30,
+   "sX": 6,
+   "source": "Sec 5.2 p7-8; n=3x10 p6",
+   "n_ambiguous": false,
+   "note": "binary task; final values 0.6 vs 0.2"
+  },
+  {
+   "task": "Towel folding / book insertion",
+   "outcome": "stage score",
+   "kind": "A",
+   "baseline_name": "pi0.5 w/ Online DAgger",
+   "nP": 30,
+   "sP": null,
+   "nX": 30,
+   "sX": null,
+   "source": "Fig. 5",
+   "n_ambiguous": false,
+   "note": "stage-based partial scores: excluded (D2a)"
+  }
+ ],
+ "flags": [
+  "Headline claims use 'peak' performance, i.e. the maximum over evaluated checkpoints; maxima over many checkpoints are biased upward",
+  "Reports 95% CIs from 3 groups of 10 rollouts",
+  "Single-frame force variant peaks higher than LIFT on towel folding (0.95 vs 0.825)"
+ ],
+ "n_values": [
+  30
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2607.08575",
+ "title": "FabriVLA: A Lightweight Vision-Language-Action Model with Conformal Action Chunk Uncertainty",
+ "date": "2026-07-09",
+ "include": false,
+ "exclude_reason": "I1: no force, torque, tactile or effort input",
+ "signal": "none",
+ "reporting": {
+  "ci_or_errorbars": null,
+  "sig_test": null,
+  "seeds_reported": null,
+  "success_defined": null,
+  "randomized_init": null
+ },
+ "comparisons": [],
+ "flags": [
+  "Notable for rigorous uncertainty reporting (Wilson intervals, bootstrap CIs) in a non-force paper"
+ ],
+ "n_values": []
+}
