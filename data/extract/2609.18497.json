@@ -1,0 +1,181 @@
+{
+ "id": "2609.18497",
+ "title": "TAO-Force: Unifying Force-Aware Perception and Fast-Slow Control for Contact-Rich Manipulation",
+ "date": "2026-09-16",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Peeling cucumber ID",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "GR00T N1.7",
+   "nP": 30,
+   "sP": 29,
+   "nX": 30,
+   "sX": 23,
+   "source": "Table II p7; 30 trials/setting p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Peeling cucumber OOD",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 30,
+   "sP": 26,
+   "nX": 30,
+   "sX": 16,
+   "source": "Table II p7; 30 trials/setting p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Pressing pump head ID",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "GR00T N1.7/pi0.5",
+   "nP": 30,
+   "sP": 24,
+   "nX": 30,
+   "sX": 19,
+   "source": "Table II p7; 30 trials/setting p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Pressing pump head OOD",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "GR00T N1.7",
+   "nP": 30,
+   "sP": 21,
+   "nX": 30,
+   "sX": 7,
+   "source": "Table II p7; 30 trials/setting p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Wiping whiteboard ID",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 30,
+   "sP": 18,
+   "nX": 30,
+   "sX": 20,
+   "source": "Table II p7; 30 trials/setting p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Wiping whiteboard OOD",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 30,
+   "sP": 16,
+   "nX": 30,
+   "sX": 11,
+   "source": "Table II p7; 30 trials/setting p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Cutting cucumber ID",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 30,
+   "sP": 25,
+   "nX": 30,
+   "sX": 19,
+   "source": "Table II p7; 30 trials/setting p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Cutting cucumber OOD",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 30,
+   "sP": 14,
+   "nX": 30,
+   "sX": 3,
+   "source": "Table II p7; 30 trials/setting p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Peeling cucumber ID",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "GR00T N1.5 (no F-FiLM, no force control)",
+   "nP": 30,
+   "sP": 29,
+   "nX": 30,
+   "sX": 17,
+   "source": "Table IV p8",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Peeling cucumber OOD",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "GR00T N1.5 (no F-FiLM, no force control)",
+   "nP": 30,
+   "sP": 26,
+   "nX": 30,
+   "sX": 1,
+   "source": "Table IV p8",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Pressing pump head ID",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "GR00T N1.5 (no F-FiLM, no force control)",
+   "nP": 30,
+   "sP": 24,
+   "nX": 30,
+   "sX": 20,
+   "source": "Table IV p8",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Pressing pump head OOD",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "GR00T N1.5 (no F-FiLM, no force control)",
+   "nP": 30,
+   "sP": 21,
+   "nX": 30,
+   "sX": 8,
+   "source": "Table IV p8",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "Blind Box Sorting (30/30 ID and OOD) has no baseline; not coded",
+  "Text: 'consistently outperforms the VLA baselines'; on Wiping Whiteboard ID pi0.5 is higher (20/30 vs 18/30)",
+  "Kind A = frozen GR00T N1.5 backbone with both force components removed (Table IV)"
+ ],
+ "n_values": [
+  30
+ ]
+}
