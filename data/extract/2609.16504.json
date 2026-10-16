@@ -1,0 +1,168 @@
+{
+ "id": "2609.16504",
+ "title": "UniDex-ViTac: Learning Unified Visuo-Tactile Dexterous Manipulation Policy from Human Video Data",
+ "date": "2026-09-15",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": true,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Grasp-and-lift: bleach cleanser",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PCD Only (no contact)",
+   "nP": 10,
+   "sP": 9,
+   "nX": 10,
+   "sX": 10,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Grasp-and-lift: mustard bottle",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PCD Only (no contact)",
+   "nP": 10,
+   "sP": 7,
+   "nX": 10,
+   "sX": 7,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Grasp-and-lift: power drill",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PCD Only (no contact)",
+   "nP": 10,
+   "sP": 8,
+   "nX": 10,
+   "sX": 7,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Grasp-and-lift: potted meat can",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PCD Only (no contact)",
+   "nP": 10,
+   "sP": 7,
+   "nX": 10,
+   "sX": 4,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Grasp-and-lift: tomato soup can",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PCD Only (no contact)",
+   "nP": 10,
+   "sP": 5,
+   "nX": 10,
+   "sX": 3,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Grasp-and-lift: pudding box",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PCD Only (no contact)",
+   "nP": 10,
+   "sP": 6,
+   "nX": 10,
+   "sX": 2,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Grasp-and-lift: maxwell coffee can (unseen)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PCD Only (no contact)",
+   "nP": 10,
+   "sP": 9,
+   "nX": 10,
+   "sX": 9,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Grasp-and-lift: brown salt box (unseen)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PCD Only (no contact)",
+   "nP": 10,
+   "sP": 4,
+   "nX": 10,
+   "sX": 2,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Grasp-and-lift: plastic wine cup (unseen)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PCD Only (no contact)",
+   "nP": 10,
+   "sP": 6,
+   "nX": 10,
+   "sX": 7,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Grasp-and-lift: blue mug (unseen)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PCD Only (no contact)",
+   "nP": 10,
+   "sP": 2,
+   "nX": 10,
+   "sX": 0,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Grasp-and-lift: pringles bottle (unseen)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PCD Only (no contact)",
+   "nP": 10,
+   "sP": 10,
+   "nX": 10,
+   "sX": 9,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "Real-world comparison is only contact vs no-contact (kind A); no external real-world baseline",
+  "Pooled 73/110 vs 60/110 reported; per-object rows coded instead",
+  "Binary contact (4 bits) from barometric sensors; 5 seeds for simulation evaluation only"
+ ],
+ "n_values": [
+  10
+ ]
+}

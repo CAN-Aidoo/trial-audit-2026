@@ -1,0 +1,20 @@
+{
+ "id": "2609.16586",
+ "title": "ProxiDex: Learning Dynamics-Guided Proximity Policy for Dexterous Manipulation",
+ "date": "2026-09-15",
+ "include": false,
+ "exclude_reason": "I1: policy uses geometric hand-object proximity from camera pose tracking, not a force/tactile/effort signal",
+ "signal": "none",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [],
+ "flags": [
+  "A side comparison with real fingertip tactile arrays (Fig. 9) is not the method's input"
+ ],
+ "n_values": []
+}
