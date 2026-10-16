@@ -1,0 +1,523 @@
+[
+ {
+  "id": "2606.06281",
+  "title": "Multi-Resolution Tactile Imitation Learning for Contact-Rich Robotic Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Gear assembly",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Sparsh-X V+G+E",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Gear assembly",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "ViT-CNN (MiTaS stems, vision only)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Board wiping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Sparsh-X V+G+E",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Board wiping",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "ViT-CNN (MiTaS stems, vision only)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Lamp installation",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Sparsh-X V+G+E",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Lamp installation",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "ViT-CNN (MiTaS stems, vision only)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Key in lock",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Sparsh-X V+G+E",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Key in lock",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "ViT-CNN (MiTaS stems, vision only)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "Lightbulb connection",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Sparsh-X V+G+E",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "Lightbulb connection",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "ViT-CNN (MiTaS stems, vision only)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2606.12406",
+  "title": "FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Five long-horizon tasks (LEGO, NIST belt, NIST insertion, tool clean-up, cap screwing)",
+    "kind": "B",
+    "outcome_as_coded": "task progress",
+    "comparator": "FACTR / TA-VLA",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2607.02503",
+  "title": "VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Insert plug",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "OmniVTLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Insert plug",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Fast-WAM (paper: M0, VT-WAM built from it by adding tactile)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Swipe card",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Fast-WAM",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Swipe card",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Fast-WAM (paper: M0, VT-WAM built from it by adding tactile)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Insert tube",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "OmniVTLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Insert tube",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Fast-WAM (paper: M0, VT-WAM built from it by adding tactile)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Wipe board / vase / peel cucumber",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "Fast-WAM",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2607.11734",
+  "title": "NeuralActuator: Neural Actuation Modeling for Robot Dynamics and External Force Perception",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "BC pick-and-place (500 g)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Position-only BC (same policy without predicted force)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "BC go up-and-stay (400 g)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Position-only BC",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2607.22530",
+  "title": "ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Charger plugging",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5+tactile, expert-only data",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Charger plugging",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (vision-only), same round-2 data",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Cucumber peeling",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5+tactile, expert-only data",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Cucumber peeling",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (vision-only), same round-2 data",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "U-Block insertion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5+tactile, expert-only data",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "U-Block insertion",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (vision-only), same round-2 data",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Cuboid insertion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5+tactile, expert-only data",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Cuboid insertion",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (vision-only), same round-2 data",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2608.15560",
+  "title": "REFORCE: Learning Force-aware Retargeting for Dexterous Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Paper cup (force-safe success)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Reference policy + Admittance",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Paper cup (force-safe success)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Reference policy (no force feedback)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Tongs (force-safe success)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Reference policy + Admittance",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Tongs (force-safe success)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Reference policy (no force feedback)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.05832",
+  "title": "CR-VLA-Force / CC-VLA: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation",
+  "rows_to_verify": []
+ },
+ {
+  "id": "2609.15012",
+  "title": "Atomic Motion Coordinate for Language-Steerable and Force-Responsive Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Plug (drawer + insertion)",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "Fine-tuned pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Plug (drawer + insertion)",
+    "kind": "A",
+    "outcome_as_coded": "partial credit",
+    "comparator": "AMC (force-free)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Vase wiping",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "Fine-tuned pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Vase wiping",
+    "kind": "A",
+    "outcome_as_coded": "partial credit",
+    "comparator": "AMC (force-free)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.20980",
+  "title": "ForeTac-VLA: A Forecasting-Based Tactile-Vision-Language-Action Model for Contact-Rich Robotic Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Peg insertion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Concat-and-Gating TacVLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Chip handling",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FiLM-Fusion TacVLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Cap unscrewing",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FiLM-Fusion TacVLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Board wiping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Concat-and-Gating TacVLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Peg insertion",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Tactile",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Chip handling",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Tactile",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Cap unscrewing",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Tactile",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Board wiping",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Tactile",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "Low illumination, 4 tasks pooled",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Concat-and-Gating TacVLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "Visual clutter, 4 tasks pooled",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Concat-and-Gating TacVLA",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.23888",
+  "title": "HapticWAM: Distilling Imagined Touch into a World-Action Model without Inference-Time Tactile Sensing",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Waffles pick-and-place",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Carton pick-and-place",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Egg pick-and-place",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Diffusion Policy",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.29822",
+  "title": "Self-Supervised Anchoring of Fingertip Sensing to Proprioception and Proactive Actions for Robot Imitation Learning (PROPRA)",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "PickCup",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Image anchor + direct pair (VITaL-style)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "PickSponge",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Image anchor (VITaL-style)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "MovePen",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Image anchor + direct pair (VITaL-style)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "OpenLid",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Image anchor (VITaL-style)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "PickCup",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision only",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "PickSponge",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision only",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "MovePen",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision only",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "OpenLid",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision only",
+    "note_P_variant": ""
+   }
+  ]
+ }
+]

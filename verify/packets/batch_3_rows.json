@@ -1,0 +1,805 @@
+[
+ {
+  "id": "2602.22088",
+  "title": "Force Policy: Learning Hybrid Force-Position Control Policy under Interaction Frame for Contact-Rich Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Push and Flip (flip, final stage)",
+    "kind": "B",
+    "outcome_as_coded": "stage success with 0.5 partial credit",
+    "comparator": "TA-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Plug in EV Charger (plug in, final stage)",
+    "kind": "B",
+    "outcome_as_coded": "stage success with 0.5 partial credit",
+    "comparator": "FoAR",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Scrape off Sticker Easy (full off)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RISE-2",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Scrape off Sticker Easy (full off)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "RISE-2 (paper: 'our global vision policy')",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Scrape off Sticker Hard (full off)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 / RDP / FoAR (tie)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Scrape off Sticker Hard (full off)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "RISE-2",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Push and Flip unseen obj 1",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RISE-2 / TA-VLA (tie)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Push and Flip unseen obj 1",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "RISE-2",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "Push and Flip unseen obj 2",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 / TA-VLA (tie)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "Push and Flip unseen obj 2",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "RISE-2",
+    "note_P_variant": ""
+   },
+   {
+    "row": 10,
+    "task": "Push and Flip unseen obj 3",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 / TA-VLA (tie)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 11,
+    "task": "Push and Flip unseen obj 3",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "RISE-2",
+    "note_P_variant": ""
+   },
+   {
+    "row": 12,
+    "task": "Push and Flip unseen obj 4",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RISE-2 / pi0.5 (tie)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 13,
+    "task": "Push and Flip unseen obj 4",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "RISE-2",
+    "note_P_variant": ""
+   },
+   {
+    "row": 14,
+    "task": "Push and Flip unseen obj 5",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 / TA-VLA (tie)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 15,
+    "task": "Push and Flip unseen obj 5",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "RISE-2",
+    "note_P_variant": ""
+   },
+   {
+    "row": 16,
+    "task": "Push and Flip unseen obj 6",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 / TA-VLA (tie)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 17,
+    "task": "Push and Flip unseen obj 6",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "RISE-2",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2606.04825",
+  "title": "HapTile: A Haptic-Informed Vision-Tactile-Language-Action Dataset for Contact-Rich Imitation Learning",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "bottle upright (DP, V+T)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = raw tactile variant"
+   },
+   {
+    "row": 1,
+    "task": "bottle upright (DP, V+TM)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = marker-tracking tactile variant"
+   },
+   {
+    "row": 2,
+    "task": "whiteboard wiping (DP, V+T)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = raw tactile variant"
+   },
+   {
+    "row": 3,
+    "task": "whiteboard wiping (DP, V+TM)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = marker-tracking tactile variant"
+   },
+   {
+    "row": 4,
+    "task": "pouring (DP, V+T)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = raw tactile variant"
+   },
+   {
+    "row": 5,
+    "task": "pouring (DP, V+TM)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = marker-tracking tactile variant"
+   },
+   {
+    "row": 6,
+    "task": "peg insertion (DP, V+T)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = raw tactile variant"
+   },
+   {
+    "row": 7,
+    "task": "peg insertion (DP, V+TM)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = marker-tracking tactile variant"
+   },
+   {
+    "row": 8,
+    "task": "bottle upright (pi0, V+T)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = raw tactile variant"
+   },
+   {
+    "row": 9,
+    "task": "bottle upright (pi0, V+TM)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = marker-tracking tactile variant"
+   },
+   {
+    "row": 10,
+    "task": "whiteboard wiping (pi0, V+T)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = raw tactile variant"
+   },
+   {
+    "row": 11,
+    "task": "whiteboard wiping (pi0, V+TM)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = marker-tracking tactile variant"
+   },
+   {
+    "row": 12,
+    "task": "pouring (pi0, V+T)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = raw tactile variant"
+   },
+   {
+    "row": 13,
+    "task": "pouring (pi0, V+TM)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = marker-tracking tactile variant"
+   },
+   {
+    "row": 14,
+    "task": "peg insertion (pi0, V+T)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = raw tactile variant"
+   },
+   {
+    "row": 15,
+    "task": "peg insertion (pi0, V+TM)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "V-only",
+    "note_P_variant": "P = marker-tracking tactile variant"
+   }
+  ]
+ },
+ {
+  "id": "2606.11767",
+  "title": "Blind Dexterous Grasping via Real2Sim2Real Tactile Policy Learning",
+  "rows_to_verify": []
+ },
+ {
+  "id": "2606.30988",
+  "title": "Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Peg insertion (finetune task)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "No F/T (same backbone, F/T input and prediction removed)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Peg insertion (finetune task)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Diffusion Policy",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Peg insertion (pretrain task, backward transfer)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Pretraining Only",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Vase wiping",
+    "kind": "A",
+    "outcome_as_coded": "partial credit",
+    "comparator": "No F/T",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Pick and place",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "No F/T",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2607.20912",
+  "title": "URF: A Unified Robot Control-Policy Framework for Stable Contact Aware Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Box flipping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ACP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Line pressing",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ACP",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2608.15009",
+  "title": "ForceU-VLA: A Force-Aware Vision-Language-Action Model for Embodied Ultrasound Scanning",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Ultrasound task 1",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Ultrasound task 1",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 w/ US (no force, no SAMM)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Ultrasound task 2",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Ultrasound task 2",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 w/ US (no force, no SAMM)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Ultrasound task 3",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Ultrasound task 3",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 w/ US (no force, no SAMM)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Ultrasound task 4",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Ultrasound task 4",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 w/ US (no force, no SAMM)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "Ultrasound task 5",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "Ultrasound task 5",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 w/ US (no force, no SAMM)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.03889",
+  "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Whiteboard wiping (S5 final)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ForceVLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Door opening (S5 final)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ForceVLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Handle press",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Force (pi0.5)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Push w/o closer",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Force (pi0.5)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Push w/ closer",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Force (pi0.5)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Board cleaned",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Force (pi0.5)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.14156",
+  "title": "Visible Touch: Rendering Contact for Visuomotor Policies",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Lift (pick)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Tac-View",
+    "note_P_variant": "P = Visible Touch Multi-arrows"
+   },
+   {
+    "row": 1,
+    "task": "Lift (pick)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Baseline (no contact input)",
+    "note_P_variant": "P = Visible Touch Multi-arrows"
+   },
+   {
+    "row": 2,
+    "task": "Lift (pick)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Tac-View",
+    "note_P_variant": "P = Visible Touch Avg. Arrow"
+   },
+   {
+    "row": 3,
+    "task": "Lift (pick)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Baseline (no contact input)",
+    "note_P_variant": "P = Visible Touch Avg. Arrow"
+   },
+   {
+    "row": 4,
+    "task": "Transfer tube (insert)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Tac-View",
+    "note_P_variant": "P = Visible Touch Multi-arrows"
+   },
+   {
+    "row": 5,
+    "task": "Transfer tube (insert)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Baseline (no contact input)",
+    "note_P_variant": "P = Visible Touch Multi-arrows"
+   },
+   {
+    "row": 6,
+    "task": "Transfer tube (insert)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Tac-View",
+    "note_P_variant": "P = Visible Touch Avg. Arrow"
+   },
+   {
+    "row": 7,
+    "task": "Transfer tube (insert)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Baseline (no contact input)",
+    "note_P_variant": "P = Visible Touch Avg. Arrow"
+   },
+   {
+    "row": 8,
+    "task": "Put mug in dishwasher (place)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Tac-View",
+    "note_P_variant": "P = Visible Touch Multi-arrows"
+   },
+   {
+    "row": 9,
+    "task": "Put mug in dishwasher (place)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Baseline (no contact input)",
+    "note_P_variant": "P = Visible Touch Multi-arrows"
+   },
+   {
+    "row": 10,
+    "task": "Put mug in dishwasher (place)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Tac-View",
+    "note_P_variant": "P = Visible Touch Avg. Arrow"
+   },
+   {
+    "row": 11,
+    "task": "Put mug in dishwasher (place)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Baseline (no contact input)",
+    "note_P_variant": "P = Visible Touch Avg. Arrow"
+   },
+   {
+    "row": 12,
+    "task": "Plug charger (insert)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Tac-View",
+    "note_P_variant": "P = Visible Touch Multi-arrows"
+   },
+   {
+    "row": 13,
+    "task": "Plug charger (insert)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Baseline (no contact input)",
+    "note_P_variant": "P = Visible Touch Multi-arrows"
+   },
+   {
+    "row": 14,
+    "task": "Plug charger (insert)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Tac-View",
+    "note_P_variant": "P = Visible Touch Avg. Arrow"
+   },
+   {
+    "row": 15,
+    "task": "Plug charger (insert)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Baseline (no contact input)",
+    "note_P_variant": "P = Visible Touch Avg. Arrow"
+   }
+  ]
+ },
+ {
+  "id": "2609.20649",
+  "title": "DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation",
+  "rows_to_verify": []
+ },
+ {
+  "id": "2609.23800",
+  "title": "ContactDP: Contact-Guided Diffusion Policy for Tight Insertion Tasks",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "6-pos TE connector",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision-only DP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "15-pos TE connector",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision-only DP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "4-pos TE connector",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision-only DP",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.29017",
+  "title": "CALM: Current Aligned Link Manipulation for Single Arm Oversized Object Lifting",
+  "rows_to_verify": []
+ },
+ {
+  "id": "2609.34182",
+  "title": "Unified Visual-Tactile-Action Modeling from Human Demonstrations for Dexterous Manipulation (UVTA)",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Flip Page",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "T-Rex",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Screw Light Bulb",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "T-Rex",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Toggle Switch",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "T-Rex",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Ball Classification",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "T-Rex",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Liquid Transfer",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "T-Rex",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Flip Page",
+    "kind": "A",
+    "outcome_as_coded": "partial credit",
+    "comparator": "Vision-only",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Screw Light Bulb",
+    "kind": "A",
+    "outcome_as_coded": "partial credit",
+    "comparator": "Vision-only",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Toggle Switch",
+    "kind": "A",
+    "outcome_as_coded": "partial credit",
+    "comparator": "Vision-only",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "Ball Classification",
+    "kind": "A",
+    "outcome_as_coded": "partial credit",
+    "comparator": "Vision-only",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "Liquid Transfer",
+    "kind": "A",
+    "outcome_as_coded": "partial credit",
+    "comparator": "Vision-only",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.37552",
+  "title": "Wrench-ACT: Enhancing Robot Policies for Contact Rich Behavior Using Direct Wrench Control",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Peg Insertion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Position ACT on VR data (pi_p_vr)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Fuse Clipping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Position ACT on VR data (pi_p_vr)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Fan Insertion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Position ACT on VR data (pi_p_vr)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Industrial Connector",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Position ACT on VR data (pi_p_vr)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Pen Writing",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Position ACT on VR data (pi_p_vr)",
+    "note_P_variant": ""
+   }
+  ]
+ }
+]
