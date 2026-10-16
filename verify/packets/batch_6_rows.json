@@ -1,0 +1,728 @@
+[
+ {
+  "id": "2603.08342",
+  "title": "PhaForce: Phase-Scheduled Visual-Force Policy Learning with Slow Planning and Fast Correction for Contact-Rich Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Charger plug-in",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RDP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "USB plug-in",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RDP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Drawer opening",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RDP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Wiping ID",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "DP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Wiping OOD",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RDP",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2606.09337",
+  "title": "TORL-VLA: Tactile Guided Online Reinforcement Learning for Contact-Rich Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Coffee cup",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RLT",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Latch",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RLT",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Egg",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RLT",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Full task",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RLT",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2606.14218",
+  "title": "Universal Manipulation Exoskeleton: Learning Compliant Whole-body Policies with Real-time Torque Feedback",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Box pushing",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "No-torque (same data, torque removed)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Box pushing",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "No-torque",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Box flipping",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "No-torque (same data, torque removed)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Box flipping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "No-torque",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "GPU picking",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "No-torque (same data, torque removed)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "GPU picking",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "No-torque",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Fridge drink retrieval",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "No-torque (same data, torque removed)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Fridge drink retrieval",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "No-torque",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2607.03529",
+  "title": "Current as Touch: Proprioceptive Contact Feedback for Compliant Dexterous Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "teleop foam-cup stacking (novice)",
+    "kind": "A",
+    "outcome_as_coded": "no grasp failure",
+    "comparator": "w/o Current",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "teleop foam-cup stacking (novice)",
+    "kind": "B",
+    "outcome_as_coded": "no grasp failure",
+    "comparator": "Retargeting",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "teleop foam-cup stacking (skilled)",
+    "kind": "A",
+    "outcome_as_coded": "no grasp failure",
+    "comparator": "w/o Current",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "teleop foam-cup stacking (skilled)",
+    "kind": "B",
+    "outcome_as_coded": "no grasp failure",
+    "comparator": "Retargeting",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "teleop board wiping (novice)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Current",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "teleop board wiping (novice)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Retargeting",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "teleop board wiping (skilled)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Current",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "teleop board wiping (skilled)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Retargeting",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "bottle holding 0g",
+    "kind": "A",
+    "outcome_as_coded": "stable",
+    "comparator": "w/o Current (ACT baseline)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "bottle holding 150g",
+    "kind": "A",
+    "outcome_as_coded": "stable",
+    "comparator": "w/o Current (ACT baseline)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 10,
+    "task": "bottle holding 250g",
+    "kind": "A",
+    "outcome_as_coded": "stable",
+    "comparator": "w/o Current (ACT baseline)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 11,
+    "task": "bottle holding 350g (OOD)",
+    "kind": "A",
+    "outcome_as_coded": "stable",
+    "comparator": "w/o Current (ACT baseline)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 12,
+    "task": "single-card picking (strict)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Current (ACT baseline)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2607.14578",
+  "title": "Beyond Implicit Force: Evaluating Explicit Force-Torque Proxies in Action Chunking with Transformers",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Soft bottle press (overall) [ACT+Torque vs Base ACT]",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Base ACT (torque removed)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Soft bottle press (overall) [ACT-o+Torque vs ACT-o]",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "ACT-o (torque removed)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Plug insertion (1 or 2 attempts) [ACT+Torque vs Base ACT]",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Base ACT (torque removed)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Plug insertion (1 or 2 attempts) [ACT-o+Torque vs ACT-o]",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "ACT-o (torque removed)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Board wipe [ACT+Torque vs Base ACT]",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Base ACT (torque removed)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Board wipe [ACT-o+Torque vs ACT-o]",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "ACT-o (torque removed)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2608.25798",
+  "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Close cap",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Insert battery",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "GR00T N1.7",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Close lid",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "T-Rex",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Transfer liquid",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "T-Rex",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Wipe board",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Stand bottle",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1/T-Rex",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.07747",
+  "title": "Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction (DEX-X)",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Cube picking (real)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "No Tactile",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.15921",
+  "title": "Touch2Trace: Tactile-Driven Imitation Learning for Dexterous Cable Tracing",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Cable tracing SR@10 (Ethernet straight)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "TF-GMM Proprio only",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Cable tracing SR@20 (Ethernet straight)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "TF-GMM Proprio only",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Cable tracing SR@10 (Ethernet straight)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "DP Proprio+Tactile (30 Hz)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Cable tracing SR@20 (Ethernet straight)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "DP Proprio+Tactile (30 Hz)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.18242",
+  "title": "ForceDelta-VLA: Distilling Force-Conditioned Action Corrections for Contact-Rich Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Object flipping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ForceVLA/TA-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "USB insertion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ForceVLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Cabinet opening",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ForceVLA/TA-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Button pressing",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "TA-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Whiteboard wiping (single-arm)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "TA-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Plug removal (bimanual)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "TA-VLA/ImplicitRDP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Plug insertion (bimanual)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "TA-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Drawer opening (bimanual)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ForceVLA/TA-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "Whiteboard wiping (bimanual)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "TA-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "USB insertion + whiteboard wiping, pooled (single-arm)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o force correction",
+    "note_P_variant": ""
+   },
+   {
+    "row": 10,
+    "task": "Plug insertion + drawer opening, pooled (bimanual)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o force correction",
+    "note_P_variant": ""
+   },
+   {
+    "row": 11,
+    "task": "Unseen objects, 3 tasks pooled",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ImplicitRDP",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.22840",
+  "title": "ForceRFT: Refining VLA Actions through Force-Guided Residual Reinforcement Learning",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Plug insertion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "SmolVLA-SFT",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Ring-on-peg assembly",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "SmolVLA-SFT",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Whiteboard wiping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "SmolVLA-SFT",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.24976",
+  "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Cube Place w/ Occlusion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RDP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Tongs",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RDP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Bowl",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (no tactile)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Bottle Cap",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (no tactile)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Cube Handover",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "RDP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Two-Hand Wipe",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "RDP",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.31924",
+  "title": "HapticWorld: an Interactive World Simulator with Real-time Torque Feedback",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Microwave opening",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "IWS (vision-only world simulator pipeline)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Whiteboard wiping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "IWS (vision-only world simulator pipeline)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Box flipping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "IWS (vision-only world simulator pipeline)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.36596",
+  "title": "HACo: Learning Haptic Active Compliance for Force-Aware Dexterous Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Insert poker cards",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "GR00T + Tactile",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Open book",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "T-Rex",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Draw on balloon",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "T-Rex",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Unscrew cap",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "T-Rex",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Squeeze toothpaste",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "T-Rex",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Insert poker cards",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Haptic Feedback",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Open book",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Haptic Feedback",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Draw on balloon",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Haptic Feedback",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "Unscrew cap",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Haptic Feedback",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "Squeeze toothpaste",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "w/o Haptic Feedback",
+    "note_P_variant": ""
+   }
+  ]
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "id": "2603.05687",
+  "title": "Contact-Grounded Policy: Dexterous Visuotactile Policy with Generative Contact Grounding"
+ },
+ {
+  "id": "2606.08555",
+  "title": "FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation"
+ },
+ {
+  "id": "2606.13232",
+  "title": "WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning"
+ },
+ {
+  "id": "2607.03387",
+  "title": "Feeling the Unexpected: ResTacVLA for Contact-Rich Manipulation via Residual Tactile Representation"
+ },
+ {
+  "id": "2607.14236",
+  "title": "Never Too Late for Force: Accelerating VLA Post-Training with Reactive Force Injection"
+ },
+ {
+  "id": "2608.01102",
+  "title": "CAAT: Contact-Aware Attention Scaling and Tactile Masking for Data-Efficient Contact-Rich Manipulation"
+ },
+ {
+  "id": "2608.24603",
+  "title": "Gripper-aware Vision Language Action Models"
+ },
+ {
+  "id": "2609.07002",
+  "title": "WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation"
+ },
+ {
+  "id": "2609.15726",
+  "title": "Bench2Dex: Benchmarking Visuo-Tactile Bimanual Dexterous Manipulation Across Dexterous Hands"
+ },
+ {
+  "id": "2609.18165",
+  "title": "LUMO: Designing Luminous Contact Morphology for Repeatable Whole-Finger Contact Observation"
+ },
+ {
+  "id": "2609.21369",
+  "title": "ProTracer: Proprioception-Guided Failure Diagnosis in Robot Manipulation"
+ },
+ {
+  "id": "2609.23968",
+  "title": "Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation"
+ },
+ {
+  "id": "2609.30969",
+  "title": "TACTIC: Understanding Tactile Encoders and Conditioning for Contact-rich Robot Manipulation Policies"
+ },
+ {
+  "id": "2609.34400",
+  "title": "Contact-Aware Impedance Controller for Robot-Assisted Ultrasound Imaging"
+ },
+ {
+  "id": "2610.00638",
+  "title": "TacDyn-WAM: Learning Implicit Tactile Dynamics in a Heterogeneous Visuo-Tactile World Action Model"
+ }
+]

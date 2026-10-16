@@ -1,0 +1,724 @@
+[
+ {
+  "id": "2606.11184",
+  "title": "TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Wire insertion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "KineDex",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Wiping perturbation",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RDP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Swiping perturbation",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "RDP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Adjustment perturbation",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "DP+Tactile+Force",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2607.07287",
+  "title": "TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Water flower (clean)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Tabletop clearing (clean)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Pi-0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Cup insertion (clean)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Power plug insertion (clean)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Pot wiping (clean)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Tissue pulling (clean)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Water flower (perturbed)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Tabletop clearing (perturbed)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Pi-0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "Cup insertion (perturbed)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "Power plug insertion (perturbed)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": ""
+   },
+   {
+    "row": 10,
+    "task": "Pot wiping (perturbed)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": ""
+   },
+   {
+    "row": 11,
+    "task": "Tissue pulling (perturbed)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2607.20683",
+  "title": "FELT: Generating Tactile Signals from Vision for Visuo-Tactile Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Tube insertion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Tactile variant; strongest non-oracle baseline"
+   },
+   {
+    "row": 1,
+    "task": "Tube insertion",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Tactile variant; same policy w/o tactile pathway"
+   },
+   {
+    "row": 2,
+    "task": "Tube insertion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Features variant; strongest non-oracle baseline"
+   },
+   {
+    "row": 3,
+    "task": "Tube insertion",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Features variant; same policy w/o tactile pathway"
+   },
+   {
+    "row": 4,
+    "task": "Cup nesting (all 4)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Tactile variant; strongest non-oracle baseline"
+   },
+   {
+    "row": 5,
+    "task": "Cup nesting (all 4)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Tactile variant; same policy w/o tactile pathway"
+   },
+   {
+    "row": 6,
+    "task": "Cup nesting (all 4)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Features variant; strongest non-oracle baseline"
+   },
+   {
+    "row": 7,
+    "task": "Cup nesting (all 4)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Features variant; same policy w/o tactile pathway"
+   },
+   {
+    "row": 8,
+    "task": "Eraser wiping (<=5 passes)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Tactile variant; strongest non-oracle baseline"
+   },
+   {
+    "row": 9,
+    "task": "Eraser wiping (<=5 passes)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Tactile variant; same policy w/o tactile pathway"
+   },
+   {
+    "row": 10,
+    "task": "Eraser wiping (<=5 passes)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Features variant; strongest non-oracle baseline"
+   },
+   {
+    "row": 11,
+    "task": "Eraser wiping (<=5 passes)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Features variant; same policy w/o tactile pathway"
+   },
+   {
+    "row": 12,
+    "task": "Triangle peg insertion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "DINOv2 Features",
+    "note_P_variant": "P = FELT Tactile variant; strongest non-oracle baseline"
+   },
+   {
+    "row": 13,
+    "task": "Triangle peg insertion",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Tactile variant; same policy w/o tactile pathway"
+   },
+   {
+    "row": 14,
+    "task": "Triangle peg insertion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "DINOv2 Features",
+    "note_P_variant": "P = FELT Features variant; strongest non-oracle baseline"
+   },
+   {
+    "row": 15,
+    "task": "Triangle peg insertion",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision Only",
+    "note_P_variant": "P = FELT Features variant; same policy w/o tactile pathway"
+   }
+  ]
+ },
+ {
+  "id": "2609.16504",
+  "title": "UniDex-ViTac: Learning Unified Visuo-Tactile Dexterous Manipulation Policy from Human Video Data",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Grasp-and-lift: bleach cleanser",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PCD Only (no contact)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Grasp-and-lift: mustard bottle",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PCD Only (no contact)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Grasp-and-lift: power drill",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PCD Only (no contact)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Grasp-and-lift: potted meat can",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PCD Only (no contact)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Grasp-and-lift: tomato soup can",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PCD Only (no contact)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Grasp-and-lift: pudding box",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PCD Only (no contact)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Grasp-and-lift: maxwell coffee can (unseen)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PCD Only (no contact)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Grasp-and-lift: brown salt box (unseen)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PCD Only (no contact)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "Grasp-and-lift: plastic wine cup (unseen)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PCD Only (no contact)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "Grasp-and-lift: blue mug (unseen)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PCD Only (no contact)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 10,
+    "task": "Grasp-and-lift: pringles bottle (unseen)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PCD Only (no contact)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.19137",
+  "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Zero-shot whiteboard wiping",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Kinematic-only (same trajectory, zero force)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Zero-shot carrot peeling",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Kinematic-only",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Zero-shot chocolate box stacking",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Kinematic-only",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Zero-shot lamp button pressing",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Kinematic-only",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "DP policy, wiping",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "DP w/o force input",
+    "note_P_variant": "P = DP w/ force input"
+   },
+   {
+    "row": 5,
+    "task": "DP policy, peeling",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "DP w/o force input",
+    "note_P_variant": "P = DP w/ force input"
+   },
+   {
+    "row": 6,
+    "task": "DP policy, stacking",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "DP w/o force input",
+    "note_P_variant": "P = DP w/ force input; tie"
+   },
+   {
+    "row": 7,
+    "task": "DP policy, pressing",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "DP w/o force input",
+    "note_P_variant": "P = DP w/ force input"
+   }
+  ]
+ },
+ {
+  "id": "2609.34006",
+  "title": "TacGooseBumps: Retrofitting Normal-Only Tactile Sensors with Shear Encoding for Learning Contact-Rich Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "USB insertion",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision only (TacGB off-the-shelf installed)",
+    "note_P_variant": "P = TacGB off-the-shelf"
+   },
+   {
+    "row": 1,
+    "task": "USB insertion",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision only (TacGB lab-made installed)",
+    "note_P_variant": "P = TacGB lab-made"
+   }
+  ]
+ },
+ {
+  "id": "2609.37433",
+  "title": "FP2: Equipping Robotic Foundation Models with Force Control",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Flip Box",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Force Policy",
+    "note_P_variant": "P = GR00T N1.7 + FP2"
+   },
+   {
+    "row": 1,
+    "task": "Flip Box",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "GR00T N1.7 alone (no force control)",
+    "note_P_variant": "P = GR00T N1.7 + FP2"
+   },
+   {
+    "row": 2,
+    "task": "Insert EV Charger",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "TA-VLA",
+    "note_P_variant": "P = GR00T N1.7 + FP2"
+   },
+   {
+    "row": 3,
+    "task": "Insert EV Charger",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "GR00T N1.7 alone (no force control)",
+    "note_P_variant": "P = GR00T N1.7 + FP2"
+   },
+   {
+    "row": 4,
+    "task": "Insert Peg",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ACP",
+    "note_P_variant": "P = GR00T N1.7 + FP2"
+   },
+   {
+    "row": 5,
+    "task": "Insert Peg",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "GR00T N1.7 alone (no force control)",
+    "note_P_variant": "P = GR00T N1.7 + FP2"
+   },
+   {
+    "row": 6,
+    "task": "Wipe Curve",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "ACP",
+    "note_P_variant": "P = GR00T N1.7 + FP2; completion rate"
+   },
+   {
+    "row": 7,
+    "task": "Wipe Curve",
+    "kind": "A",
+    "outcome_as_coded": "partial credit",
+    "comparator": "GR00T N1.7 alone (no force control)",
+    "note_P_variant": "P = GR00T N1.7 + FP2; completion rate"
+   },
+   {
+    "row": 8,
+    "task": "Flip Box",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Force Policy",
+    "note_P_variant": "P = LaWAM + FP2"
+   },
+   {
+    "row": 9,
+    "task": "Flip Box",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "LaWAM alone (no force control)",
+    "note_P_variant": "P = LaWAM + FP2"
+   },
+   {
+    "row": 10,
+    "task": "Insert EV Charger",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "TA-VLA",
+    "note_P_variant": "P = LaWAM + FP2"
+   },
+   {
+    "row": 11,
+    "task": "Insert EV Charger",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "LaWAM alone (no force control)",
+    "note_P_variant": "P = LaWAM + FP2"
+   },
+   {
+    "row": 12,
+    "task": "Insert Peg",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ACP",
+    "note_P_variant": "P = LaWAM + FP2"
+   },
+   {
+    "row": 13,
+    "task": "Insert Peg",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "LaWAM alone (no force control)",
+    "note_P_variant": "P = LaWAM + FP2"
+   },
+   {
+    "row": 14,
+    "task": "Wipe Curve",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "ACP",
+    "note_P_variant": "P = LaWAM + FP2; completion rate"
+   },
+   {
+    "row": 15,
+    "task": "Wipe Curve",
+    "kind": "A",
+    "outcome_as_coded": "partial credit",
+    "comparator": "LaWAM alone (no force control)",
+    "note_P_variant": "P = LaWAM + FP2; completion rate"
+   },
+   {
+    "row": 16,
+    "task": "Flip Box",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Force Policy",
+    "note_P_variant": "P = pi0 (LoRA) + FP2"
+   },
+   {
+    "row": 17,
+    "task": "Flip Box",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0 (LoRA) alone (no force control)",
+    "note_P_variant": "P = pi0 (LoRA) + FP2"
+   },
+   {
+    "row": 18,
+    "task": "Insert EV Charger",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "TA-VLA",
+    "note_P_variant": "P = pi0 (LoRA) + FP2"
+   },
+   {
+    "row": 19,
+    "task": "Insert EV Charger",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0 (LoRA) alone (no force control)",
+    "note_P_variant": "P = pi0 (LoRA) + FP2"
+   },
+   {
+    "row": 20,
+    "task": "Insert Peg",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ACP",
+    "note_P_variant": "P = pi0 (LoRA) + FP2"
+   },
+   {
+    "row": 21,
+    "task": "Insert Peg",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0 (LoRA) alone (no force control)",
+    "note_P_variant": "P = pi0 (LoRA) + FP2"
+   },
+   {
+    "row": 22,
+    "task": "Wipe Curve",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "ACP",
+    "note_P_variant": "P = pi0 (LoRA) + FP2; completion rate"
+   },
+   {
+    "row": 23,
+    "task": "Wipe Curve",
+    "kind": "A",
+    "outcome_as_coded": "partial credit",
+    "comparator": "pi0 (LoRA) alone (no force control)",
+    "note_P_variant": "P = pi0 (LoRA) + FP2; completion rate"
+   },
+   {
+    "row": 24,
+    "task": "Flip Box",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Force Policy",
+    "note_P_variant": "P = pi0.5 (full) + FP2"
+   },
+   {
+    "row": 25,
+    "task": "Flip Box",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (full) alone (no force control)",
+    "note_P_variant": "P = pi0.5 (full) + FP2"
+   },
+   {
+    "row": 26,
+    "task": "Insert EV Charger",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "TA-VLA",
+    "note_P_variant": "P = pi0.5 (full) + FP2"
+   },
+   {
+    "row": 27,
+    "task": "Insert EV Charger",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (full) alone (no force control)",
+    "note_P_variant": "P = pi0.5 (full) + FP2"
+   },
+   {
+    "row": 28,
+    "task": "Insert Peg",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ACP",
+    "note_P_variant": "P = pi0.5 (full) + FP2"
+   },
+   {
+    "row": 29,
+    "task": "Insert Peg",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (full) alone (no force control)",
+    "note_P_variant": "P = pi0.5 (full) + FP2"
+   },
+   {
+    "row": 30,
+    "task": "Wipe Curve",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "ACP",
+    "note_P_variant": "P = pi0.5 (full) + FP2; completion rate"
+   },
+   {
+    "row": 31,
+    "task": "Wipe Curve",
+    "kind": "A",
+    "outcome_as_coded": "partial credit",
+    "comparator": "pi0.5 (full) alone (no force control)",
+    "note_P_variant": "P = pi0.5 (full) + FP2; completion rate"
+   }
+  ]
+ }
+]

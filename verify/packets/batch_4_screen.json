@@ -1,0 +1,62 @@
+[
+ {
+  "id": "2603.04531",
+  "title": "PTLD: Sim-to-real Privileged Tactile Latent Distillation for Dexterous Manipulation"
+ },
+ {
+  "id": "2606.06281",
+  "title": "Multi-Resolution Tactile Imitation Learning for Contact-Rich Robotic Manipulation"
+ },
+ {
+  "id": "2606.12406",
+  "title": "FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning"
+ },
+ {
+  "id": "2607.02503",
+  "title": "VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation"
+ },
+ {
+  "id": "2607.11734",
+  "title": "NeuralActuator: Neural Actuation Modeling for Robot Dynamics and External Force Perception"
+ },
+ {
+  "id": "2607.22530",
+  "title": "ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation"
+ },
+ {
+  "id": "2608.15560",
+  "title": "REFORCE: Learning Force-aware Retargeting for Dexterous Manipulation"
+ },
+ {
+  "id": "2609.05832",
+  "title": "CR-VLA-Force / CC-VLA: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation"
+ },
+ {
+  "id": "2609.15012",
+  "title": "Atomic Motion Coordinate for Language-Steerable and Force-Responsive Manipulation"
+ },
+ {
+  "id": "2609.18164",
+  "title": "Energy-Regularized Imitation Learning for Force- and Work-Aware Robotic Manipulation"
+ },
+ {
+  "id": "2609.20980",
+  "title": "ForeTac-VLA: A Forecasting-Based Tactile-Vision-Language-Action Model for Contact-Rich Robotic Manipulation"
+ },
+ {
+  "id": "2609.23888",
+  "title": "HapticWAM: Distilling Imagined Touch into a World-Action Model without Inference-Time Tactile Sensing"
+ },
+ {
+  "id": "2609.29822",
+  "title": "Self-Supervised Anchoring of Fingertip Sensing to Proprioception and Proactive Actions for Robot Imitation Learning (PROPRA)"
+ },
+ {
+  "id": "2609.34286",
+  "title": "Dexterous Tactile World Model (DTWM)"
+ },
+ {
+  "id": "2609.39017",
+  "title": "OccluDex: Hierarchical 3D Visuo-Tactile Representation Learning for Egocentric Dexterous Manipulation under Self-Occlusion"
+ }
+]

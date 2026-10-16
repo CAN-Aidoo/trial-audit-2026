@@ -1,0 +1,62 @@
+[
+ {
+  "id": "2602.22088",
+  "title": "Force Policy: Learning Hybrid Force-Position Control Policy under Interaction Frame for Contact-Rich Manipulation"
+ },
+ {
+  "id": "2606.04825",
+  "title": "HapTile: A Haptic-Informed Vision-Tactile-Language-Action Dataset for Contact-Rich Imitation Learning"
+ },
+ {
+  "id": "2606.11767",
+  "title": "Blind Dexterous Grasping via Real2Sim2Real Tactile Policy Learning"
+ },
+ {
+  "id": "2606.30988",
+  "title": "Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force"
+ },
+ {
+  "id": "2607.08575",
+  "title": "FabriVLA: A Lightweight Vision-Language-Action Model with Conformal Action Chunk Uncertainty"
+ },
+ {
+  "id": "2607.20912",
+  "title": "URF: A Unified Robot Control-Policy Framework for Stable Contact Aware Manipulation"
+ },
+ {
+  "id": "2608.15009",
+  "title": "ForceU-VLA: A Force-Aware Vision-Language-Action Model for Embodied Ultrasound Scanning"
+ },
+ {
+  "id": "2609.03889",
+  "title": "FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation"
+ },
+ {
+  "id": "2609.14156",
+  "title": "Visible Touch: Rendering Contact for Visuomotor Policies"
+ },
+ {
+  "id": "2609.16586",
+  "title": "ProxiDex: Learning Dynamics-Guided Proximity Policy for Dexterous Manipulation"
+ },
+ {
+  "id": "2609.20649",
+  "title": "DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation"
+ },
+ {
+  "id": "2609.23800",
+  "title": "ContactDP: Contact-Guided Diffusion Policy for Tight Insertion Tasks"
+ },
+ {
+  "id": "2609.29017",
+  "title": "CALM: Current Aligned Link Manipulation for Single Arm Oversized Object Lifting"
+ },
+ {
+  "id": "2609.34182",
+  "title": "Unified Visual-Tactile-Action Modeling from Human Demonstrations for Dexterous Manipulation (UVTA)"
+ },
+ {
+  "id": "2609.37552",
+  "title": "Wrench-ACT: Enhancing Robot Policies for Contact Rich Behavior Using Direct Wrench Control"
+ }
+]

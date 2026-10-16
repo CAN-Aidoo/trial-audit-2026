@@ -1,0 +1,511 @@
+[
+ {
+  "id": "2603.05687",
+  "title": "Contact-Grounded Policy: Dexterous Visuotactile Policy with Generative Contact Grounding",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Real jar opening",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Visuomotor DP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Real in-hand box flipping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Visuotactile DP / Visuomotor DP (tie)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2606.08555",
+  "title": "FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Erase board",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ForceVLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Erase board",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "GE-Act (paper: vision-only backbone of FAWAM)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Peel cucumber",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "TA-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Peel cucumber",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "GE-Act (paper: vision-only backbone of FAWAM)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Pivot box",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "TA-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Pivot box",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "GE-Act (paper: vision-only backbone of FAWAM)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Wipe vase",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "ForceVLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Wipe vase",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "GE-Act (paper: vision-only backbone of FAWAM)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2606.13232",
+  "title": "WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning",
+  "rows_to_verify": []
+ },
+ {
+  "id": "2607.03387",
+  "title": "Feeling the Unexpected: ResTacVLA for Contact-Rich Manipulation via Residual Tactile Representation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Lightbulb screwing (interaction)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 w/ T-UniT",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Lightbulb screwing (interaction)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (vision only; same backbone without tactile)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Plug insertion (interaction)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 w/ T-UniT",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Plug insertion (interaction)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (vision only; same backbone without tactile)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Peg-in-hole (interaction)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 w/ T-UniT",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Peg-in-hole (interaction)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (vision only; same backbone without tactile)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Peg transfer",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 w/ T-UniT",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Peg transfer",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (vision only; same backbone without tactile)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "Plate wiping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 w/ T-UniT",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "Plate wiping",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 (vision only; same backbone without tactile)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2607.14236",
+  "title": "Never Too Late for Force: Accelerating VLA Post-Training with Reactive Force Injection",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Hanoi ring placement (final checkpoint)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5 w/ Online DAgger (same loop without force)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Towel folding / book insertion",
+    "kind": "A",
+    "outcome_as_coded": "stage score",
+    "comparator": "pi0.5 w/ Online DAgger",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2608.01102",
+  "title": "CAAT: Contact-Aware Attention Scaling and Tactile Masking for Data-Efficient Contact-Rich Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Lift bottle [ACT]",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Gate",
+    "note_P_variant": "P = CAAT on ACT backbone"
+   },
+   {
+    "row": 1,
+    "task": "Open box [ACT]",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Gate/Concat",
+    "note_P_variant": "P = CAAT on ACT backbone"
+   },
+   {
+    "row": 2,
+    "task": "Powerbank extraction [ACT]",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Gate",
+    "note_P_variant": "P = CAAT on ACT backbone"
+   },
+   {
+    "row": 3,
+    "task": "Lift bottle [Diffusion Policy]",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Gate",
+    "note_P_variant": "P = CAAT on Diffusion Policy backbone"
+   },
+   {
+    "row": 4,
+    "task": "Open box [Diffusion Policy]",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Gate",
+    "note_P_variant": "P = CAAT on Diffusion Policy backbone"
+   },
+   {
+    "row": 5,
+    "task": "Powerbank extraction [Diffusion Policy]",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Gate/Concat",
+    "note_P_variant": "P = CAAT on Diffusion Policy backbone"
+   },
+   {
+    "row": 6,
+    "task": "Lift bottle [pi0]",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Concat",
+    "note_P_variant": "P = CAAT on pi0 backbone"
+   },
+   {
+    "row": 7,
+    "task": "Open box [pi0]",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Gate",
+    "note_P_variant": "P = CAAT on pi0 backbone"
+   },
+   {
+    "row": 8,
+    "task": "Powerbank extraction [pi0]",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Gate",
+    "note_P_variant": "P = CAAT on pi0 backbone"
+   }
+  ]
+ },
+ {
+  "id": "2609.07002",
+  "title": "WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Duck rotation (real)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Open-loop replay",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Cross block rotation (real)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Open-loop replay",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Corner block rotation (real)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Open-loop replay",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Double-notched block, unseen (real)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "OlR/TD/IHR",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Large-scale real z-rotation, 20 objects",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "In-Hand Rotation",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.30969",
+  "title": "TACTIC: Understanding Tactile Encoders and Conditioning for Contact-rich Robot Manipulation Policies",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "USB-C insertion",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vision only (no tactile)",
+    "note_P_variant": "P = ResNet18-Concat, best of 25 encoder x fusion configurations on this task, selected post hoc"
+   }
+  ]
+ },
+ {
+  "id": "2610.00638",
+  "title": "TacDyn-WAM: Learning Implicit Tactile Dynamics in a Heterogeneous Visuo-Tactile World Action Model",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Stack Cups",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": "P = TacDyn-WAM"
+   },
+   {
+    "row": 1,
+    "task": "Remove Plug",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": "P = TacDyn-WAM"
+   },
+   {
+    "row": 2,
+    "task": "Insert Plug",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": "P = TacDyn-WAM"
+   },
+   {
+    "row": 3,
+    "task": "Unscrew Cup Lid",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": "P = TacDyn-WAM"
+   },
+   {
+    "row": 4,
+    "task": "Wipe Whiteboard",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": "P = TacDyn-WAM"
+   },
+   {
+    "row": 5,
+    "task": "Stack Cups",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "InternVLA-A1 (base model, vision-only)",
+    "note_P_variant": "P = TacDyn-WAM"
+   },
+   {
+    "row": 6,
+    "task": "Remove Plug",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "InternVLA-A1 (base model, vision-only)",
+    "note_P_variant": "P = TacDyn-WAM"
+   },
+   {
+    "row": 7,
+    "task": "Insert Plug",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "InternVLA-A1 (base model, vision-only)",
+    "note_P_variant": "P = TacDyn-WAM"
+   },
+   {
+    "row": 8,
+    "task": "Unscrew Cup Lid",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "InternVLA-A1 (base model, vision-only)",
+    "note_P_variant": "P = TacDyn-WAM"
+   },
+   {
+    "row": 9,
+    "task": "Wipe Whiteboard",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "InternVLA-A1 (base model, vision-only)",
+    "note_P_variant": "P = TacDyn-WAM"
+   },
+   {
+    "row": 10,
+    "task": "Stack Cups",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": "P = TacDyn-WAM (pretrained)"
+   },
+   {
+    "row": 11,
+    "task": "Remove Plug",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": "P = TacDyn-WAM (pretrained)"
+   },
+   {
+    "row": 12,
+    "task": "Insert Plug",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": "P = TacDyn-WAM (pretrained)"
+   },
+   {
+    "row": 13,
+    "task": "Unscrew Cup Lid",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": "P = TacDyn-WAM (pretrained)"
+   },
+   {
+    "row": 14,
+    "task": "Wipe Whiteboard",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "FTP-1",
+    "note_P_variant": "P = TacDyn-WAM (pretrained)"
+   },
+   {
+    "row": 15,
+    "task": "Stack Cups",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "InternVLA-A1 (base model, vision-only)",
+    "note_P_variant": "P = TacDyn-WAM (pretrained)"
+   },
+   {
+    "row": 16,
+    "task": "Remove Plug",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "InternVLA-A1 (base model, vision-only)",
+    "note_P_variant": "P = TacDyn-WAM (pretrained)"
+   },
+   {
+    "row": 17,
+    "task": "Insert Plug",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "InternVLA-A1 (base model, vision-only)",
+    "note_P_variant": "P = TacDyn-WAM (pretrained)"
+   },
+   {
+    "row": 18,
+    "task": "Unscrew Cup Lid",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "InternVLA-A1 (base model, vision-only)",
+    "note_P_variant": "P = TacDyn-WAM (pretrained)"
+   },
+   {
+    "row": 19,
+    "task": "Wipe Whiteboard",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "InternVLA-A1 (base model, vision-only)",
+    "note_P_variant": "P = TacDyn-WAM (pretrained)"
+   }
+  ]
+ }
+]

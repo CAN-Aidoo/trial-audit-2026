@@ -1,0 +1,584 @@
+[
+ {
+  "id": "2606.10818",
+  "title": "IMPACT: Learning Internal-Model Predictive Control for Forceful Robotic Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Dumbbell pick-place 2.5 kg",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Vanilla DP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Dumbbell pick-place 2.5 kg",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vanilla DP (same policy without torque-based internal model)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Dumbbell pick-place 5 kg",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Augmented DP",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Dumbbell pick-place 5 kg",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Vanilla DP",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2606.17055",
+  "title": "T-Rex: Tactile-Reactive Dexterous Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "12 tactile-reactive tasks",
+    "kind": "B",
+    "outcome_as_coded": "rubric score",
+    "comparator": "EgoScale",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "6 tasks, w/o tactile ablation",
+    "kind": "A",
+    "outcome_as_coded": "rubric score",
+    "comparator": "w/o Tactile",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2607.03723",
+  "title": "OmniTacTune: Policy-Agnostic Real-World RL for Tactile Residual Adaptation of Visual Policies",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Peg-in-hole",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "PLD* (adapted with tactile)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Peg-in-hole",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PLD (visual only residual RL)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Charger insertion",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "PLD* (adapted with tactile)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Charger insertion",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PLD (visual only residual RL)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Cap opening",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "PLD* (adapted with tactile)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Cap opening",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PLD (visual only residual RL)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Box opening",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "PLD* (adapted with tactile)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Box opening",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "PLD (visual only residual RL)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2607.18231",
+  "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Find block under cups",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi-MEM (visual memory)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Find block under cups",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "State history only (force VAE replaced by state VAE)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Press button N times",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi-MEM (visual memory)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Press button N times",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "State history only (force VAE replaced by state VAE)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Wipe bowl N rounds",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi-MEM (visual memory)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Wipe bowl N rounds",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "State history only (force VAE replaced by state VAE)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2608.01824",
+  "title": "ReTouch: Empowering Contact-Rich Dexterous Manipulation with Online-Refined Tactile Prediction",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Button press",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "Tactile-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Pipette press",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "Tactile-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Bottle grasp",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "Tactile-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Cob grasp",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "Tactile-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Sponge wipe",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "Tactile-VLA",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Cabinet retrieval",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "ViTacFormer",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Liquid transfer",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "pi0.5+tactile",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Sponge wipe, held-out height",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "pi0.5+tactile",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "Cob grasp, position shift",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "Liquid transfer, lighting",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "pi0.5+tactile",
+    "note_P_variant": ""
+   },
+   {
+    "row": 10,
+    "task": "Bottle grasp, pull disturbance",
+    "kind": "B",
+    "outcome_as_coded": "partial credit",
+    "comparator": "pi0.5+tactile",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2608.25872",
+  "title": "VISTA: Visually Inferred Spatial ConTact Attention for Contact-Rich Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Cross-scale grasping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "TDF-DM",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Cross-scale grasping",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "DP3 (no VDF)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Cap unscrewing",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "DP3 / TDF-DM",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Cap unscrewing",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "DP3 (no VDF)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Calligraphy writing (WSR)",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "DP3 / DP3-Wrist",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Calligraphy writing (WSR)",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "DP3 (no VDF)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Multi-scale grasping, seen",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "TDF-DM",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Multi-scale grasping, seen",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "DP3 (no VDF)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "Multi-scale grasping, unseen",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "DP3-Wrist/TDF-DM",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "Multi-scale grasping, unseen",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "DP3 (no VDF)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 10,
+    "task": "Cap, 2 cm training, seen",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "DP3-Wrist",
+    "note_P_variant": ""
+   },
+   {
+    "row": 11,
+    "task": "Cap, 2 cm training, unseen",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "DP3-Wrist",
+    "note_P_variant": ""
+   },
+   {
+    "row": 12,
+    "task": "Cap, 6 cm training, seen",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "DP3-Wrist",
+    "note_P_variant": ""
+   },
+   {
+    "row": 13,
+    "task": "Cap, 6 cm training, unseen",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "DP3-Wrist",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.12549",
+  "title": "STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Earbud flipping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Stacked-book retrieval",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Postcard retrieval",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Multi-object grasping",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Earbud flipping",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Ours w/o T",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Stacked-book retrieval",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "Ours w/o T",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.18497",
+  "title": "TAO-Force: Unifying Force-Aware Perception and Fast-Slow Control for Contact-Rich Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "Peeling cucumber ID",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "GR00T N1.7",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "Peeling cucumber OOD",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "Pressing pump head ID",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "GR00T N1.7/pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 3,
+    "task": "Pressing pump head OOD",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "GR00T N1.7",
+    "note_P_variant": ""
+   },
+   {
+    "row": 4,
+    "task": "Wiping whiteboard ID",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 5,
+    "task": "Wiping whiteboard OOD",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 6,
+    "task": "Cutting cucumber ID",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 7,
+    "task": "Cutting cucumber OOD",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 8,
+    "task": "Peeling cucumber ID",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "GR00T N1.5 (no F-FiLM, no force control)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 9,
+    "task": "Peeling cucumber OOD",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "GR00T N1.5 (no F-FiLM, no force control)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 10,
+    "task": "Pressing pump head ID",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "GR00T N1.5 (no F-FiLM, no force control)",
+    "note_P_variant": ""
+   },
+   {
+    "row": 11,
+    "task": "Pressing pump head OOD",
+    "kind": "A",
+    "outcome_as_coded": "success",
+    "comparator": "GR00T N1.5 (no F-FiLM, no force control)",
+    "note_P_variant": ""
+   }
+  ]
+ },
+ {
+  "id": "2609.25785",
+  "title": "VisForce: Visual Grounding of Current and Desired Forces for Goal-Conditioned Dexterous Manipulation",
+  "rows_to_verify": [
+   {
+    "row": 0,
+    "task": "T2 Cup insertion & bottle pouring",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 1,
+    "task": "T3 Tong-assisted bread transfer",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   },
+   {
+    "row": 2,
+    "task": "T4 Slip-modulated peg-in-hole",
+    "kind": "B",
+    "outcome_as_coded": "success",
+    "comparator": "pi0.5",
+    "note_P_variant": ""
+   }
+  ]
+ }
+]

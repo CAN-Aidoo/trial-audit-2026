@@ -1,0 +1,58 @@
+[
+ {
+  "id": "2603.08342",
+  "title": "PhaForce: Phase-Scheduled Visual-Force Policy Learning with Slow Planning and Fast Correction for Contact-Rich Manipulation"
+ },
+ {
+  "id": "2606.09337",
+  "title": "TORL-VLA: Tactile Guided Online Reinforcement Learning for Contact-Rich Manipulation"
+ },
+ {
+  "id": "2606.14218",
+  "title": "Universal Manipulation Exoskeleton: Learning Compliant Whole-body Policies with Real-time Torque Feedback"
+ },
+ {
+  "id": "2607.03529",
+  "title": "Current as Touch: Proprioceptive Contact Feedback for Compliant Dexterous Manipulation"
+ },
+ {
+  "id": "2607.14578",
+  "title": "Beyond Implicit Force: Evaluating Explicit Force-Torque Proxies in Action Chunking with Transformers"
+ },
+ {
+  "id": "2608.01733",
+  "title": "TWINS: A Tactile Wearable Isomorphic Arm Networked System for Contact-Rich Manipulation Learning"
+ },
+ {
+  "id": "2608.25798",
+  "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback"
+ },
+ {
+  "id": "2609.07747",
+  "title": "Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction (DEX-X)"
+ },
+ {
+  "id": "2609.15921",
+  "title": "Touch2Trace: Tactile-Driven Imitation Learning for Dexterous Cable Tracing"
+ },
+ {
+  "id": "2609.18242",
+  "title": "ForceDelta-VLA: Distilling Force-Conditioned Action Corrections for Contact-Rich Manipulation"
+ },
+ {
+  "id": "2609.22840",
+  "title": "ForceRFT: Refining VLA Actions through Force-Guided Residual Reinforcement Learning"
+ },
+ {
+  "id": "2609.24976",
+  "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation"
+ },
+ {
+  "id": "2609.31924",
+  "title": "HapticWorld: an Interactive World Simulator with Real-time Torque Feedback"
+ },
+ {
+  "id": "2609.36596",
+  "title": "HACo: Learning Haptic Active Compliance for Force-Aware Dexterous Manipulation"
+ }
+]

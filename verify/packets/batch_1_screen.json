@@ -1,0 +1,62 @@
+[
+ {
+  "id": "2502.17432",
+  "title": "FACTR: Force-Attending Curriculum Training for Contact-Rich Policy Learning"
+ },
+ {
+  "id": "2603.13869",
+  "title": "TransDex: Pre-training Visuo-Tactile Policy with Point Cloud Reconstruction for Dexterous Manipulation of Transparent Objects"
+ },
+ {
+  "id": "2606.10818",
+  "title": "IMPACT: Learning Internal-Model Predictive Control for Forceful Robotic Manipulation"
+ },
+ {
+  "id": "2606.17055",
+  "title": "T-Rex: Tactile-Reactive Dexterous Manipulation"
+ },
+ {
+  "id": "2607.03723",
+  "title": "OmniTacTune: Policy-Agnostic Real-World RL for Tactile Residual Adaptation of Visual Policies"
+ },
+ {
+  "id": "2607.18231",
+  "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation"
+ },
+ {
+  "id": "2608.01824",
+  "title": "ReTouch: Empowering Contact-Rich Dexterous Manipulation with Online-Refined Tactile Prediction"
+ },
+ {
+  "id": "2608.25872",
+  "title": "VISTA: Visually Inferred Spatial ConTact Attention for Contact-Rich Manipulation"
+ },
+ {
+  "id": "2609.12549",
+  "title": "STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation"
+ },
+ {
+  "id": "2609.16437",
+  "title": "XRoboToolKit-T: Teleoperation with High Stability and Precision with Tactile Sensing for Contact-rich Manipulation"
+ },
+ {
+  "id": "2609.18497",
+  "title": "TAO-Force: Unifying Force-Aware Perception and Fast-Slow Control for Contact-Rich Manipulation"
+ },
+ {
+  "id": "2609.22895",
+  "title": "H-VLA: Hierarchical Vision-Language-Action Model with Key-Action Reasoning and Motion Planning in a Unified Action Space"
+ },
+ {
+  "id": "2609.25785",
+  "title": "VisForce: Visual Grounding of Current and Desired Forces for Goal-Conditioned Dexterous Manipulation"
+ },
+ {
+  "id": "2609.33882",
+  "title": "DexTaG: Tactile-as-Guidance in Reinforcement Learning for Dexterous Manipulation"
+ },
+ {
+  "id": "2609.36785",
+  "title": "TaRL: Learning General and Physical Rewards from Tactile Demonstrations"
+ }
+]
