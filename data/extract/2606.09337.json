@@ -69,5 +69,8 @@
  "flags": [
   "No kind-A ablation: pi0.5 is a separate base model; 'w/o Wrench Context' keeps tactile in the reference model",
   "Full task is a conjunction of the three subtasks, so it is not independent of them"
+ ],
+ "n_values": [
+  30
  ]
 }

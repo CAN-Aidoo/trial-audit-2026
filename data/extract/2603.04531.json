@@ -1,4 +1,22 @@
-{"id":"2603.04531","title":"PTLD: Sim-to-real Privileged Tactile Latent Distillation for Dexterous Manipulation","date":"2026-03-04",
- "include":false,"exclude_reason":"I2: real-robot outcomes are continuous only (rotation, time to fall, goals reached); no binary success","signal":"tactile",
- "reporting":{"ci_or_errorbars":true,"sig_test":false,"seeds_reported":false,"success_defined":true,"randomized_init":"unclear"},
- "comparisons":[],"flags":["10 real trials per method (Fig. 6, Table 4)"]}
+{
+ "id": "2603.04531",
+ "title": "PTLD: Sim-to-real Privileged Tactile Latent Distillation for Dexterous Manipulation",
+ "date": "2026-03-04",
+ "include": false,
+ "exclude_reason": "I2: real-robot outcomes are continuous only (rotation, time to fall, goals reached); no binary success",
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [
+  "10 real trials per method (Fig. 6, Table 4)"
+ ],
+ "n_values": [
+  10
+ ]
+}

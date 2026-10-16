@@ -1,8 +1,50 @@
-{"id":"2603.05687","title":"Contact-Grounded Policy: Dexterous Visuotactile Policy with Generative Contact Grounding","date":"2026-03-05",
- "include":true,"exclude_reason":null,"signal":"tactile",
- "reporting":{"ci_or_errorbars":false,"sig_test":false,"seeds_reported":false,"success_defined":true,"randomized_init":"yes"},
- "comparisons":[
-  {"task":"Real jar opening","outcome":"success","kind":"B","baseline_name":"Visuomotor DP","nP":15,"sP":14,"nX":15,"sX":11,"source":"Table II p6","n_ambiguous":false,"note":"93.3=14/15, 73.3=11/15; visuotactile DP 10/15"},
-  {"task":"Real in-hand box flipping","outcome":"success","kind":"B","baseline_name":"Visuotactile DP / Visuomotor DP (tie)","nP":15,"sP":12,"nX":15,"sX":9,"source":"Table II p6","n_ambiguous":false,"note":""}
+{
+ "id": "2603.05687",
+ "title": "Contact-Grounded Policy: Dexterous Visuotactile Policy with Generative Contact Grounding",
+ "date": "2026-03-05",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Real jar opening",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Visuomotor DP",
+   "nP": 15,
+   "sP": 14,
+   "nX": 15,
+   "sX": 11,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": "93.3=14/15, 73.3=11/15; visuotactile DP 10/15"
+  },
+  {
+   "task": "Real in-hand box flipping",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Visuotactile DP / Visuomotor DP (tie)",
+   "nP": 15,
+   "sP": 12,
+   "nX": 15,
+   "sX": 9,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  }
  ],
- "flags":["Simulation tasks (250 rollouts over 5 checkpoints) excluded as non-real","No kind-A ablation: visuomotor/visuotactile DP are separate baselines (D2b)"]}
+ "flags": [
+  "Simulation tasks (250 rollouts over 5 checkpoints) excluded as non-real",
+  "No kind-A ablation: visuomotor/visuotactile DP are separate baselines (D2b)"
+ ],
+ "n_values": [
+  15
+ ]
+}

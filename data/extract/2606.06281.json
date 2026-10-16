@@ -146,5 +146,8 @@
  ],
  "flags": [
   "Co-training ablation shows mixed signs across tasks with n=20 (e.g. Key 55%->20%)"
+ ],
+ "n_values": [
+  20
  ]
 }

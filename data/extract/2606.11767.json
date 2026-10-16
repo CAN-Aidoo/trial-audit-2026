@@ -17,5 +17,9 @@
   "Real-robot evaluation has no external baseline and no no-tactile ablation (task is tactile-only); only a pretraining ablation: 27/100 vs 6/100",
   "5 trials per object, 100 total",
   "Table 1 caption says results use the calibrated simulator; Appendix C.1 says calibration is disabled in both Table 5 variants, yet the 'w/ Pretrain' row (16/50, 11/50) equals Table 1"
+ ],
+ "n_values": [
+  5,
+  100
  ]
 }

@@ -1,0 +1,25 @@
+{
+ "id": "2606.13232",
+ "title": "WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning",
+ "date": "2026-06-11",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [
+  "Success comparisons are data source (Tel. vs Comb., T3 60% vs 80%, n=25) and admittance controller on/off (Table 4, n=25); neither removes the tactile input, so no kind A/B per D2b",
+  "Abstract states improved success over four policy baselines; the backbones are not compared against a non-WT-UMI method",
+  "Table 4: Psi0 T2 w/o admittance = 89% with N=25, which is not k/25",
+  "Table 4 note: appendix values come from separate runs and may differ from Sec. 5.4"
+ ],
+ "n_values": [
+  25
+ ]
+}

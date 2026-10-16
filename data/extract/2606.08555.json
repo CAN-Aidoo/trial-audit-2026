@@ -121,5 +121,8 @@
  "flags": [
   "Perturbation tests use 5 trials per setting",
   "Success criterion per task not explicitly defined in the retrieved pages"
+ ],
+ "n_values": [
+  20
  ]
 }
