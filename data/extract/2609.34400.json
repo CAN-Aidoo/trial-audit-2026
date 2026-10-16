@@ -1,0 +1,20 @@
+{
+ "id": "2609.34400",
+ "title": "Contact-Aware Impedance Controller for Robot-Assisted Ultrasound Imaging",
+ "date": "2026-09-28",
+ "include": false,
+ "exclude_reason": "I2: only continuous outcomes (contact-localization RMSE, tracking error, interaction force); no success outcome",
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": true,
+  "seeds_reported": false,
+  "success_defined": false,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [
+  "Positive practice noted: means +/- SD over five trials and significance test on position error (p<0.001) and roll error (p=0.121, reported as not significant)"
+ ],
+ "n_values": []
+}
