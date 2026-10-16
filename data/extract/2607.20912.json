@@ -1,0 +1,51 @@
+{
+ "id": "2607.20912",
+ "title": "URF: A Unified Robot Control-Policy Framework for Stable Contact Aware Manipulation",
+ "date": "2026-07-23",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Box flipping",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "ACP",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 5,
+   "source": "Table I p6; n=20 p4",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Line pressing",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "ACP",
+   "nP": 20,
+   "sP": 20,
+   "nX": 20,
+   "sX": 0,
+   "source": "Table II p7; n=20 p4",
+   "n_ambiguous": false,
+   "note": "ACP and DP w/ force both 0/20"
+  }
+ ],
+ "flags": [
+  "No no-force ablation; fixed switch-ratio ablations (box 12/20, 10/20; line 14/20, 14/20) still use force, not coded",
+  "+/- values are for force/tracking metrics, not success rate",
+  "Fig. 5 shows ten trajectories per method while SR uses 20 trials"
+ ],
+ "n_values": [
+  20
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "2607.22530",
+ "title": "ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation",
+ "date": "2026-07",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Charger plugging",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5+tactile, expert-only data",
+   "nP": 50,
+   "sP": 32,
+   "nX": 50,
+   "sX": 10,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Charger plugging",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 (vision-only), same round-2 data",
+   "nP": 50,
+   "sP": 32,
+   "nX": 50,
+   "sX": 22,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Cucumber peeling",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5+tactile, expert-only data",
+   "nP": 50,
+   "sP": 43,
+   "nX": 50,
+   "sX": 22,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Cucumber peeling",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 (vision-only), same round-2 data",
+   "nP": 50,
+   "sP": 43,
+   "nX": 50,
+   "sX": 36,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "U-Block insertion",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5+tactile, expert-only data",
+   "nP": 50,
+   "sP": 47,
+   "nX": 50,
+   "sX": 36,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "U-Block insertion",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 (vision-only), same round-2 data",
+   "nP": 50,
+   "sP": 47,
+   "nX": 50,
+   "sX": 41,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Cuboid insertion",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5+tactile, expert-only data",
+   "nP": 50,
+   "sP": 37,
+   "nX": 50,
+   "sX": 18,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Cuboid insertion",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 (vision-only), same round-2 data",
+   "nP": 50,
+   "sP": 37,
+   "nX": 50,
+   "sX": 31,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "P = pi0.5+tactile trained with expert + round-2 ViTacWorld rollouts; round-1 rows not coded",
+  "Wilson 95% CIs shown only in Fig. 4 (real vs imagined), not on the policy table",
+  "Date: v1 posted July 2026 (v2 28 Sep 2026); exact v1 day not shown in PDF",
+  "Text compares tactile vs vision-only gains (24.5 vs 20.5 pp; 36.5 vs 34.5 pp) without uncertainty"
+ ],
+ "n_values": [
+  50
+ ]
+}
