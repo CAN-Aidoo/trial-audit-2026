@@ -1,0 +1,66 @@
+{
+ "id": "2609.23888",
+ "title": "HapticWAM: Distilling Imagined Touch into a World-Action Model without Inference-Time Tactile Sensing",
+ "date": "2026-09-20",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "current",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": true,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Waffles pick-and-place",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 20,
+   "sP": 19,
+   "nX": 20,
+   "sX": 4,
+   "source": "Table II p8",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Carton pick-and-place",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 20,
+   "sP": 17,
+   "nX": 20,
+   "sX": 6,
+   "source": "Table II p8",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Egg pick-and-place",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Diffusion Policy",
+   "nP": 10,
+   "sP": 5,
+   "nX": 10,
+   "sX": 4,
+   "source": "Table II p8",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "P = tactile-free student; its inputs include an arm-side wrench estimated from motor currents (teacher also uses optical tactile)",
+  "Positive practice: paired exact sign tests and Wilson 95% intervals reported; states student-teacher gap not separable (p = 0.062, 0.125, 1.0)",
+  "Teacher excluded from B under D5 (own model)",
+  "Operator scoring placement was not blinded (stated by authors)"
+ ],
+ "n_values": [
+  10,
+  20
+ ]
+}

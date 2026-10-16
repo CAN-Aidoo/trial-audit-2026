@@ -1,0 +1,65 @@
+{
+ "id": "2609.23800",
+ "title": "ContactDP: Contact-Guided Diffusion Policy for Tight Insertion Tasks",
+ "date": "2026-09-20",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "mixed",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "6-pos TE connector",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Vision-only DP",
+   "nP": 50,
+   "sP": 49,
+   "nX": 50,
+   "sX": 33,
+   "source": "Table I p6; 50 episodes p6",
+   "n_ambiguous": true,
+   "note": "rates 0.977/0.657 are not k/50; rounded per protocol"
+  },
+  {
+   "task": "15-pos TE connector",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Vision-only DP",
+   "nP": 50,
+   "sP": 50,
+   "nX": 50,
+   "sX": 35,
+   "source": "Table I p6",
+   "n_ambiguous": true,
+   "note": "0.704 not k/50"
+  },
+  {
+   "task": "4-pos TE connector",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Vision-only DP",
+   "nP": 50,
+   "sP": 48,
+   "nX": 50,
+   "sX": 20,
+   "source": "Table I p6",
+   "n_ambiguous": true,
+   "note": "0.958 not k/50"
+  }
+ ],
+ "flags": [
+  "Text states 50 episodes per connector, but several success rates (0.977, 0.958, 0.657, 0.704, 0.874, 0.932) are not multiples of 1/50",
+  "Only baseline is a vision-only diffusion policy using the same controller (coded as kind A)",
+  "Zero-shot results (Table IV) give rates without trial counts; not coded",
+  "+/- SD reported for completion time and forces, not success"
+ ],
+ "n_values": [
+  50
+ ]
+}
