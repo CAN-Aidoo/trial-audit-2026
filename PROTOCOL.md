@@ -72,3 +72,7 @@ D2 (2026-10-16, during extraction of paper 3 of 87; no analysis run yet). Two co
     removed. A separate baseline that merely lacks touch (e.g. a visuomotor policy with a different design) is coded
     as a candidate for kind "B" only. If the paper itself identifies a baseline as its own method's no-force
     component (e.g. "our global vision policy"), it is coded as "A".
+
+D3 (2026-10-16, during extraction, no analysis run). Clarifies a conflict between I3 and Section 4: a paper that is
+otherwise eligible but never states trial counts fails I3 and is excluded from the tests, but is kept in the data as
+"eligible_but_n_missing" and counted in the reporting statistics (A2), since missing n is itself a reporting outcome.
