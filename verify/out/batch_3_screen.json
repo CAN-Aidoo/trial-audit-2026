@@ -1,0 +1,199 @@
+[
+ {
+  "id": "2602.22088",
+  "include": true,
+  "reason": "meets I1-I3",
+  "signal": "6-DoF wrist F/T (local force policy input)",
+  "reporting": {
+   "ci_or_errorbars": true,
+   "sig_test": false,
+   "seeds_reported": null,
+   "success_defined": true,
+   "randomized_init": "yes"
+  },
+  "eligible_but_n_missing": false,
+  "note": "20 trials Push and Flip, 10 others; stage-wise accumulative success; flip and plug-in stages use 0.5 partial credit; supp. Table VI gives 95% CIs on final-stage success"
+ },
+ {
+  "id": "2606.04825",
+  "include": true,
+  "reason": "meets I1-I3",
+  "signal": "vision-based tactile (GelSight-like fingertip images / marker displacement)",
+  "reporting": {
+   "ci_or_errorbars": false,
+   "sig_test": false,
+   "seeds_reported": null,
+   "success_defined": false,
+   "randomized_init": "unclear"
+  },
+  "eligible_but_n_missing": false,
+  "note": "dataset paper; DP and pi0 V-only vs V+T vs V+TM; 'success rate over 10 demonstrations' (read as 10 trials); success criteria only implied by task descriptions"
+ },
+ {
+  "id": "2606.11767",
+  "include": true,
+  "reason": "meets I1-I3",
+  "signal": "binary tactile (TwinTac + FSR, 44 channels)",
+  "reporting": {
+   "ci_or_errorbars": false,
+   "sig_test": false,
+   "seeds_reported": null,
+   "success_defined": true,
+   "randomized_init": "unclear"
+  },
+  "eligible_but_n_missing": false,
+  "note": "real: 5 trials/object, 50/split; full system 27/100; real ablation (Table 5, calibration disabled) w/o vs with privileged pretraining 6/100 vs 27/100; no real no-tactile baseline"
+ },
+ {
+  "id": "2606.30988",
+  "include": true,
+  "reason": "meets I1-I3",
+  "signal": "finger-mounted 6-axis F/T (CoinFT)",
+  "reporting": {
+   "ci_or_errorbars": false,
+   "sig_test": false,
+   "seeds_reported": null,
+   "success_defined": true,
+   "randomized_init": "yes"
+  },
+  "eligible_but_n_missing": false,
+  "note": "15 trials (10 for pick-place); wiping and pick-place use 0.5 partial credit; peg insertion binary"
+ },
+ {
+  "id": "2607.08575",
+  "include": false,
+  "reason": "fails I1: no force/torque/tactile/effort input (RGB + joint state VLA)",
+  "signal": "none",
+  "reporting": null,
+  "eligible_but_n_missing": false
+ },
+ {
+  "id": "2607.20912",
+  "include": true,
+  "reason": "meets I1-I3",
+  "signal": "wrist 6-axis F/T history",
+  "reporting": {
+   "ci_or_errorbars": false,
+   "sig_test": false,
+   "seeds_reported": null,
+   "success_defined": true,
+   "randomized_init": "yes"
+  },
+  "eligible_but_n_missing": false,
+  "note": "20 trials per task and method; +/- only on continuous metrics"
+ },
+ {
+  "id": "2608.15009",
+  "include": true,
+  "reason": "meets I1-I3",
+  "signal": "6-axis F/T (Robotiq FT 300-S)",
+  "reporting": {
+   "ci_or_errorbars": false,
+   "sig_test": false,
+   "seeds_reported": null,
+   "success_defined": true,
+   "randomized_init": "unclear"
+  },
+  "eligible_but_n_missing": false,
+  "note": "45 trials per task (15 per BMI category); evaluation on human subjects"
+ },
+ {
+  "id": "2609.03889",
+  "include": true,
+  "reason": "meets I1-I3",
+  "signal": "sensorless residual joint torque estimated from proprioception (actuator effort)",
+  "reporting": {
+   "ci_or_errorbars": false,
+   "sig_test": false,
+   "seeds_reported": null,
+   "success_defined": true,
+   "randomized_init": "unclear"
+  },
+  "eligible_but_n_missing": false,
+  "note": "25 trials/task, stage success S1-S5; seeds reported only for force-estimator (not policy); Table 3 ablation n not stated and text (59.5%) disagrees with table (65)"
+ },
+ {
+  "id": "2609.14156",
+  "include": true,
+  "reason": "meets I1-I3",
+  "signal": "magnetic 3x3 tactile sensor rendered as image overlay",
+  "reporting": {
+   "ci_or_errorbars": false,
+   "sig_test": false,
+   "seeds_reported": null,
+   "success_defined": true,
+   "randomized_init": "unclear"
+  },
+  "eligible_but_n_missing": false,
+  "note": "30 trials per condition, sub-task scored"
+ },
+ {
+  "id": "2609.16586",
+  "include": false,
+  "reason": "fails I1: proposed method uses geometric proximity computed from vision-reconstructed point clouds, not force/tactile/effort",
+  "signal": "vision-derived hand-object proximity",
+  "reporting": null,
+  "eligible_but_n_missing": false
+ },
+ {
+  "id": "2609.20649",
+  "include": false,
+  "reason": "fails I1/I2: contribution is a visuo-tactile world model; real-robot evaluation is of third-party policies with rubric partial-credit scores, not a tactile-input proposed policy with binary success",
+  "signal": "piezoresistive tactile glove (world-model input/output)",
+  "reporting": null,
+  "eligible_but_n_missing": false
+ },
+ {
+  "id": "2609.23800",
+  "include": true,
+  "reason": "meets I1-I3",
+  "signal": "GelSight Mini tactile + wrist F/T",
+  "reporting": {
+   "ci_or_errorbars": false,
+   "sig_test": false,
+   "seeds_reported": null,
+   "success_defined": true,
+   "randomized_init": "yes"
+  },
+  "eligible_but_n_missing": false,
+  "note": "50 episodes per connector stated, but several reported rates are not multiples of 1/50"
+ },
+ {
+  "id": "2609.29017",
+  "include": true,
+  "reason": "meets I1-I3",
+  "signal": "motor current (actuator effort)",
+  "reporting": {
+   "ci_or_errorbars": false,
+   "sig_test": false,
+   "seeds_reported": null,
+   "success_defined": true,
+   "randomized_init": "yes"
+  },
+  "eligible_but_n_missing": false,
+  "note": "real: CALM 22/30 vs no-current-alignment ablation 0/10; no real baseline without current input"
+ },
+ {
+  "id": "2609.34182",
+  "include": false,
+  "reason": "fails I2: real-robot results reported only as stage-wise partial-credit scores (explicitly not binary completion rates); full-success counts not recoverable. Borderline - otherwise meets I1 (fingertip tactile) and I3 (10 trials)",
+  "signal": "fingertip visuo-tactile (Sharpa Wave) mapped to 20-D taxels",
+  "reporting": null,
+  "eligible_but_n_missing": false
+ },
+ {
+  "id": "2609.37552",
+  "include": true,
+  "reason": "meets I1-I3",
+  "signal": "measured 6D end-effector wrench (observation) ; wrench action",
+  "reporting": {
+   "ci_or_errorbars": true,
+   "sig_test": true,
+   "seeds_reported": null,
+   "success_defined": true,
+   "randomized_init": "unclear"
+  },
+  "eligible_but_n_missing": false,
+  "note": "50 rollouts per policy/task; 95% CIs and two-proportion z/Fisher tests with Bonferroni"
+ }
+]

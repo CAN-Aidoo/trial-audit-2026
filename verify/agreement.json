@@ -1,0 +1,41 @@
+{
+ "screened": 89,
+ "include_agree": 81,
+ "include_kappa": 0.7958715596330276,
+ "reporting_agreement": {
+  "ci_or_errorbars": [
+   0.9464285714285714,
+   56
+  ],
+  "sig_test": [
+   1.0,
+   56
+  ],
+  "seeds_reported": [
+   0.9464285714285714,
+   56
+  ],
+  "success_defined": [
+   0.9285714285714286,
+   56
+  ],
+  "randomized_init": [
+   0.8035714285714286,
+   56
+  ]
+ },
+ "numeric": {
+  "rows": 437,
+  "exact": 428,
+  "binary_rows": 386,
+  "binary_exact": 384,
+  "outcome_agree": 429,
+  "not_found": 2,
+  "b_rows": 243,
+  "b_flagged": 30,
+  "a_rows": 194,
+  "a_flagged": 9
+ },
+ "papers_with_missing_rows": 32,
+ "discrepancies": 117
+}
