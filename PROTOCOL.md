@@ -122,3 +122,13 @@ partial-credit tasks in papers that also report binary outcomes). Per-trial bina
 judgement fields (randomized_init, success_defined), a coder disagreement that was not resolved by re-reading the
 paper is coded conservatively ("unclear" / false). (c) All other disagreements are resolved by checking the source;
 every change is logged in verify/adjudication_log.json with its reason.
+
+D9 (2026-10-16, after results, in response to internal review). Timing: written after all results in the
+draft were known; it changes how A5 is summarised, not any data or test. Reason: A5 as planned evaluates power at
+each comparison's observed rates, which is a monotone function of the comparison's own p-value (post hoc power;
+Hoenig & Heisey 2001) and is inflated further when observed gaps are selected. (a) The reported A5 summary is now
+the exact two-sided Fisher power (alpha 0.05, equal arms of the smaller reported n) to detect pre-set gains of
++15, +20 and +30 points over the comparator's observed rate (comparator rate capped at 1 - gain), plus the
+minimum detectable difference. (b) The accuracy of the arcsine sample-size formula is reported on a fixed design
+grid (comparator rate 0.1/0.3/0.5/0.7 x gain 15/20/30 points, improved rate <= 0.95), not at observed rates.
+(c) The observed-rate quantities remain in results/comparisons.csv and summary.json and are not interpreted.
