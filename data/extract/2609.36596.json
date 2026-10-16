@@ -1,0 +1,156 @@
+{
+ "id": "2609.36596",
+ "title": "HACo: Learning Haptic Active Compliance for Force-Aware Dexterous Manipulation",
+ "date": "2026-10-11",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile+torque",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Insert poker cards",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "GR00T + Tactile",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 5,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Open book",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "T-Rex",
+   "nP": 20,
+   "sP": 17,
+   "nX": 20,
+   "sX": 6,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Draw on balloon",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "T-Rex",
+   "nP": 20,
+   "sP": 14,
+   "nX": 20,
+   "sX": 2,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Unscrew cap",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "T-Rex",
+   "nP": 20,
+   "sP": 19,
+   "nX": 20,
+   "sX": 12,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Squeeze toothpaste",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "T-Rex",
+   "nP": 20,
+   "sP": 15,
+   "nX": 20,
+   "sX": 11,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Insert poker cards",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "w/o Haptic Feedback",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 7,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Open book",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "w/o Haptic Feedback",
+   "nP": 20,
+   "sP": 17,
+   "nX": 20,
+   "sX": 2,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Draw on balloon",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "w/o Haptic Feedback",
+   "nP": 20,
+   "sP": 14,
+   "nX": 20,
+   "sX": 3,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Unscrew cap",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "w/o Haptic Feedback",
+   "nP": 20,
+   "sP": 19,
+   "nX": 20,
+   "sX": 8,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Squeeze toothpaste",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "w/o Haptic Feedback",
+   "nP": 20,
+   "sP": 15,
+   "nX": 20,
+   "sX": 7,
+   "source": "Table II p6",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "Signal = fingertip tactile (wrench + deformation) plus 44 hand-joint torques",
+  "Latest version v2 (posted 2026-10-11, after the D1 window end of 2026-09-30); v1 first posted within the window, so kept, with date of the version used recorded",
+  "Single training seed (42) for every policy",
+  "Mean differences reported as percentage-point gaps (e.g. '48% above the strongest baseline') without intervals"
+ ],
+ "n_values": [
+  20
+ ]
+}

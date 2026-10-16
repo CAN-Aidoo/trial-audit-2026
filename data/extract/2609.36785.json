@@ -1,0 +1,20 @@
+{
+ "id": "2609.36785",
+ "title": "TaRL: Learning General and Physical Rewards from Tactile Demonstrations",
+ "date": "2026-09-29",
+ "include": false,
+ "exclude_reason": "I1 (D6): tactile signals are used only to learn a training reward; I3: real-robot trial counts not stated (results in a figure, 3 seeds)",
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": true,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [
+  "Real-world cube pickup reported as 37% -> 97% with tactile reward; numbers of evaluation trials not given"
+ ],
+ "n_values": []
+}
