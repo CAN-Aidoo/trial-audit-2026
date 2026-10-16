@@ -1,0 +1,26 @@
+{
+ "id": "2609.05832",
+ "title": "CR-VLA-Force / CC-VLA: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation",
+ "date": "2026-09-05",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": false,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [
+  "Per-task success rates appear only as bar values in Fig. 6 (image); not recoverable from text, so no testable comparisons coded",
+  "n stated as '24-25 trials' per condition, not exact per cell",
+  "Averages in text: CC-VLA 89.2% vs ForceVLA 73.2%; 'significantly outperforming' without a test",
+  "Ablations reported as percentage changes only (e.g. PI-Pro 72% -> 92%)"
+ ],
+ "n_values": [
+  24,
+  25
+ ]
+}
