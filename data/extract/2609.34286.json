@@ -1,0 +1,20 @@
+{
+ "id": "2609.34286",
+ "title": "Dexterous Tactile World Model (DTWM)",
+ "date": "2026-09-28",
+ "include": false,
+ "exclude_reason": "I2: no robot evaluation; future-frame prediction on egocentric human video with glove touch",
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": false,
+  "seeds_reported": true,
+  "success_defined": false,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [
+  "Positive practice noted: three training runs per model and episode-grouped 95% intervals"
+ ],
+ "n_values": []
+}

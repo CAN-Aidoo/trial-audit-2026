@@ -1,0 +1,53 @@
+{
+ "id": "2609.34006",
+ "title": "TacGooseBumps: Retrofitting Normal-Only Tactile Sensors with Shear Encoding for Learning Contact-Rich Manipulation",
+ "date": "2026-09-30",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "USB insertion",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Vision only (TacGB off-the-shelf installed)",
+   "nP": 20,
+   "sP": 19,
+   "nX": 20,
+   "sX": 13,
+   "source": "Fig. 5d / Sec. IV-B text p4",
+   "n_ambiguous": false,
+   "note": "P = TacGB off-the-shelf"
+  },
+  {
+   "task": "USB insertion",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Vision only (TacGB lab-made installed)",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 11,
+   "source": "Fig. 5d / Sec. IV-B text p4",
+   "n_ambiguous": false,
+   "note": "P = TacGB lab-made"
+  }
+ ],
+ "flags": [
+  "Latest version v2 used (D1 exclusion rule: keep latest version)",
+  "Headline comparisons are TacGB vs the bare normal-only sensor, which still feeds touch to the policy; excluded from B under D5. For sensitivity analysis: USB bare 15/20 vs off-the-shelf 19/20 and lab-made 18/20; lightbulb bare 15/25 vs TacGB 24/25 (nominal 13/20 vs 20/20; OOD 2/5 vs 4/5)",
+  "Egg transfer 25/25 vs 25/25 (binary tie; contact-quality metrics differ); whiteboard drawing has no binary outcome",
+  "Positive practice noted: authors state repeated rollouts do not replace independently trained policy seeds",
+  "Initial configurations matched across policies with reference images"
+ ],
+ "n_values": [
+  20
+ ]
+}
