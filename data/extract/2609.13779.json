@@ -1,0 +1,20 @@
+{
+ "id": "2609.13779",
+ "title": "Force-Aware Reinforcement Learning with Hybrid Sensorless Force Estimation for Wheeled-Legged Loco-Manipulation",
+ "date": "2026-09-12",
+ "include": false,
+ "exclude_reason": "I2: hardware results are force/position RMSE and demonstrations; no success outcome",
+ "signal": "torque",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": false,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [
+  "Box-dragging comparison (10 trials) is simulation, continuous metrics"
+ ],
+ "n_values": []
+}

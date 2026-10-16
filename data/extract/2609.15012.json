@@ -1,0 +1,77 @@
+{
+ "id": "2609.15012",
+ "title": "Atomic Motion Coordinate for Language-Steerable and Force-Responsive Manipulation",
+ "date": "2026-09",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Plug (drawer + insertion)",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "Fine-tuned pi0.5",
+   "nP": 50,
+   "sP": null,
+   "nX": 50,
+   "sX": null,
+   "source": "Table III p8",
+   "n_ambiguous": false,
+   "note": "progress 78.5 vs 55.0"
+  },
+  {
+   "task": "Plug (drawer + insertion)",
+   "outcome": "partial credit",
+   "kind": "A",
+   "baseline_name": "AMC (force-free)",
+   "nP": 50,
+   "sP": null,
+   "nX": 50,
+   "sX": null,
+   "source": "Table III p8",
+   "n_ambiguous": false,
+   "note": "progress 78.5 vs 59.0"
+  },
+  {
+   "task": "Vase wiping",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "Fine-tuned pi0.5",
+   "nP": 50,
+   "sP": null,
+   "nX": 50,
+   "sX": null,
+   "source": "Table III p8",
+   "n_ambiguous": false,
+   "note": "progress 75.2 vs 65.2"
+  },
+  {
+   "task": "Vase wiping",
+   "outcome": "partial credit",
+   "kind": "A",
+   "baseline_name": "AMC (force-free)",
+   "nP": 50,
+   "sP": null,
+   "nX": 50,
+   "sX": null,
+   "source": "Table III p8",
+   "n_ambiguous": false,
+   "note": "progress 75.2 vs 71.6"
+  }
+ ],
+ "flags": [
+  "Primary metric is mean normalized task progress (4- or 5-point rubric): excluded from tests (D2a)",
+  "Fruit tasks use force-free AMC only (not a force comparison)",
+  "Date: v3 6 Oct 2026; v1 Sep 2026"
+ ],
+ "n_values": [
+  50
+ ]
+}
