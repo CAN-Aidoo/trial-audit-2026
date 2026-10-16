@@ -1,0 +1,157 @@
+{
+ "id": "2608.15009",
+ "title": "ForceU-VLA: A Force-Aware Vision-Language-Action Model for Embodied Ultrasound Scanning",
+ "date": "2026-08-15",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Ultrasound task 1",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 45,
+   "sP": 44,
+   "nX": 45,
+   "sX": 36,
+   "source": "Fig. 4 p6; Table 2 p8; n=45 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Ultrasound task 1",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 w/ US (no force, no SAMM)",
+   "nP": 45,
+   "sP": 44,
+   "nX": 45,
+   "sX": 38,
+   "source": "Table 2 p8; n=45 p6",
+   "n_ambiguous": false,
+   "note": "ablation removes FUSFM (force) and SAMM"
+  },
+  {
+   "task": "Ultrasound task 2",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 45,
+   "sP": 39,
+   "nX": 45,
+   "sX": 30,
+   "source": "Fig. 4 p6; Table 2 p8; n=45 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Ultrasound task 2",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 w/ US (no force, no SAMM)",
+   "nP": 45,
+   "sP": 39,
+   "nX": 45,
+   "sX": 32,
+   "source": "Table 2 p8; n=45 p6",
+   "n_ambiguous": false,
+   "note": "ablation removes FUSFM (force) and SAMM"
+  },
+  {
+   "task": "Ultrasound task 3",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 45,
+   "sP": 38,
+   "nX": 45,
+   "sX": 28,
+   "source": "Fig. 4 p6; Table 2 p8; n=45 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Ultrasound task 3",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 w/ US (no force, no SAMM)",
+   "nP": 45,
+   "sP": 38,
+   "nX": 45,
+   "sX": 32,
+   "source": "Table 2 p8; n=45 p6",
+   "n_ambiguous": false,
+   "note": "ablation removes FUSFM (force) and SAMM"
+  },
+  {
+   "task": "Ultrasound task 4",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 45,
+   "sP": 44,
+   "nX": 45,
+   "sX": 31,
+   "source": "Fig. 4 p6; Table 2 p8; n=45 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Ultrasound task 4",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 w/ US (no force, no SAMM)",
+   "nP": 45,
+   "sP": 44,
+   "nX": 45,
+   "sX": 38,
+   "source": "Table 2 p8; n=45 p6",
+   "n_ambiguous": false,
+   "note": "ablation removes FUSFM (force) and SAMM"
+  },
+  {
+   "task": "Ultrasound task 5",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 45,
+   "sP": 45,
+   "nX": 45,
+   "sX": 38,
+   "source": "Fig. 4 p6; Table 2 p8; n=45 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Ultrasound task 5",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 w/ US (no force, no SAMM)",
+   "nP": 45,
+   "sP": 45,
+   "nX": 45,
+   "sX": 41,
+   "source": "Table 2 p8; n=45 p6",
+   "n_ambiguous": false,
+   "note": "ablation removes FUSFM (force) and SAMM"
+  }
+ ],
+ "flags": [
+  "Rates are values read from bar labels in Fig. 4, consistent with Table 2; all are k/45",
+  "Text reports percentage-point gains as '%' (e.g. 'improves the average success rate by 50.2%')",
+  "Abstract/text: 'significantly improves' with no test",
+  "45 trials per task spread over subjects in three BMI groups (15 each); text also says 'averaged over three subjects'",
+  "pi0 variants with US/F/S are author-built baselines; strongest external baseline by rate is plain pi0.5"
+ ],
+ "n_values": [
+  45
+ ]
+}
