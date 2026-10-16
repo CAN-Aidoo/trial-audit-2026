@@ -82,3 +82,9 @@ silent: a policy input that measures contact-induced deformation with a camera (
 deformation field of a compliant finger, analogous to GelSight-type optical tactile sensors) counts as "tactile".
 Tactile signals generated from RGB by a learned model also count when the policy consumes them through a tactile
 channel (applies to 2607.20683 FELT, coded earlier under the same reading). Both are flagged in the records.
+
+D5 (2026-10-16, during extraction; no analysis run). Makes explicit a rule applied since D2b: candidates for kind "B"
+are external or author-built baselines, not ablations of the proposed method that still use the force/touch signal,
+and not oracle variants of the proposed method (e.g. the same method fed ground-truth sensor data). Baselines that
+include a component of the proposed method are also excluded from B and noted in the record. To be re-checked for
+all records during independent verification (task 16).
