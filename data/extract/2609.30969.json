@@ -1,0 +1,39 @@
+{
+ "id": "2609.30969",
+ "title": "TACTIC: Understanding Tactile Encoders and Conditioning for Contact-rich Robot Manipulation Policies",
+ "date": "2026-09-25",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "USB-C insertion",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "Vision only (no tactile)",
+   "nP": 20,
+   "sP": 16,
+   "nX": 20,
+   "sX": 11,
+   "source": "Sec. III-A3 text p5",
+   "n_ambiguous": false,
+   "note": "P = ResNet18-Concat, best of 25 encoder x fusion configurations on this task, selected post hoc"
+  }
+ ],
+ "flags": [
+  "Benchmark study with no single proposed method: 25 encoder x fusion configurations x 4 tasks, n=20 per condition (2,180 rollouts)",
+  "Per-condition success rates shown only in a figure (Fig. 3); only USB-C has both a tactile and the vision-only rate stated in text",
+  "Paper states real-world evaluations need large scale for reliable statistics, but no CIs or tests are reported; average column gives SD across tasks only",
+  "Kind-A row compares a post-hoc best configuration with vision-only; this is the best-of-m selection pattern modelled in A6"
+ ],
+ "n_values": [
+  20
+ ]
+}

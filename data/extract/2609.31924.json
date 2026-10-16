@@ -1,0 +1,65 @@
+{
+ "id": "2609.31924",
+ "title": "HapticWorld: an Interactive World Simulator with Real-time Torque Feedback",
+ "date": "2026-09-25",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Microwave opening",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "IWS (vision-only world simulator pipeline)",
+   "nP": 20,
+   "sP": 19,
+   "nX": 20,
+   "sX": 10,
+   "source": "Table II p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Whiteboard wiping",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "IWS (vision-only world simulator pipeline)",
+   "nP": 20,
+   "sP": 19,
+   "nX": 20,
+   "sX": 1,
+   "source": "Table II p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Box flipping",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "IWS (vision-only world simulator pipeline)",
+   "nP": 20,
+   "sP": 16,
+   "nX": 20,
+   "sX": 8,
+   "source": "Table II p7",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "Signal = joint torque (measured on the real robot, predicted inside the world model) as policy input; P = ACT trained on HapticWorld demonstrations",
+  "'HapticWorld w/o feedback' (14, 5, 6 of 20) is the method's own ablation that still uses torque; excluded from B under D5. Real-world-data policy is an upper-bound reference, not a baseline",
+  "No kind-A row: the vision-only IWS pipeline differs from P in both simulator and policy input, and is an external method (D2b)",
+  "Claims sim-real agreement 'within three trials out of twenty' without an interval"
+ ],
+ "n_values": [
+  20
+ ]
+}

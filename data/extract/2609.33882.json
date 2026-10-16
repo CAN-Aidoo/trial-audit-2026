@@ -1,0 +1,20 @@
+{
+ "id": "2609.33882",
+ "title": "DexTaG: Tactile-as-Guidance in Reinforcement Learning for Dexterous Manipulation",
+ "date": "2026-09-27",
+ "include": false,
+ "exclude_reason": "I1: the deployed real-robot controller is tactile-free (tactile used only as a simulation training reward); I3: real-robot results have no baseline or ablation",
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": false,
+  "seeds_reported": true,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [
+  "Real-world results reported as best of up to three attempts (30 references) and per attempt; authors report both"
+ ],
+ "n_values": []
+}
