@@ -1,0 +1,22 @@
+{
+ "id": "2609.23614",
+ "title": "CompVLA: A Variable Compliance Vision-Language-Action Model for Contact-rich Manipulation",
+ "date": "2026-09-20",
+ "include": false,
+ "exclude_reason": "I1: policy inputs are RGB, language and robot state; wrist F/T is used only to build training labels, not as policy input",
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": false,
+  "seeds_reported": true,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [],
+ "flags": [
+  "Positive practice noted: success reported as mean +/- SD over three runs of 20 episodes"
+ ],
+ "n_values": [
+  20
+ ]
+}
