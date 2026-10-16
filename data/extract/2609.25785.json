@@ -1,0 +1,66 @@
+{
+ "id": "2609.25785",
+ "title": "VisForce: Visual Grounding of Current and Desired Forces for Goal-Conditioned Dexterous Manipulation",
+ "date": "2026-09-22",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "T2 Cup insertion & bottle pouring",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 20,
+   "sP": 14,
+   "nX": 20,
+   "sX": 4,
+   "source": "Table III p6",
+   "n_ambiguous": false,
+   "note": "State Force + Text Force Goal ties pi0.5 at 4/20"
+  },
+  {
+   "task": "T3 Tong-assisted bread transfer",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 20,
+   "sP": 11,
+   "nX": 20,
+   "sX": 1,
+   "source": "Table III p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "T4 Slip-modulated peg-in-hole",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5",
+   "nP": 20,
+   "sP": 8,
+   "nX": 20,
+   "sX": 1,
+   "source": "Table III p6",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "Signal = per-finger actuator force of the RH56F1 hand, rendered into the wrist image",
+  "Under D5, 'Visual Force + Text Force Goal' (13/20, 4/20, 4/20) and 'State Force + Text Force Goal' contain components of the proposed method (force-grounded wrist image or goal image) and are excluded from B",
+  "T1 egg/toothpaste (P 70%/80%, n=20) not coded: pi0.5 rate not given in text; only D5-excluded comparators reported",
+  "No kind-A row: pi0.5 removes both force and the goal image, so it is not a pure no-force ablation (D2b)",
+  "Positive practice noted: Wilson 95% CIs on final success rates"
+ ],
+ "n_values": [
+  20
+ ]
+}

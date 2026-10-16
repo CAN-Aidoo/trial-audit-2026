@@ -1,0 +1,21 @@
+{
+ "id": "2609.23968",
+ "title": "Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation",
+ "date": "2026-09-21",
+ "include": false,
+ "exclude_reason": "I2: success-rate comparisons (Table III/VII, n=30 per task) are simulation only; hardware reports continuous force tracking and 45 end-to-end trials without a success outcome",
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [],
+ "flags": [
+  "Seed paper",
+  "Positive practice noted: bootstrap 95% CIs on hardware force-tracking MAE; simulation SR tables state n per cell"
+ ],
+ "n_values": []
+}

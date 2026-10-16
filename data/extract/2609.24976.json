@@ -1,0 +1,104 @@
+{
+ "id": "2609.24976",
+ "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
+ "date": "2026-09-21",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": true,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Cube Place w/ Occlusion",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "RDP",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 10,
+   "source": "Table 1 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Tongs",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "RDP",
+   "nP": 20,
+   "sP": 12,
+   "nX": 20,
+   "sX": 2,
+   "source": "Table 1 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Bowl",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5 (no tactile)",
+   "nP": 20,
+   "sP": 13,
+   "nX": 20,
+   "sX": 8,
+   "source": "Table 1 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Bottle Cap",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5 (no tactile)",
+   "nP": 20,
+   "sP": 12,
+   "nX": 20,
+   "sX": 9,
+   "source": "Table 1 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Cube Handover",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "RDP",
+   "nP": 20,
+   "sP": null,
+   "nX": 20,
+   "sX": null,
+   "source": "Table 1 p6",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Two-Hand Wipe",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "RDP",
+   "nP": 20,
+   "sP": null,
+   "nX": 20,
+   "sX": null,
+   "source": "Table 1 p6",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "Positive practice noted: pooled Wilson 95% CIs and Fisher exact test over four binary tasks (55/80 vs 24/80 RDP, p=1.59e-6)",
+  "No kind-A row: the policy-level ablation 'w/o tactile world modeling' keeps tactile features as policy input (D2b)",
+  "Genie Envisioner is a vision-only WAM with matched backbone; paper says it isolates the tactile pathway, but it is an external method, so coded as B candidate only (D2b)",
+  "Text cites Table 1 for the ablation that is in Table 2 (minor)"
+ ],
+ "n_values": [
+  20
+ ]
+}
