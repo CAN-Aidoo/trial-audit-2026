@@ -69,5 +69,8 @@
  "flags": [
   "Simulation section states repeated evaluation 'to ensure statistical significance' but reports no test or interval",
   "Signal is joint-torque residual, not a wrist F/T sensor"
+ ],
+ "n_values": [
+  25
  ]
 }

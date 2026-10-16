@@ -226,5 +226,8 @@
   "Dataset paper: 'proposed' = tactile input configurations; both tactile variants compared with V-only",
   "Text: 'success rate over 10 demonstrations' read as 10 evaluation trials",
   "Several tactile variants score below V-only (e.g. pi0 V+T bottle 0/10 vs 6/10)"
+ ],
+ "n_values": [
+  10
  ]
 }

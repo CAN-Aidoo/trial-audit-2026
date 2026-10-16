@@ -1,0 +1,156 @@
+{
+ "id": "2607.03387",
+ "title": "Feeling the Unexpected: ResTacVLA for Contact-Rich Manipulation via Residual Tactile Representation",
+ "date": "2026-07-03",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Lightbulb screwing (interaction)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5 w/ T-UniT",
+   "nP": 25,
+   "sP": 8,
+   "nX": 25,
+   "sX": 3,
+   "source": "Table I p6; n p5",
+   "n_ambiguous": false,
+   "note": "B excludes 'DP w/ T-ResTac', which uses the proposed representation"
+  },
+  {
+   "task": "Lightbulb screwing (interaction)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 (vision only; same backbone without tactile)",
+   "nP": 25,
+   "sP": 8,
+   "nX": 25,
+   "sX": 2,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": "D2b"
+  },
+  {
+   "task": "Plug insertion (interaction)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5 w/ T-UniT",
+   "nP": 25,
+   "sP": 15,
+   "nX": 25,
+   "sX": 8,
+   "source": "Table I p6; n p5",
+   "n_ambiguous": false,
+   "note": "B excludes 'DP w/ T-ResTac', which uses the proposed representation"
+  },
+  {
+   "task": "Plug insertion (interaction)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 (vision only; same backbone without tactile)",
+   "nP": 25,
+   "sP": 15,
+   "nX": 25,
+   "sX": 5,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": "D2b"
+  },
+  {
+   "task": "Peg-in-hole (interaction)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5 w/ T-UniT",
+   "nP": 15,
+   "sP": 12,
+   "nX": 15,
+   "sX": 8,
+   "source": "Table I p6; n p5",
+   "n_ambiguous": false,
+   "note": "B excludes 'DP w/ T-ResTac', which uses the proposed representation"
+  },
+  {
+   "task": "Peg-in-hole (interaction)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 (vision only; same backbone without tactile)",
+   "nP": 15,
+   "sP": 12,
+   "nX": 15,
+   "sX": 6,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": "D2b"
+  },
+  {
+   "task": "Peg transfer",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5 w/ T-UniT",
+   "nP": 15,
+   "sP": 9,
+   "nX": 15,
+   "sX": 10,
+   "source": "Table I p6; n p5",
+   "n_ambiguous": false,
+   "note": "B excludes 'DP w/ T-ResTac', which uses the proposed representation"
+  },
+  {
+   "task": "Peg transfer",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 (vision only; same backbone without tactile)",
+   "nP": 15,
+   "sP": 9,
+   "nX": 15,
+   "sX": 4,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": "D2b"
+  },
+  {
+   "task": "Plate wiping",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "pi0.5 w/ T-UniT",
+   "nP": 15,
+   "sP": 9,
+   "nX": 15,
+   "sX": 5,
+   "source": "Table I p6; n p5",
+   "n_ambiguous": false,
+   "note": "B excludes 'DP w/ T-ResTac', which uses the proposed representation"
+  },
+  {
+   "task": "Plate wiping",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "pi0.5 (vision only; same backbone without tactile)",
+   "nP": 15,
+   "sP": 9,
+   "nX": 15,
+   "sX": 3,
+   "source": "Table I p6",
+   "n_ambiguous": false,
+   "note": "D2b"
+  }
+ ],
+ "flags": [
+  "Abstract: 'consistently outperforms all baselines'; Table I Peg Transfer: pi0.5 w/ T-UniT 66.7% vs ResTacVLA 60.0% (n=15)",
+  "Reported average (62.8%) averages alignment-phase and interaction-phase columns together",
+  "25 trials for two tasks, 15 for three"
+ ],
+ "n_values": [
+  15,
+  25
+ ]
+}

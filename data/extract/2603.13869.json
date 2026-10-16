@@ -18,5 +18,6 @@
   "Shaking task uses 0.5 partial credit",
   "Text says 'significantly higher' without a test"
  ],
- "eligible_but_n_missing": true
+ "eligible_but_n_missing": true,
+ "n_values": []
 }

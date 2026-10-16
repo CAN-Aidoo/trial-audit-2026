@@ -1,0 +1,23 @@
+{
+ "id": "2606.24450",
+ "title": "NoContactNoWorries: Estimating Contact through Vision and Proprioception for In-Hand Dexterous Manipulation",
+ "date": "2026-06-23",
+ "include": false,
+ "exclude_reason": "I2: downstream outcomes are continuous (rotation reward/angle), no binary success",
+ "signal": "mixed",
+ "reporting": {
+  "ci_or_errorbars": true,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": false,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [
+  "Reports mean +/- SD over 10 trials",
+  "Uses a Spearman correlation test for a diagnostic analysis"
+ ],
+ "n_values": [
+  10
+ ]
+}

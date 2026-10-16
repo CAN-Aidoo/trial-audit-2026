@@ -1,0 +1,90 @@
+{
+ "id": "2606.30988",
+ "title": "Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force",
+ "date": "2026-06-29",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Peg insertion (finetune task)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "No F/T (same backbone, F/T input and prediction removed)",
+   "nP": 15,
+   "sP": 13,
+   "nX": 15,
+   "sX": 9,
+   "source": "Sec 4.2 p7; Table 3 p13",
+   "n_ambiguous": false,
+   "note": "D2b"
+  },
+  {
+   "task": "Peg insertion (finetune task)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Diffusion Policy",
+   "nP": 15,
+   "sP": 13,
+   "nX": 15,
+   "sX": 10,
+   "source": "Table 3 p13",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Peg insertion (pretrain task, backward transfer)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Pretraining Only",
+   "nP": 15,
+   "sP": 10,
+   "nX": 15,
+   "sX": 8,
+   "source": "Table 4 p13",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Vase wiping",
+   "outcome": "partial credit",
+   "kind": "A",
+   "baseline_name": "No F/T",
+   "nP": 15,
+   "sP": null,
+   "nX": 15,
+   "sX": null,
+   "source": "Table 3",
+   "n_ambiguous": false,
+   "note": "0.5 partial credit (11.5/15): excluded (D2a)"
+  },
+  {
+   "task": "Pick and place",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "No F/T",
+   "nP": 10,
+   "sP": null,
+   "nX": 10,
+   "sX": null,
+   "source": "Table 3",
+   "n_ambiguous": false,
+   "note": "0.5 partial credit: excluded (D2a)"
+  }
+ ],
+ "flags": [
+  "Abstract figure reports '+17.5% success on pretrain tasks' from partial-credit scores",
+  "Wiping and pick-and-place use 0.5 partial credit"
+ ],
+ "n_values": [
+  10,
+  15
+ ]
+}

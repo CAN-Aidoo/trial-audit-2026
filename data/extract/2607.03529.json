@@ -187,5 +187,11 @@
   "Foam-cup paragraph (p8) repeats wiping text and states 100% success, while Table 1 reports grasp failure 6.7%/3.3% for w/ Current; recorded as text-table inconsistency",
   "Ablation tables in appendix use 10 trials per setting",
   "In policy tasks the baseline is ACT without current, i.e. the same as the no-current ablation; recorded as kind A only"
+ ],
+ "n_values": [
+  12,
+  15,
+  52,
+  60
  ]
 }

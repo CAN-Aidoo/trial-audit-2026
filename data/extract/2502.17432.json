@@ -1,0 +1,18 @@
+{
+ "id": "2502.17432",
+ "title": "FACTR: Force-Attending Curriculum Training for Contact-Rich Policy Learning",
+ "date": "2025-02-24",
+ "include": false,
+ "exclude_reason": "Date: outside 2026 window (D1)",
+ "signal": "force",
+ "reporting": {
+  "ci_or_errorbars": null,
+  "sig_test": null,
+  "seeds_reported": null,
+  "success_defined": null,
+  "randomized_init": null
+ },
+ "comparisons": [],
+ "flags": [],
+ "n_values": []
+}

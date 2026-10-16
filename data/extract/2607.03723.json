@@ -1,0 +1,128 @@
+{
+ "id": "2607.03723",
+ "title": "OmniTacTune: Policy-Agnostic Real-World RL for Tactile Residual Adaptation of Visual Policies",
+ "date": "2026-07-04",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Peg-in-hole",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "PLD* (adapted with tactile)",
+   "nP": 20,
+   "sP": 20,
+   "nX": 20,
+   "sX": 13,
+   "source": "Table 1 p6; n=20 final p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Peg-in-hole",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PLD (visual only residual RL)",
+   "nP": 20,
+   "sP": 20,
+   "nX": 20,
+   "sX": 12,
+   "source": "Table 1 p6",
+   "n_ambiguous": false,
+   "note": "D2b: same residual-RL setting without tactile"
+  },
+  {
+   "task": "Charger insertion",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "PLD* (adapted with tactile)",
+   "nP": 20,
+   "sP": 20,
+   "nX": 20,
+   "sX": 12,
+   "source": "Table 1 p6; n=20 final p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Charger insertion",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PLD (visual only residual RL)",
+   "nP": 20,
+   "sP": 20,
+   "nX": 20,
+   "sX": 6,
+   "source": "Table 1 p6",
+   "n_ambiguous": false,
+   "note": "D2b: same residual-RL setting without tactile"
+  },
+  {
+   "task": "Cap opening",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "PLD* (adapted with tactile)",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 10,
+   "source": "Table 1 p6; n=20 final p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Cap opening",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PLD (visual only residual RL)",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 8,
+   "source": "Table 1 p6",
+   "n_ambiguous": false,
+   "note": "D2b: same residual-RL setting without tactile"
+  },
+  {
+   "task": "Box opening",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "PLD* (adapted with tactile)",
+   "nP": 20,
+   "sP": 17,
+   "nX": 20,
+   "sX": 7,
+   "source": "Table 1 p6; n=20 final p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Box opening",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "PLD (visual only residual RL)",
+   "nP": 20,
+   "sP": 17,
+   "nX": 20,
+   "sX": 4,
+   "source": "Table 1 p6",
+   "n_ambiguous": false,
+   "note": "D2b: same residual-RL setting without tactile"
+  }
+ ],
+ "flags": [
+  "Training-curve checkpoints use 10 trials, final models 20 trials",
+  "Baselines are re-implementations adapted by the authors"
+ ],
+ "n_values": [
+  20
+ ]
+}
