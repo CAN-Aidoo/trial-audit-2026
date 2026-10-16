@@ -1,0 +1,24 @@
+{
+ "id": "2609.20649",
+ "title": "DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation",
+ "date": "2026-09",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [
+  "Real-robot outcomes are rubric scores in [0,1] (partial credit) averaged over 10 rollouts and five raters; no binomial comparison",
+  "Comparisons are of world-model data sources and evaluators, not of the force/touch signal; no testable comparison coded",
+  "Date: v2 18 Sep 2026"
+ ],
+ "n_values": [
+  10
+ ]
+}

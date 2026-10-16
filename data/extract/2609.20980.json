@@ -1,0 +1,156 @@
+{
+ "id": "2609.20980",
+ "title": "ForeTac-VLA: A Forecasting-Based Tactile-Vision-Language-Action Model for Contact-Rich Robotic Manipulation",
+ "date": "2026-09-17",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": false,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [
+  {
+   "task": "Peg insertion",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Concat-and-Gating TacVLA",
+   "nP": 20,
+   "sP": 20,
+   "nX": 20,
+   "sX": 16,
+   "source": "Table I p3",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Chip handling",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FiLM-Fusion TacVLA",
+   "nP": 20,
+   "sP": 19,
+   "nX": 20,
+   "sX": 14,
+   "source": "Table I p3",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Cap unscrewing",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "FiLM-Fusion TacVLA",
+   "nP": 20,
+   "sP": 19,
+   "nX": 20,
+   "sX": 16,
+   "source": "Table I p3",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Board wiping",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Concat-and-Gating TacVLA",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 14,
+   "source": "Table I p3",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Peg insertion",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "w/o Tactile",
+   "nP": 20,
+   "sP": 20,
+   "nX": 20,
+   "sX": 11,
+   "source": "Table II p5",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Chip handling",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "w/o Tactile",
+   "nP": 20,
+   "sP": 19,
+   "nX": 20,
+   "sX": 13,
+   "source": "Table II p5",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Cap unscrewing",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "w/o Tactile",
+   "nP": 20,
+   "sP": 19,
+   "nX": 20,
+   "sX": 12,
+   "source": "Table II p5",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Board wiping",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "w/o Tactile",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 11,
+   "source": "Table II p5",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Low illumination, 4 tasks pooled",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Concat-and-Gating TacVLA",
+   "nP": 80,
+   "sP": 64,
+   "nX": 80,
+   "sX": 44,
+   "source": "Sec. IV-D p7, Fig. 6",
+   "n_ambiguous": false,
+   "note": "from reported averages 80.0% vs 55.0% of 80"
+  },
+  {
+   "task": "Visual clutter, 4 tasks pooled",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Concat-and-Gating TacVLA",
+   "nP": 80,
+   "sP": 65,
+   "nX": 80,
+   "sX": 43,
+   "source": "Sec. IV-D p7, Fig. 6",
+   "n_ambiguous": false,
+   "note": "81.25% vs 53.75% of 80"
+  }
+ ],
+ "flags": [
+  "Baselines are author re-implementations of prior fusion strategies (FiLM, concat-and-gating)",
+  "'Fine-tuned VLA' in Table I (13,11,12,11 of 20) and 'w/o Tactile' in Table II (11,13,12,11) have the same average but Peg/Chip values swapped",
+  "Task success criteria not stated explicitly in text retrieved"
+ ],
+ "n_values": [
+  20,
+  80
+ ]
+}
