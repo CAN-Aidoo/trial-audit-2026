@@ -1,0 +1,18 @@
+{
+ "id": "2609.15726",
+ "title": "Bench2Dex: Benchmarking Visuo-Tactile Bimanual Dexterous Manipulation Across Dexterous Hands",
+ "date": "2026-09-14",
+ "include": false,
+ "exclude_reason": "simulation-only benchmark",
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [],
+ "flags": [],
+ "n_values": []
+}

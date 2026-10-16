@@ -1,0 +1,79 @@
+{
+ "id": "2609.15921",
+ "title": "Touch2Trace: Tactile-Driven Imitation Learning for Dexterous Cable Tracing",
+ "date": "2026-09-14",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": true,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Cable tracing SR@10 (Ethernet straight)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "TF-GMM Proprio only",
+   "nP": 30,
+   "sP": 28,
+   "nX": 30,
+   "sX": 0,
+   "source": "Table 1 p6; 3 seeds x 10 rollouts p6",
+   "n_ambiguous": true,
+   "note": "trials <5 s excluded as aborted, so n per cell may be <30"
+  },
+  {
+   "task": "Cable tracing SR@20 (Ethernet straight)",
+   "outcome": "success",
+   "kind": "A",
+   "baseline_name": "TF-GMM Proprio only",
+   "nP": 30,
+   "sP": 17,
+   "nX": 30,
+   "sX": 0,
+   "source": "Table 1 p6",
+   "n_ambiguous": true,
+   "note": "see SR@10 note"
+  },
+  {
+   "task": "Cable tracing SR@10 (Ethernet straight)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "DP Proprio+Tactile (30 Hz)",
+   "nP": 30,
+   "sP": 28,
+   "nX": 30,
+   "sX": 30,
+   "source": "Table 1 p6",
+   "n_ambiguous": true,
+   "note": "baseline at 30 Hz vs P at 60 Hz; baseline higher"
+  },
+  {
+   "task": "Cable tracing SR@20 (Ethernet straight)",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "DP Proprio+Tactile (30 Hz)",
+   "nP": 30,
+   "sP": 17,
+   "nX": 30,
+   "sX": 0,
+   "source": "Table 1 p6",
+   "n_ambiguous": true,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "SR is a thresholded continuous distance (>=10 cm, >=20 cm); both thresholds coded",
+  "Strongest baseline on SR@10 (DP at 30 Hz, 100%) exceeds the proposed policy (93%); paper discusses this",
+  "Abstract: tactile 'significantly improves' tracing; no test reported (effect 28/30 vs 0/30 is large)",
+  "Compact-tactile variant treated as encoder ablation under D5, not coded",
+  "Vision vs vision+tactile appendix comparison has no stated trial count; not coded"
+ ],
+ "n_values": [
+  30
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2609.16437",
+ "title": "XRoboToolKit-T: Teleoperation with High Stability and Precision with Tactile Sensing for Contact-rich Manipulation",
+ "date": "2026-09-14",
+ "include": false,
+ "exclude_reason": "I2/I3: teleoperation throughput (successes per 15 min) without per-trial denominators",
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": false,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [],
+ "n_values": []
+}
