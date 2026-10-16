@@ -1,0 +1,143 @@
+{
+ "id": "2608.01102",
+ "title": "CAAT: Contact-Aware Attention Scaling and Tactile Masking for Data-Efficient Contact-Rich Manipulation",
+ "date": "2026-08-02",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": false,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Lift bottle [ACT]",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Gate",
+   "nP": 20,
+   "sP": 8,
+   "nX": 20,
+   "sX": 4,
+   "source": "Table 2 p5; n=20 Appendix p9",
+   "n_ambiguous": false,
+   "note": "P = CAAT on ACT backbone"
+  },
+  {
+   "task": "Open box [ACT]",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Gate/Concat",
+   "nP": 20,
+   "sP": 10,
+   "nX": 20,
+   "sX": 2,
+   "source": "Table 2 p5; n=20 Appendix p9",
+   "n_ambiguous": false,
+   "note": "P = CAAT on ACT backbone"
+  },
+  {
+   "task": "Powerbank extraction [ACT]",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Gate",
+   "nP": 20,
+   "sP": 15,
+   "nX": 20,
+   "sX": 12,
+   "source": "Table 2 p5; n=20 Appendix p9",
+   "n_ambiguous": false,
+   "note": "P = CAAT on ACT backbone"
+  },
+  {
+   "task": "Lift bottle [Diffusion Policy]",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Gate",
+   "nP": 20,
+   "sP": 7,
+   "nX": 20,
+   "sX": 7,
+   "source": "Table 2 p5; n=20 Appendix p9",
+   "n_ambiguous": false,
+   "note": "P = CAAT on Diffusion Policy backbone"
+  },
+  {
+   "task": "Open box [Diffusion Policy]",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Gate",
+   "nP": 20,
+   "sP": 12,
+   "nX": 20,
+   "sX": 5,
+   "source": "Table 2 p5; n=20 Appendix p9",
+   "n_ambiguous": false,
+   "note": "P = CAAT on Diffusion Policy backbone"
+  },
+  {
+   "task": "Powerbank extraction [Diffusion Policy]",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Gate/Concat",
+   "nP": 20,
+   "sP": 16,
+   "nX": 20,
+   "sX": 13,
+   "source": "Table 2 p5; n=20 Appendix p9",
+   "n_ambiguous": false,
+   "note": "P = CAAT on Diffusion Policy backbone"
+  },
+  {
+   "task": "Lift bottle [pi0]",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Concat",
+   "nP": 20,
+   "sP": 10,
+   "nX": 20,
+   "sX": 4,
+   "source": "Table 2 p5; n=20 Appendix p9",
+   "n_ambiguous": false,
+   "note": "P = CAAT on pi0 backbone"
+  },
+  {
+   "task": "Open box [pi0]",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Gate",
+   "nP": 20,
+   "sP": 12,
+   "nX": 20,
+   "sX": 7,
+   "source": "Table 2 p5; n=20 Appendix p9",
+   "n_ambiguous": false,
+   "note": "P = CAAT on pi0 backbone"
+  },
+  {
+   "task": "Powerbank extraction [pi0]",
+   "outcome": "success",
+   "kind": "B",
+   "baseline_name": "Gate",
+   "nP": 20,
+   "sP": 18,
+   "nX": 20,
+   "sX": 17,
+   "source": "Table 2 p5; n=20 Appendix p9",
+   "n_ambiguous": false,
+   "note": "P = CAAT on pi0 backbone"
+  }
+ ],
+ "flags": [
+  "Each backbone treated as a separate P (three CAAT variants)",
+  "No no-touch ablation; masking/scaling ablations (Table 3) report only averages and all use touch",
+  "Abstract: 'outperforming the strongest baseline by an average of 21.1 pp' = mean of per-backbone average gaps; per-task gaps range 0-8 trials of 20",
+  "Real-world success criteria not stated in the text retrieved"
+ ],
+ "n_values": [
+  20
+ ]
+}
