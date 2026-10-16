@@ -1,0 +1,18 @@
+{
+ "id": "2609.18165",
+ "title": "LUMO: Designing Luminous Contact Morphology for Repeatable Whole-Finger Contact Observation",
+ "date": "2026-09-16",
+ "include": false,
+ "exclude_reason": "sensor/finger hardware design; no policy success evaluation",
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": false,
+  "randomized_init": "unclear"
+ },
+ "comparisons": [],
+ "flags": [],
+ "n_values": []
+}
