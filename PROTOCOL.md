@@ -88,3 +88,9 @@ are external or author-built baselines, not ablations of the proposed method tha
 and not oracle variants of the proposed method (e.g. the same method fed ground-truth sensor data). Baselines that
 include a component of the proposed method are also excluded from B and noted in the record. To be re-checked for
 all records during independent verification (task 16).
+
+D6 (2026-10-16, during extraction of paper 85 of 89; no analysis run). I1 clarification where the protocol was
+silent: the force/touch/effort signal must be an input to the policy or controller as deployed on the real robot.
+Methods that use such signals only as a training reward or training-time supervision, with a deployed policy that
+does not receive them, fail I1 (applies to 2609.33882 DexTaG, coded earlier under the same reading, and 2609.36785
+TaRL). To be re-checked for all earlier records during independent verification (task 16).
