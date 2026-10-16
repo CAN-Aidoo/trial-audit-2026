@@ -1,0 +1,24 @@
+{
+ "id": "2609.29017",
+ "title": "CALM: Current Aligned Link Manipulation for Single Arm Oversized Object Lifting",
+ "date": "2026-09-24",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "current",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [],
+ "flags": [
+  "Only real-robot comparison is CALM 22/30 vs own ablation without current alignment 0/10 (Sec. IV-E); the ablation still receives measured current at deployment, so it is neither kind A (D2b) nor kind B (D5)",
+  "Unequal n between arms (30 vs 10)"
+ ],
+ "n_values": [
+  30,
+  10
+ ]
+}
