@@ -1,0 +1,708 @@
+paper,task,arm,label,n
+2602.22088,"Push and Flip (flip, final stage)",P,,20
+2602.22088,"Push and Flip (flip, final stage)",B,TA-VLA,20
+2602.22088,"Plug in EV Charger (plug in, final stage)",P,,10
+2602.22088,"Plug in EV Charger (plug in, final stage)",B,FoAR,10
+2602.22088,Scrape off Sticker Easy (full off),P,,10
+2602.22088,Scrape off Sticker Easy (full off),B,RISE-2,10
+2602.22088,Scrape off Sticker Easy (full off),A,RISE-2 (paper: 'our global vision policy'),10
+2602.22088,Scrape off Sticker Hard (full off),P,,10
+2602.22088,Scrape off Sticker Hard (full off),B,pi0.5 / RDP / FoAR (tie),10
+2602.22088,Scrape off Sticker Hard (full off),A,RISE-2,10
+2602.22088,Push and Flip unseen obj 1,P,,5
+2602.22088,Push and Flip unseen obj 1,B,RISE-2 / TA-VLA (tie),5
+2602.22088,Push and Flip unseen obj 1,A,RISE-2,5
+2602.22088,Push and Flip unseen obj 2,P,,5
+2602.22088,Push and Flip unseen obj 2,B,pi0.5 / TA-VLA (tie),5
+2602.22088,Push and Flip unseen obj 2,A,RISE-2,5
+2602.22088,Push and Flip unseen obj 3,P,,5
+2602.22088,Push and Flip unseen obj 3,B,pi0.5 / TA-VLA (tie),5
+2602.22088,Push and Flip unseen obj 3,A,RISE-2,5
+2602.22088,Push and Flip unseen obj 4,P,,5
+2602.22088,Push and Flip unseen obj 4,B,RISE-2 / pi0.5 (tie),5
+2602.22088,Push and Flip unseen obj 4,A,RISE-2,5
+2602.22088,Push and Flip unseen obj 5,P,,5
+2602.22088,Push and Flip unseen obj 5,B,pi0.5 / TA-VLA (tie),5
+2602.22088,Push and Flip unseen obj 5,A,RISE-2,5
+2602.22088,Push and Flip unseen obj 6,P,,5
+2602.22088,Push and Flip unseen obj 6,B,pi0.5 / TA-VLA (tie),5
+2602.22088,Push and Flip unseen obj 6,A,RISE-2,5
+2603.05687,Real jar opening,P,,15
+2603.05687,Real jar opening,B,Visuomotor DP,15
+2603.05687,Real in-hand box flipping,P,,15
+2603.05687,Real in-hand box flipping,B,Visuotactile DP / Visuomotor DP (tie),15
+2603.08342,Charger plug-in,P,,20
+2603.08342,Charger plug-in,B,RDP,20
+2603.08342,USB plug-in,P,,20
+2603.08342,USB plug-in,B,RDP,20
+2603.08342,Drawer opening,P,,20
+2603.08342,Drawer opening,B,RDP,20
+2603.08342,Wiping ID,P,,20
+2603.08342,Wiping ID,B,DP,20
+2603.08342,Wiping OOD,P,,20
+2603.08342,Wiping OOD,B,RDP,20
+2606.04825,"bottle upright (DP, V+T)",P,raw tactile variant,10
+2606.04825,"bottle upright (DP, V+T)",A,V-only,10
+2606.04825,"bottle upright (DP, V+TM)",P,marker-tracking tactile variant,10
+2606.04825,"bottle upright (DP, V+TM)",A,V-only,10
+2606.04825,"whiteboard wiping (DP, V+T)",P,raw tactile variant,10
+2606.04825,"whiteboard wiping (DP, V+T)",A,V-only,10
+2606.04825,"whiteboard wiping (DP, V+TM)",P,marker-tracking tactile variant,10
+2606.04825,"whiteboard wiping (DP, V+TM)",A,V-only,10
+2606.04825,"pouring (DP, V+T)",P,raw tactile variant,10
+2606.04825,"pouring (DP, V+T)",A,V-only,10
+2606.04825,"pouring (DP, V+TM)",P,marker-tracking tactile variant,10
+2606.04825,"pouring (DP, V+TM)",A,V-only,10
+2606.04825,"peg insertion (DP, V+T)",P,raw tactile variant,10
+2606.04825,"peg insertion (DP, V+T)",A,V-only,10
+2606.04825,"peg insertion (DP, V+TM)",P,marker-tracking tactile variant,10
+2606.04825,"peg insertion (DP, V+TM)",A,V-only,10
+2606.04825,"bottle upright (pi0, V+T)",P,raw tactile variant,10
+2606.04825,"bottle upright (pi0, V+T)",A,V-only,10
+2606.04825,"bottle upright (pi0, V+TM)",P,marker-tracking tactile variant,10
+2606.04825,"bottle upright (pi0, V+TM)",A,V-only,10
+2606.04825,"whiteboard wiping (pi0, V+T)",P,raw tactile variant,10
+2606.04825,"whiteboard wiping (pi0, V+T)",A,V-only,10
+2606.04825,"whiteboard wiping (pi0, V+TM)",P,marker-tracking tactile variant,10
+2606.04825,"whiteboard wiping (pi0, V+TM)",A,V-only,10
+2606.04825,"pouring (pi0, V+T)",P,raw tactile variant,10
+2606.04825,"pouring (pi0, V+T)",A,V-only,10
+2606.04825,"pouring (pi0, V+TM)",P,marker-tracking tactile variant,10
+2606.04825,"pouring (pi0, V+TM)",A,V-only,10
+2606.04825,"peg insertion (pi0, V+T)",P,raw tactile variant,10
+2606.04825,"peg insertion (pi0, V+T)",A,V-only,10
+2606.04825,"peg insertion (pi0, V+TM)",P,marker-tracking tactile variant,10
+2606.04825,"peg insertion (pi0, V+TM)",A,V-only,10
+2606.06281,Gear assembly,P,,20
+2606.06281,Gear assembly,B,Sparsh-X V+G+E,20
+2606.06281,Gear assembly,A,"ViT-CNN (MiTaS stems, vision only)",20
+2606.06281,Board wiping,P,,20
+2606.06281,Board wiping,B,Sparsh-X V+G+E,20
+2606.06281,Board wiping,A,"ViT-CNN (MiTaS stems, vision only)",20
+2606.06281,Lamp installation,P,,20
+2606.06281,Lamp installation,B,Sparsh-X V+G+E,20
+2606.06281,Lamp installation,A,"ViT-CNN (MiTaS stems, vision only)",20
+2606.06281,Key in lock,P,,20
+2606.06281,Key in lock,B,Sparsh-X V+G+E,20
+2606.06281,Key in lock,A,"ViT-CNN (MiTaS stems, vision only)",20
+2606.06281,Lightbulb connection,P,,20
+2606.06281,Lightbulb connection,B,Sparsh-X V+G+E,20
+2606.06281,Lightbulb connection,A,"ViT-CNN (MiTaS stems, vision only)",20
+2606.08555,Erase board,P,,20
+2606.08555,Erase board,B,ForceVLA,20
+2606.08555,Erase board,A,GE-Act (paper: vision-only backbone of FAWAM),20
+2606.08555,Peel cucumber,P,,20
+2606.08555,Peel cucumber,B,TA-VLA,20
+2606.08555,Peel cucumber,A,GE-Act (paper: vision-only backbone of FAWAM),20
+2606.08555,Pivot box,P,,20
+2606.08555,Pivot box,B,TA-VLA,20
+2606.08555,Pivot box,A,GE-Act (paper: vision-only backbone of FAWAM),20
+2606.08555,Wipe vase,P,,20
+2606.08555,Wipe vase,B,ForceVLA,20
+2606.08555,Wipe vase,A,GE-Act (paper: vision-only backbone of FAWAM),20
+2606.09337,Coffee cup,P,,30
+2606.09337,Coffee cup,B,RLT,30
+2606.09337,Latch,P,,30
+2606.09337,Latch,B,RLT,30
+2606.09337,Egg,P,,30
+2606.09337,Egg,B,RLT,30
+2606.09337,Full task,P,,30
+2606.09337,Full task,B,RLT,30
+2606.10818,Dumbbell pick-place 2.5 kg,P,,25
+2606.10818,Dumbbell pick-place 2.5 kg,B,Vanilla DP,25
+2606.10818,Dumbbell pick-place 2.5 kg,A,Vanilla DP (same policy without torque-based internal model),25
+2606.10818,Dumbbell pick-place 5 kg,P,,25
+2606.10818,Dumbbell pick-place 5 kg,B,Augmented DP,25
+2606.10818,Dumbbell pick-place 5 kg,A,Vanilla DP,25
+2606.11184,Wire insertion,P,,20
+2606.11184,Wire insertion,B,KineDex,20
+2606.11184,Wiping perturbation,P,,20
+2606.11184,Wiping perturbation,B,RDP,20
+2606.11184,Swiping perturbation,P,,20
+2606.11184,Swiping perturbation,B,RDP,20
+2606.11184,Adjustment perturbation,P,,20
+2606.11184,Adjustment perturbation,B,DP+Tactile+Force,20
+2606.12406,"Five long-horizon tasks (LEGO, NIST belt, NIST insertion, tool clean-up, cap screwing)",P,,20
+2606.12406,"Five long-horizon tasks (LEGO, NIST belt, NIST insertion, tool clean-up, cap screwing)",B,FACTR / TA-VLA,20
+2606.14218,Box pushing,P,,20
+2606.14218,Box pushing,A,"No-torque (same data, torque removed)",20
+2606.14218,Box pushing,B,No-torque,20
+2606.14218,Box flipping,P,,20
+2606.14218,Box flipping,A,"No-torque (same data, torque removed)",20
+2606.14218,Box flipping,B,No-torque,20
+2606.14218,GPU picking,P,,20
+2606.14218,GPU picking,A,"No-torque (same data, torque removed)",20
+2606.14218,GPU picking,B,No-torque,20
+2606.14218,Fridge drink retrieval,P,,20
+2606.14218,Fridge drink retrieval,A,"No-torque (same data, torque removed)",20
+2606.14218,Fridge drink retrieval,B,No-torque,20
+2606.17055,12 tactile-reactive tasks,P,,16
+2606.17055,12 tactile-reactive tasks,B,EgoScale,16
+2606.17055,"6 tasks, w/o tactile ablation",P,,16
+2606.17055,"6 tasks, w/o tactile ablation",A,w/o Tactile,16
+2606.30988,Peg insertion (finetune task),P,,15
+2606.30988,Peg insertion (finetune task),A,"No F/T (same backbone, F/T input and prediction removed)",15
+2606.30988,Peg insertion (finetune task),B,Diffusion Policy,15
+2606.30988,"Peg insertion (pretrain task, backward transfer)",P,,15
+2606.30988,"Peg insertion (pretrain task, backward transfer)",B,Pretraining Only,15
+2606.30988,Vase wiping,P,,15
+2606.30988,Vase wiping,A,No F/T,15
+2606.30988,Pick and place,P,,10
+2606.30988,Pick and place,B,No F/T,10
+2607.02503,Insert plug,P,,20
+2607.02503,Insert plug,B,OmniVTLA,20
+2607.02503,Insert plug,A,"Fast-WAM (paper: M0, VT-WAM built from it by adding tactile)",20
+2607.02503,Swipe card,P,,20
+2607.02503,Swipe card,B,Fast-WAM,20
+2607.02503,Swipe card,A,"Fast-WAM (paper: M0, VT-WAM built from it by adding tactile)",20
+2607.02503,Insert tube,P,,20
+2607.02503,Insert tube,B,OmniVTLA,20
+2607.02503,Insert tube,A,"Fast-WAM (paper: M0, VT-WAM built from it by adding tactile)",20
+2607.02503,Wipe board / vase / peel cucumber,P,,20
+2607.02503,Wipe board / vase / peel cucumber,B,Fast-WAM,20
+2607.03387,Lightbulb screwing (interaction),P,,25
+2607.03387,Lightbulb screwing (interaction),B,pi0.5 w/ T-UniT,25
+2607.03387,Lightbulb screwing (interaction),A,pi0.5 (vision only; same backbone without tactile),25
+2607.03387,Plug insertion (interaction),P,,25
+2607.03387,Plug insertion (interaction),B,pi0.5 w/ T-UniT,25
+2607.03387,Plug insertion (interaction),A,pi0.5 (vision only; same backbone without tactile),25
+2607.03387,Peg-in-hole (interaction),P,,15
+2607.03387,Peg-in-hole (interaction),B,pi0.5 w/ T-UniT,15
+2607.03387,Peg-in-hole (interaction),A,pi0.5 (vision only; same backbone without tactile),15
+2607.03387,Peg transfer,P,,15
+2607.03387,Peg transfer,B,pi0.5 w/ T-UniT,15
+2607.03387,Peg transfer,A,pi0.5 (vision only; same backbone without tactile),15
+2607.03387,Plate wiping,P,,15
+2607.03387,Plate wiping,B,pi0.5 w/ T-UniT,15
+2607.03387,Plate wiping,A,pi0.5 (vision only; same backbone without tactile),15
+2607.03529,teleop foam-cup stacking (novice),P,,60
+2607.03529,teleop foam-cup stacking (novice),A,w/o Current,60
+2607.03529,teleop foam-cup stacking (novice),B,Retargeting,60
+2607.03529,teleop foam-cup stacking (skilled),P,,60
+2607.03529,teleop foam-cup stacking (skilled),A,w/o Current,60
+2607.03529,teleop foam-cup stacking (skilled),B,Retargeting,60
+2607.03529,teleop board wiping (novice),P,,15
+2607.03529,teleop board wiping (novice),A,w/o Current,15
+2607.03529,teleop board wiping (novice),B,Retargeting,15
+2607.03529,teleop board wiping (skilled),P,,15
+2607.03529,teleop board wiping (skilled),A,w/o Current,15
+2607.03529,teleop board wiping (skilled),B,Retargeting,15
+2607.03529,bottle holding 0g,P,,12
+2607.03529,bottle holding 0g,A,w/o Current (ACT baseline),12
+2607.03529,bottle holding 150g,P,,12
+2607.03529,bottle holding 150g,A,w/o Current (ACT baseline),12
+2607.03529,bottle holding 250g,P,,12
+2607.03529,bottle holding 250g,A,w/o Current (ACT baseline),12
+2607.03529,bottle holding 350g (OOD),P,,12
+2607.03529,bottle holding 350g (OOD),A,w/o Current (ACT baseline),12
+2607.03529,single-card picking (strict),P,,52
+2607.03529,single-card picking (strict),A,w/o Current (ACT baseline),52
+2607.03723,Peg-in-hole,P,,20
+2607.03723,Peg-in-hole,B,PLD* (adapted with tactile),20
+2607.03723,Peg-in-hole,A,PLD (visual only residual RL),20
+2607.03723,Charger insertion,P,,20
+2607.03723,Charger insertion,B,PLD* (adapted with tactile),20
+2607.03723,Charger insertion,A,PLD (visual only residual RL),20
+2607.03723,Cap opening,P,,20
+2607.03723,Cap opening,B,PLD* (adapted with tactile),20
+2607.03723,Cap opening,A,PLD (visual only residual RL),20
+2607.03723,Box opening,P,,20
+2607.03723,Box opening,B,PLD* (adapted with tactile),20
+2607.03723,Box opening,A,PLD (visual only residual RL),20
+2607.07287,Water flower (clean),P,,100
+2607.07287,Water flower (clean),B,FTP-1,100
+2607.07287,Tabletop clearing (clean),P,,100
+2607.07287,Tabletop clearing (clean),B,Pi-0.5,100
+2607.07287,Cup insertion (clean),P,,100
+2607.07287,Cup insertion (clean),B,FTP-1,100
+2607.07287,Power plug insertion (clean),P,,100
+2607.07287,Power plug insertion (clean),B,FTP-1,100
+2607.07287,Pot wiping (clean),P,,100
+2607.07287,Pot wiping (clean),B,FTP-1,100
+2607.07287,Tissue pulling (clean),P,,100
+2607.07287,Tissue pulling (clean),B,FTP-1,100
+2607.07287,Water flower (perturbed),P,,100
+2607.07287,Water flower (perturbed),B,FTP-1,100
+2607.07287,Tabletop clearing (perturbed),P,,100
+2607.07287,Tabletop clearing (perturbed),B,Pi-0.5,100
+2607.07287,Cup insertion (perturbed),P,,100
+2607.07287,Cup insertion (perturbed),B,FTP-1,100
+2607.07287,Power plug insertion (perturbed),P,,100
+2607.07287,Power plug insertion (perturbed),B,FTP-1,100
+2607.07287,Pot wiping (perturbed),P,,100
+2607.07287,Pot wiping (perturbed),B,FTP-1,100
+2607.07287,Tissue pulling (perturbed),P,,100
+2607.07287,Tissue pulling (perturbed),B,FTP-1,100
+2607.11734,BC pick-and-place (500 g),P,,40
+2607.11734,BC pick-and-place (500 g),A,Position-only BC (same policy without predicted force),40
+2607.11734,BC go up-and-stay (400 g),P,,40
+2607.11734,BC go up-and-stay (400 g),A,Position-only BC,40
+2607.14236,Hanoi ring placement (final checkpoint),P,,30
+2607.14236,Hanoi ring placement (final checkpoint),A,pi0.5 w/ Online DAgger (same loop without force),30
+2607.14236,Towel folding / book insertion,P,,30
+2607.14236,Towel folding / book insertion,A,pi0.5 w/ Online DAgger,30
+2607.14578,Soft bottle press (overall) [ACT+Torque vs Base ACT],P,,20
+2607.14578,Soft bottle press (overall) [ACT+Torque vs Base ACT],A,Base ACT (torque removed),20
+2607.14578,Soft bottle press (overall) [ACT-o+Torque vs ACT-o],P,,20
+2607.14578,Soft bottle press (overall) [ACT-o+Torque vs ACT-o],A,ACT-o (torque removed),20
+2607.14578,Plug insertion (1 or 2 attempts) [ACT+Torque vs Base ACT],P,,10
+2607.14578,Plug insertion (1 or 2 attempts) [ACT+Torque vs Base ACT],A,Base ACT (torque removed),10
+2607.14578,Plug insertion (1 or 2 attempts) [ACT-o+Torque vs ACT-o],P,,10
+2607.14578,Plug insertion (1 or 2 attempts) [ACT-o+Torque vs ACT-o],A,ACT-o (torque removed),10
+2607.14578,Board wipe [ACT+Torque vs Base ACT],P,,20
+2607.14578,Board wipe [ACT+Torque vs Base ACT],A,Base ACT (torque removed),20
+2607.14578,Board wipe [ACT-o+Torque vs ACT-o],P,,20
+2607.14578,Board wipe [ACT-o+Torque vs ACT-o],A,ACT-o (torque removed),20
+2607.18231,Find block under cups,P,,18
+2607.18231,Find block under cups,B,pi-MEM (visual memory),18
+2607.18231,Find block under cups,A,State history only (force VAE replaced by state VAE),18
+2607.18231,Press button N times,P,,18
+2607.18231,Press button N times,B,pi-MEM (visual memory),18
+2607.18231,Press button N times,A,State history only (force VAE replaced by state VAE),18
+2607.18231,Wipe bowl N rounds,P,,18
+2607.18231,Wipe bowl N rounds,B,pi-MEM (visual memory),18
+2607.18231,Wipe bowl N rounds,A,State history only (force VAE replaced by state VAE),18
+2607.20683,Tube insertion,P,FELT Tactile variant,20
+2607.20683,Tube insertion,B,Vision Only,20
+2607.20683,Tube insertion,A,Vision Only,20
+2607.20683,Tube insertion,P,FELT Features variant,20
+2607.20683,Cup nesting (all 4),P,FELT Tactile variant,20
+2607.20683,Cup nesting (all 4),B,Vision Only,20
+2607.20683,Cup nesting (all 4),A,Vision Only,20
+2607.20683,Cup nesting (all 4),P,FELT Features variant,20
+2607.20683,Eraser wiping (<=5 passes),P,FELT Tactile variant,20
+2607.20683,Eraser wiping (<=5 passes),B,Vision Only,20
+2607.20683,Eraser wiping (<=5 passes),A,Vision Only,20
+2607.20683,Eraser wiping (<=5 passes),P,FELT Features variant,20
+2607.20683,Triangle peg insertion,P,FELT Tactile variant,20
+2607.20683,Triangle peg insertion,B,DINOv2 Features,20
+2607.20683,Triangle peg insertion,A,Vision Only,20
+2607.20683,Triangle peg insertion,P,FELT Features variant,20
+2607.20912,Box flipping,P,,20
+2607.20912,Box flipping,B,ACP,20
+2607.20912,Line pressing,P,,20
+2607.20912,Line pressing,B,ACP,20
+2607.22530,Charger plugging,P,,50
+2607.22530,Charger plugging,B,"pi0.5+tactile, expert-only data",50
+2607.22530,Charger plugging,A,"pi0.5 (vision-only), same round-2 data",50
+2607.22530,Cucumber peeling,P,,50
+2607.22530,Cucumber peeling,B,"pi0.5+tactile, expert-only data",50
+2607.22530,Cucumber peeling,A,"pi0.5 (vision-only), same round-2 data",50
+2607.22530,U-Block insertion,P,,50
+2607.22530,U-Block insertion,B,"pi0.5+tactile, expert-only data",50
+2607.22530,U-Block insertion,A,"pi0.5 (vision-only), same round-2 data",50
+2607.22530,Cuboid insertion,P,,50
+2607.22530,Cuboid insertion,B,"pi0.5+tactile, expert-only data",50
+2607.22530,Cuboid insertion,A,"pi0.5 (vision-only), same round-2 data",50
+2608.01102,Lift bottle [ACT],P,CAAT on ACT backbone,20
+2608.01102,Lift bottle [ACT],B,Gate,20
+2608.01102,Open box [ACT],P,CAAT on ACT backbone,20
+2608.01102,Open box [ACT],B,Gate/Concat,20
+2608.01102,Powerbank extraction [ACT],P,CAAT on ACT backbone,20
+2608.01102,Powerbank extraction [ACT],B,Gate,20
+2608.01102,Lift bottle [Diffusion Policy],P,CAAT on Diffusion Policy backbone,20
+2608.01102,Lift bottle [Diffusion Policy],B,Gate,20
+2608.01102,Open box [Diffusion Policy],P,CAAT on Diffusion Policy backbone,20
+2608.01102,Open box [Diffusion Policy],B,Gate,20
+2608.01102,Powerbank extraction [Diffusion Policy],P,CAAT on Diffusion Policy backbone,20
+2608.01102,Powerbank extraction [Diffusion Policy],B,Gate/Concat,20
+2608.01102,Lift bottle [pi0],P,CAAT on pi0 backbone,20
+2608.01102,Lift bottle [pi0],B,Concat,20
+2608.01102,Open box [pi0],P,CAAT on pi0 backbone,20
+2608.01102,Open box [pi0],B,Gate,20
+2608.01102,Powerbank extraction [pi0],P,CAAT on pi0 backbone,20
+2608.01102,Powerbank extraction [pi0],B,Gate,20
+2608.01824,Button press,P,,20
+2608.01824,Button press,B,Tactile-VLA,20
+2608.01824,Pipette press,P,,20
+2608.01824,Pipette press,B,Tactile-VLA,20
+2608.01824,Bottle grasp,P,,20
+2608.01824,Bottle grasp,B,Tactile-VLA,20
+2608.01824,Cob grasp,P,,20
+2608.01824,Cob grasp,B,Tactile-VLA,20
+2608.01824,Sponge wipe,P,,20
+2608.01824,Sponge wipe,B,Tactile-VLA,20
+2608.01824,Cabinet retrieval,P,,20
+2608.01824,Cabinet retrieval,B,ViTacFormer,20
+2608.01824,Liquid transfer,P,,20
+2608.01824,Liquid transfer,B,pi0.5+tactile,20
+2608.01824,"Sponge wipe, held-out height",P,,20
+2608.01824,"Sponge wipe, held-out height",B,pi0.5+tactile,20
+2608.01824,"Cob grasp, position shift",P,,20
+2608.01824,"Cob grasp, position shift",B,pi0.5,20
+2608.01824,"Liquid transfer, lighting",P,,20
+2608.01824,"Liquid transfer, lighting",B,pi0.5+tactile,20
+2608.01824,"Bottle grasp, pull disturbance",P,,20
+2608.01824,"Bottle grasp, pull disturbance",B,pi0.5+tactile,20
+2608.15009,Ultrasound task 1,P,,45
+2608.15009,Ultrasound task 1,B,pi0.5,45
+2608.15009,Ultrasound task 1,A,"pi0.5 w/ US (no force, no SAMM)",45
+2608.15009,Ultrasound task 2,P,,45
+2608.15009,Ultrasound task 2,B,pi0.5,45
+2608.15009,Ultrasound task 2,A,"pi0.5 w/ US (no force, no SAMM)",45
+2608.15009,Ultrasound task 3,P,,45
+2608.15009,Ultrasound task 3,B,pi0.5,45
+2608.15009,Ultrasound task 3,A,"pi0.5 w/ US (no force, no SAMM)",45
+2608.15009,Ultrasound task 4,P,,45
+2608.15009,Ultrasound task 4,B,pi0.5,45
+2608.15009,Ultrasound task 4,A,"pi0.5 w/ US (no force, no SAMM)",45
+2608.15009,Ultrasound task 5,P,,45
+2608.15009,Ultrasound task 5,B,pi0.5,45
+2608.15009,Ultrasound task 5,A,"pi0.5 w/ US (no force, no SAMM)",45
+2608.15560,Paper cup (force-safe success),P,,10
+2608.15560,Paper cup (force-safe success),B,Reference policy + Admittance,10
+2608.15560,Paper cup (force-safe success),A,Reference policy (no force feedback),10
+2608.15560,Tongs (force-safe success),P,,11
+2608.15560,Tongs (force-safe success),B,Reference policy + Admittance,10
+2608.15560,Tongs (force-safe success),A,Reference policy (no force feedback),10
+2608.25798,Close cap,P,,16
+2608.25798,Close cap,B,FTP-1,16
+2608.25798,Insert battery,P,,16
+2608.25798,Insert battery,B,GR00T N1.7,16
+2608.25798,Close lid,P,,16
+2608.25798,Close lid,B,T-Rex,16
+2608.25798,Transfer liquid,P,,16
+2608.25798,Transfer liquid,B,T-Rex,16
+2608.25798,Wipe board,P,,16
+2608.25798,Wipe board,B,FTP-1,16
+2608.25798,Stand bottle,P,,16
+2608.25798,Stand bottle,B,FTP-1/T-Rex,16
+2608.25872,Cross-scale grasping,P,,10
+2608.25872,Cross-scale grasping,B,TDF-DM,10
+2608.25872,Cross-scale grasping,A,DP3 (no VDF),10
+2608.25872,Cap unscrewing,P,,10
+2608.25872,Cap unscrewing,B,DP3 / TDF-DM,10
+2608.25872,Cap unscrewing,A,DP3 (no VDF),10
+2608.25872,Calligraphy writing (WSR),P,,10
+2608.25872,Calligraphy writing (WSR),B,DP3 / DP3-Wrist,10
+2608.25872,Calligraphy writing (WSR),A,DP3 (no VDF),10
+2608.25872,"Multi-scale grasping, seen",P,,5
+2608.25872,"Multi-scale grasping, seen",B,TDF-DM,5
+2608.25872,"Multi-scale grasping, seen",A,DP3 (no VDF),5
+2608.25872,"Multi-scale grasping, unseen",P,,5
+2608.25872,"Multi-scale grasping, unseen",B,DP3-Wrist/TDF-DM,5
+2608.25872,"Multi-scale grasping, unseen",A,DP3 (no VDF),5
+2608.25872,"Cap, 2 cm training, seen",P,,5
+2608.25872,"Cap, 2 cm training, seen",B,DP3-Wrist,5
+2608.25872,"Cap, 2 cm training, unseen",P,,5
+2608.25872,"Cap, 2 cm training, unseen",B,DP3-Wrist,5
+2608.25872,"Cap, 6 cm training, seen",P,,5
+2608.25872,"Cap, 6 cm training, seen",B,DP3-Wrist,5
+2608.25872,"Cap, 6 cm training, unseen",P,,5
+2608.25872,"Cap, 6 cm training, unseen",B,DP3-Wrist,5
+2609.03889,Whiteboard wiping (S5 final),P,,25
+2609.03889,Whiteboard wiping (S5 final),B,ForceVLA,25
+2609.03889,Door opening (S5 final),P,,25
+2609.03889,Door opening (S5 final),B,ForceVLA,25
+2609.03889,Handle press,P,,25
+2609.03889,Handle press,A,w/o Force (pi0.5),25
+2609.03889,Push w/o closer,P,,25
+2609.03889,Push w/o closer,A,w/o Force (pi0.5),25
+2609.03889,Push w/ closer,P,,25
+2609.03889,Push w/ closer,A,w/o Force (pi0.5),25
+2609.03889,Board cleaned,P,,25
+2609.03889,Board cleaned,A,w/o Force (pi0.5),25
+2609.07002,Duck rotation (real),P,,10
+2609.07002,Duck rotation (real),B,Open-loop replay,10
+2609.07002,Cross block rotation (real),P,,10
+2609.07002,Cross block rotation (real),B,Open-loop replay,10
+2609.07002,Corner block rotation (real),P,,10
+2609.07002,Corner block rotation (real),B,Open-loop replay,10
+2609.07002,"Double-notched block, unseen (real)",P,,10
+2609.07002,"Double-notched block, unseen (real)",B,OlR/TD/IHR,10
+2609.07002,"Large-scale real z-rotation, 20 objects",P,,200
+2609.07002,"Large-scale real z-rotation, 20 objects",B,In-Hand Rotation,200
+2609.07747,Cube picking (real),P,,30
+2609.07747,Cube picking (real),A,No Tactile,30
+2609.12549,Earbud flipping,P,,20
+2609.12549,Earbud flipping,B,pi0.5,20
+2609.12549,Stacked-book retrieval,P,,20
+2609.12549,Stacked-book retrieval,B,pi0.5,20
+2609.12549,Postcard retrieval,P,,20
+2609.12549,Postcard retrieval,B,pi0.5,20
+2609.12549,Multi-object grasping,P,,20
+2609.12549,Multi-object grasping,B,pi0.5,20
+2609.12549,Earbud flipping,A,Ours w/o T,20
+2609.12549,Stacked-book retrieval,A,Ours w/o T,20
+2609.14156,Lift (pick),P,Visible Touch Multi-arrows,30
+2609.14156,Lift (pick),B,Tac-View,30
+2609.14156,Lift (pick),A,Baseline (no contact input),30
+2609.14156,Lift (pick),P,Visible Touch Avg. Arrow,30
+2609.14156,Transfer tube (insert),P,Visible Touch Multi-arrows,30
+2609.14156,Transfer tube (insert),B,Tac-View,30
+2609.14156,Transfer tube (insert),A,Baseline (no contact input),30
+2609.14156,Transfer tube (insert),P,Visible Touch Avg. Arrow,30
+2609.14156,Put mug in dishwasher (place),P,Visible Touch Multi-arrows,30
+2609.14156,Put mug in dishwasher (place),B,Tac-View,30
+2609.14156,Put mug in dishwasher (place),A,Baseline (no contact input),30
+2609.14156,Put mug in dishwasher (place),P,Visible Touch Avg. Arrow,30
+2609.14156,Plug charger (insert),P,Visible Touch Multi-arrows,30
+2609.14156,Plug charger (insert),B,Tac-View,30
+2609.14156,Plug charger (insert),A,Baseline (no contact input),30
+2609.14156,Plug charger (insert),P,Visible Touch Avg. Arrow,30
+2609.15012,Plug (drawer + insertion),P,,50
+2609.15012,Plug (drawer + insertion),B,Fine-tuned pi0.5,50
+2609.15012,Plug (drawer + insertion),A,AMC (force-free),50
+2609.15012,Vase wiping,P,,50
+2609.15012,Vase wiping,B,Fine-tuned pi0.5,50
+2609.15012,Vase wiping,A,AMC (force-free),50
+2609.15921,Cable tracing SR@10 (Ethernet straight),P,,30
+2609.15921,Cable tracing SR@10 (Ethernet straight),A,TF-GMM Proprio only,30
+2609.15921,Cable tracing SR@20 (Ethernet straight),P,,30
+2609.15921,Cable tracing SR@20 (Ethernet straight),A,TF-GMM Proprio only,30
+2609.15921,Cable tracing SR@10 (Ethernet straight),B,DP Proprio+Tactile (30 Hz),30
+2609.15921,Cable tracing SR@20 (Ethernet straight),B,DP Proprio+Tactile (30 Hz),30
+2609.16504,Grasp-and-lift: bleach cleanser,P,,10
+2609.16504,Grasp-and-lift: bleach cleanser,A,PCD Only (no contact),10
+2609.16504,Grasp-and-lift: mustard bottle,P,,10
+2609.16504,Grasp-and-lift: mustard bottle,A,PCD Only (no contact),10
+2609.16504,Grasp-and-lift: power drill,P,,10
+2609.16504,Grasp-and-lift: power drill,A,PCD Only (no contact),10
+2609.16504,Grasp-and-lift: potted meat can,P,,10
+2609.16504,Grasp-and-lift: potted meat can,A,PCD Only (no contact),10
+2609.16504,Grasp-and-lift: tomato soup can,P,,10
+2609.16504,Grasp-and-lift: tomato soup can,A,PCD Only (no contact),10
+2609.16504,Grasp-and-lift: pudding box,P,,10
+2609.16504,Grasp-and-lift: pudding box,A,PCD Only (no contact),10
+2609.16504,Grasp-and-lift: maxwell coffee can (unseen),P,,10
+2609.16504,Grasp-and-lift: maxwell coffee can (unseen),A,PCD Only (no contact),10
+2609.16504,Grasp-and-lift: brown salt box (unseen),P,,10
+2609.16504,Grasp-and-lift: brown salt box (unseen),A,PCD Only (no contact),10
+2609.16504,Grasp-and-lift: plastic wine cup (unseen),P,,10
+2609.16504,Grasp-and-lift: plastic wine cup (unseen),A,PCD Only (no contact),10
+2609.16504,Grasp-and-lift: blue mug (unseen),P,,10
+2609.16504,Grasp-and-lift: blue mug (unseen),A,PCD Only (no contact),10
+2609.16504,Grasp-and-lift: pringles bottle (unseen),P,,10
+2609.16504,Grasp-and-lift: pringles bottle (unseen),A,PCD Only (no contact),10
+2609.18242,Object flipping,P,,20
+2609.18242,Object flipping,B,ForceVLA/TA-VLA,20
+2609.18242,USB insertion,P,,20
+2609.18242,USB insertion,B,ForceVLA,20
+2609.18242,Cabinet opening,P,,20
+2609.18242,Cabinet opening,B,ForceVLA/TA-VLA,20
+2609.18242,Button pressing,P,,20
+2609.18242,Button pressing,B,TA-VLA,20
+2609.18242,Whiteboard wiping (single-arm),P,,20
+2609.18242,Whiteboard wiping (single-arm),B,TA-VLA,20
+2609.18242,Plug removal (bimanual),P,,20
+2609.18242,Plug removal (bimanual),B,TA-VLA/ImplicitRDP,20
+2609.18242,Plug insertion (bimanual),P,,20
+2609.18242,Plug insertion (bimanual),B,TA-VLA,20
+2609.18242,Drawer opening (bimanual),P,,20
+2609.18242,Drawer opening (bimanual),B,ForceVLA/TA-VLA,20
+2609.18242,Whiteboard wiping (bimanual),P,,20
+2609.18242,Whiteboard wiping (bimanual),B,TA-VLA,20
+2609.18242,"USB insertion + whiteboard wiping, pooled (single-arm)",P,,40
+2609.18242,"USB insertion + whiteboard wiping, pooled (single-arm)",A,w/o force correction,40
+2609.18242,"Plug insertion + drawer opening, pooled (bimanual)",P,,40
+2609.18242,"Plug insertion + drawer opening, pooled (bimanual)",A,w/o force correction,40
+2609.18242,"Unseen objects, 3 tasks pooled",P,,30
+2609.18242,"Unseen objects, 3 tasks pooled",B,ImplicitRDP,30
+2609.18497,Peeling cucumber ID,P,,30
+2609.18497,Peeling cucumber ID,B,GR00T N1.7,30
+2609.18497,Peeling cucumber OOD,P,,30
+2609.18497,Peeling cucumber OOD,B,pi0.5,30
+2609.18497,Pressing pump head ID,P,,30
+2609.18497,Pressing pump head ID,B,GR00T N1.7/pi0.5,30
+2609.18497,Pressing pump head OOD,P,,30
+2609.18497,Pressing pump head OOD,B,GR00T N1.7,30
+2609.18497,Wiping whiteboard ID,P,,30
+2609.18497,Wiping whiteboard ID,B,pi0.5,30
+2609.18497,Wiping whiteboard OOD,P,,30
+2609.18497,Wiping whiteboard OOD,B,pi0.5,30
+2609.18497,Cutting cucumber ID,P,,30
+2609.18497,Cutting cucumber ID,B,pi0.5,30
+2609.18497,Cutting cucumber OOD,P,,30
+2609.18497,Cutting cucumber OOD,B,pi0.5,30
+2609.18497,Peeling cucumber ID,A,"GR00T N1.5 (no F-FiLM, no force control)",30
+2609.18497,Peeling cucumber OOD,A,"GR00T N1.5 (no F-FiLM, no force control)",30
+2609.18497,Pressing pump head ID,A,"GR00T N1.5 (no F-FiLM, no force control)",30
+2609.18497,Pressing pump head OOD,A,"GR00T N1.5 (no F-FiLM, no force control)",30
+2609.19137,Zero-shot whiteboard wiping,P,,10
+2609.19137,Zero-shot whiteboard wiping,A,"Kinematic-only (same trajectory, zero force)",10
+2609.19137,Zero-shot carrot peeling,P,,10
+2609.19137,Zero-shot carrot peeling,A,Kinematic-only,10
+2609.19137,Zero-shot chocolate box stacking,P,,10
+2609.19137,Zero-shot chocolate box stacking,A,Kinematic-only,10
+2609.19137,Zero-shot lamp button pressing,P,,10
+2609.19137,Zero-shot lamp button pressing,A,Kinematic-only,10
+2609.19137,"DP policy, wiping",P,DP w/ force input,10
+2609.19137,"DP policy, wiping",A,DP w/o force input,10
+2609.19137,"DP policy, peeling",P,DP w/ force input,10
+2609.19137,"DP policy, peeling",A,DP w/o force input,10
+2609.19137,"DP policy, stacking",P,DP w/ force input,10
+2609.19137,"DP policy, stacking",A,DP w/o force input,10
+2609.19137,"DP policy, pressing",P,DP w/ force input,10
+2609.19137,"DP policy, pressing",A,DP w/o force input,10
+2609.20980,Peg insertion,P,,20
+2609.20980,Peg insertion,B,Concat-and-Gating TacVLA,20
+2609.20980,Chip handling,P,,20
+2609.20980,Chip handling,B,FiLM-Fusion TacVLA,20
+2609.20980,Cap unscrewing,P,,20
+2609.20980,Cap unscrewing,B,FiLM-Fusion TacVLA,20
+2609.20980,Board wiping,P,,20
+2609.20980,Board wiping,B,Concat-and-Gating TacVLA,20
+2609.20980,Peg insertion,A,w/o Tactile,20
+2609.20980,Chip handling,A,w/o Tactile,20
+2609.20980,Cap unscrewing,A,w/o Tactile,20
+2609.20980,Board wiping,A,w/o Tactile,20
+2609.20980,"Low illumination, 4 tasks pooled",P,,80
+2609.20980,"Low illumination, 4 tasks pooled",B,Concat-and-Gating TacVLA,80
+2609.20980,"Visual clutter, 4 tasks pooled",P,,80
+2609.20980,"Visual clutter, 4 tasks pooled",B,Concat-and-Gating TacVLA,80
+2609.22840,Plug insertion,P,,30
+2609.22840,Plug insertion,B,SmolVLA-SFT,30
+2609.22840,Ring-on-peg assembly,P,,30
+2609.22840,Ring-on-peg assembly,B,SmolVLA-SFT,30
+2609.22840,Whiteboard wiping,P,,30
+2609.22840,Whiteboard wiping,B,SmolVLA-SFT,30
+2609.23800,6-pos TE connector,P,,50
+2609.23800,6-pos TE connector,A,Vision-only DP,50
+2609.23800,15-pos TE connector,P,,50
+2609.23800,15-pos TE connector,A,Vision-only DP,50
+2609.23800,4-pos TE connector,P,,50
+2609.23800,4-pos TE connector,A,Vision-only DP,50
+2609.23888,Waffles pick-and-place,P,,20
+2609.23888,Waffles pick-and-place,B,pi0.5,20
+2609.23888,Carton pick-and-place,P,,20
+2609.23888,Carton pick-and-place,B,pi0.5,20
+2609.23888,Egg pick-and-place,P,,10
+2609.23888,Egg pick-and-place,B,Diffusion Policy,10
+2609.24976,Cube Place w/ Occlusion,P,,20
+2609.24976,Cube Place w/ Occlusion,B,RDP,20
+2609.24976,Tongs,P,,20
+2609.24976,Tongs,B,RDP,20
+2609.24976,Bowl,P,,20
+2609.24976,Bowl,B,pi0.5 (no tactile),20
+2609.24976,Bottle Cap,P,,20
+2609.24976,Bottle Cap,B,pi0.5 (no tactile),20
+2609.24976,Cube Handover,P,,20
+2609.24976,Cube Handover,B,RDP,20
+2609.24976,Two-Hand Wipe,P,,20
+2609.24976,Two-Hand Wipe,B,RDP,20
+2609.25785,T2 Cup insertion & bottle pouring,P,,20
+2609.25785,T2 Cup insertion & bottle pouring,B,pi0.5,20
+2609.25785,T3 Tong-assisted bread transfer,P,,20
+2609.25785,T3 Tong-assisted bread transfer,B,pi0.5,20
+2609.25785,T4 Slip-modulated peg-in-hole,P,,20
+2609.25785,T4 Slip-modulated peg-in-hole,B,pi0.5,20
+2609.29822,PickCup,P,,60
+2609.29822,PickCup,B,Image anchor + direct pair (VITaL-style),60
+2609.29822,PickSponge,P,,60
+2609.29822,PickSponge,B,Image anchor (VITaL-style),60
+2609.29822,MovePen,P,,60
+2609.29822,MovePen,B,Image anchor + direct pair (VITaL-style),60
+2609.29822,OpenLid,P,,60
+2609.29822,OpenLid,B,Image anchor (VITaL-style),60
+2609.29822,PickCup,A,Vision only,60
+2609.29822,PickSponge,A,Vision only,60
+2609.29822,MovePen,A,Vision only,60
+2609.29822,OpenLid,A,Vision only,60
+2609.30969,USB-C insertion,P,"ResNet18-Concat, best of 25 encoder x fusion configurations on this task, selected post hoc",20
+2609.30969,USB-C insertion,A,Vision only (no tactile),20
+2609.31924,Microwave opening,P,,20
+2609.31924,Microwave opening,B,IWS (vision-only world simulator pipeline),20
+2609.31924,Whiteboard wiping,P,,20
+2609.31924,Whiteboard wiping,B,IWS (vision-only world simulator pipeline),20
+2609.31924,Box flipping,P,,20
+2609.31924,Box flipping,B,IWS (vision-only world simulator pipeline),20
+2609.34006,USB insertion,P,TacGB off-the-shelf,20
+2609.34006,USB insertion,A,Vision only (TacGB off-the-shelf installed),20
+2609.34006,USB insertion,P,TacGB lab-made,20
+2609.34006,USB insertion,A,Vision only (TacGB lab-made installed),20
+2609.34182,Flip Page,P,,10
+2609.34182,Flip Page,B,T-Rex,10
+2609.34182,Screw Light Bulb,P,,10
+2609.34182,Screw Light Bulb,B,T-Rex,10
+2609.34182,Toggle Switch,P,,10
+2609.34182,Toggle Switch,B,T-Rex,10
+2609.34182,Ball Classification,P,,10
+2609.34182,Ball Classification,B,T-Rex,10
+2609.34182,Liquid Transfer,P,,10
+2609.34182,Liquid Transfer,B,T-Rex,10
+2609.34182,Flip Page,A,Vision-only,10
+2609.34182,Screw Light Bulb,A,Vision-only,10
+2609.34182,Toggle Switch,A,Vision-only,10
+2609.34182,Ball Classification,A,Vision-only,10
+2609.34182,Liquid Transfer,A,Vision-only,10
+2609.36596,Insert poker cards,P,,20
+2609.36596,Insert poker cards,B,GR00T + Tactile,20
+2609.36596,Open book,P,,20
+2609.36596,Open book,B,T-Rex,20
+2609.36596,Draw on balloon,P,,20
+2609.36596,Draw on balloon,B,T-Rex,20
+2609.36596,Unscrew cap,P,,20
+2609.36596,Unscrew cap,B,T-Rex,20
+2609.36596,Squeeze toothpaste,P,,20
+2609.36596,Squeeze toothpaste,B,T-Rex,20
+2609.36596,Insert poker cards,A,w/o Haptic Feedback,20
+2609.36596,Open book,A,w/o Haptic Feedback,20
+2609.36596,Draw on balloon,A,w/o Haptic Feedback,20
+2609.36596,Unscrew cap,A,w/o Haptic Feedback,20
+2609.36596,Squeeze toothpaste,A,w/o Haptic Feedback,20
+2609.37433,Flip Box,P,GR00T N1.7 + FP2,25
+2609.37433,Flip Box,B,Force Policy,25
+2609.37433,Flip Box,A,GR00T N1.7 alone (no force control),25
+2609.37433,Insert EV Charger,P,GR00T N1.7 + FP2,25
+2609.37433,Insert EV Charger,B,TA-VLA,25
+2609.37433,Insert EV Charger,A,GR00T N1.7 alone (no force control),25
+2609.37433,Insert Peg,P,GR00T N1.7 + FP2,25
+2609.37433,Insert Peg,B,ACP,25
+2609.37433,Insert Peg,A,GR00T N1.7 alone (no force control),25
+2609.37433,Wipe Curve,P,GR00T N1.7 + FP2,25
+2609.37433,Wipe Curve,B,ACP,25
+2609.37433,Wipe Curve,A,GR00T N1.7 alone (no force control),25
+2609.37433,Flip Box,P,LaWAM + FP2,25
+2609.37433,Flip Box,A,LaWAM alone (no force control),25
+2609.37433,Insert EV Charger,P,LaWAM + FP2,25
+2609.37433,Insert EV Charger,A,LaWAM alone (no force control),25
+2609.37433,Insert Peg,P,LaWAM + FP2,25
+2609.37433,Insert Peg,A,LaWAM alone (no force control),25
+2609.37433,Wipe Curve,P,LaWAM + FP2,25
+2609.37433,Wipe Curve,A,LaWAM alone (no force control),25
+2609.37433,Flip Box,P,pi0 (LoRA) + FP2,25
+2609.37433,Flip Box,A,pi0 (LoRA) alone (no force control),25
+2609.37433,Insert EV Charger,P,pi0 (LoRA) + FP2,25
+2609.37433,Insert EV Charger,A,pi0 (LoRA) alone (no force control),25
+2609.37433,Insert Peg,P,pi0 (LoRA) + FP2,25
+2609.37433,Insert Peg,A,pi0 (LoRA) alone (no force control),25
+2609.37433,Wipe Curve,P,pi0 (LoRA) + FP2,25
+2609.37433,Wipe Curve,A,pi0 (LoRA) alone (no force control),25
+2609.37433,Flip Box,P,pi0.5 (full) + FP2,25
+2609.37433,Flip Box,A,pi0.5 (full) alone (no force control),25
+2609.37433,Insert EV Charger,P,pi0.5 (full) + FP2,25
+2609.37433,Insert EV Charger,A,pi0.5 (full) alone (no force control),25
+2609.37433,Insert Peg,P,pi0.5 (full) + FP2,25
+2609.37433,Insert Peg,A,pi0.5 (full) alone (no force control),25
+2609.37433,Wipe Curve,P,pi0.5 (full) + FP2,25
+2609.37433,Wipe Curve,A,pi0.5 (full) alone (no force control),25
+2609.37552,Peg Insertion,P,,50
+2609.37552,Peg Insertion,B,Position ACT on VR data (pi_p_vr),50
+2609.37552,Fuse Clipping,P,,50
+2609.37552,Fuse Clipping,B,Position ACT on VR data (pi_p_vr),50
+2609.37552,Fan Insertion,P,,50
+2609.37552,Fan Insertion,B,Position ACT on VR data (pi_p_vr),50
+2609.37552,Industrial Connector,P,,50
+2609.37552,Industrial Connector,B,Position ACT on VR data (pi_p_vr),50
+2609.37552,Pen Writing,P,,50
+2609.37552,Pen Writing,B,Position ACT on VR data (pi_p_vr),50
+2610.00638,Stack Cups,P,TacDyn-WAM,20
+2610.00638,Stack Cups,B,FTP-1,20
+2610.00638,Remove Plug,P,TacDyn-WAM,20
+2610.00638,Remove Plug,B,FTP-1,20
+2610.00638,Insert Plug,P,TacDyn-WAM,20
+2610.00638,Insert Plug,B,FTP-1,20
+2610.00638,Unscrew Cup Lid,P,TacDyn-WAM,20
+2610.00638,Unscrew Cup Lid,B,FTP-1,20
+2610.00638,Wipe Whiteboard,P,TacDyn-WAM,20
+2610.00638,Wipe Whiteboard,B,FTP-1,20
+2610.00638,Stack Cups,A,"InternVLA-A1 (base model, vision-only)",20
+2610.00638,Remove Plug,A,"InternVLA-A1 (base model, vision-only)",20
+2610.00638,Insert Plug,A,"InternVLA-A1 (base model, vision-only)",20
+2610.00638,Unscrew Cup Lid,A,"InternVLA-A1 (base model, vision-only)",20
+2610.00638,Wipe Whiteboard,A,"InternVLA-A1 (base model, vision-only)",20
+2610.00638,Stack Cups,P,TacDyn-WAM (pretrained),20
+2610.00638,Remove Plug,P,TacDyn-WAM (pretrained),20
+2610.00638,Insert Plug,P,TacDyn-WAM (pretrained),20
+2610.00638,Unscrew Cup Lid,P,TacDyn-WAM (pretrained),20
+2610.00638,Wipe Whiteboard,P,TacDyn-WAM (pretrained),20
