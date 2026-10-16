@@ -1,0 +1,155 @@
+{
+ "id": "2609.34182",
+ "title": "Unified Visual-Tactile-Action Modeling from Human Demonstrations for Dexterous Manipulation (UVTA)",
+ "date": "2026-09-29",
+ "include": true,
+ "exclude_reason": null,
+ "signal": "tactile",
+ "reporting": {
+  "ci_or_errorbars": false,
+  "sig_test": false,
+  "seeds_reported": false,
+  "success_defined": true,
+  "randomized_init": "yes"
+ },
+ "comparisons": [
+  {
+   "task": "Flip Page",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "T-Rex",
+   "nP": 10,
+   "sP": null,
+   "nX": 10,
+   "sX": null,
+   "source": "Table 1 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Screw Light Bulb",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "T-Rex",
+   "nP": 10,
+   "sP": null,
+   "nX": 10,
+   "sX": null,
+   "source": "Table 1 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Toggle Switch",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "T-Rex",
+   "nP": 10,
+   "sP": null,
+   "nX": 10,
+   "sX": null,
+   "source": "Table 1 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Ball Classification",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "T-Rex",
+   "nP": 10,
+   "sP": null,
+   "nX": 10,
+   "sX": null,
+   "source": "Table 1 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Liquid Transfer",
+   "outcome": "partial credit",
+   "kind": "B",
+   "baseline_name": "T-Rex",
+   "nP": 10,
+   "sP": null,
+   "nX": 10,
+   "sX": null,
+   "source": "Table 1 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Flip Page",
+   "outcome": "partial credit",
+   "kind": "A",
+   "baseline_name": "Vision-only",
+   "nP": 10,
+   "sP": null,
+   "nX": 10,
+   "sX": null,
+   "source": "Table 1 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Screw Light Bulb",
+   "outcome": "partial credit",
+   "kind": "A",
+   "baseline_name": "Vision-only",
+   "nP": 10,
+   "sP": null,
+   "nX": 10,
+   "sX": null,
+   "source": "Table 1 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Toggle Switch",
+   "outcome": "partial credit",
+   "kind": "A",
+   "baseline_name": "Vision-only",
+   "nP": 10,
+   "sP": null,
+   "nX": 10,
+   "sX": null,
+   "source": "Table 1 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Ball Classification",
+   "outcome": "partial credit",
+   "kind": "A",
+   "baseline_name": "Vision-only",
+   "nP": 10,
+   "sP": null,
+   "nX": 10,
+   "sX": null,
+   "source": "Table 1 p7",
+   "n_ambiguous": false,
+   "note": ""
+  },
+  {
+   "task": "Liquid Transfer",
+   "outcome": "partial credit",
+   "kind": "A",
+   "baseline_name": "Vision-only",
+   "nP": 10,
+   "sP": null,
+   "nX": 10,
+   "sX": null,
+   "source": "Table 1 p7",
+   "n_ambiguous": false,
+   "note": ""
+  }
+ ],
+ "flags": [
+  "All tasks scored with stage-wise partial credit (max milestone), n=10 rollouts per task; authors state scores are not binary completion rates",
+  "Abstract and text report 'success rate' 70% vs 29% for these partial-credit scores",
+  "Latest version v2 used"
+ ],
+ "n_values": [
+  10
+ ]
+}
