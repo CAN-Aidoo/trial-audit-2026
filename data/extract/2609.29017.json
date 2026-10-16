@@ -15,7 +15,8 @@
  "comparisons": [],
  "flags": [
   "Only real-robot comparison is CALM 22/30 vs own ablation without current alignment 0/10 (Sec. IV-E); the ablation still receives measured current at deployment, so it is neither kind A (D2b) nor kind B (D5)",
-  "Unequal n between arms (30 vs 10)"
+  "Unequal n between arms (30 vs 10)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   30,

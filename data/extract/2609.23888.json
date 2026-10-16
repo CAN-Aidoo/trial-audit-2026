@@ -57,7 +57,8 @@
   "P = tactile-free student; its inputs include an arm-side wrench estimated from motor currents (teacher also uses optical tactile)",
   "Positive practice: paired exact sign tests and Wilson 95% intervals reported; states student-teacher gap not separable (p = 0.062, 0.125, 1.0)",
   "Teacher excluded from B under D5 (own model)",
-  "Operator scoring placement was not blinded (stated by authors)"
+  "Operator scoring placement was not blinded (stated by authors)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   10,

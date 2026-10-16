@@ -173,7 +173,8 @@
  "flags": [
   "Blind Box Sorting (30/30 ID and OOD) has no baseline; not coded",
   "Text: 'consistently outperforms the VLA baselines'; on Wiping Whiteboard ID pi0.5 is higher (20/30 vs 18/30)",
-  "Kind A = frozen GR00T N1.5 backbone with both force components removed (Table IV)"
+  "Kind A = frozen GR00T N1.5 backbone with both force components removed (Table IV)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   30

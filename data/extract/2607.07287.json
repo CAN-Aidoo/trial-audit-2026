@@ -172,7 +172,8 @@
  ],
  "flags": [
   "w/o tactile ablation reported only as a stacked bar chart (Fig. 5); not extractable",
-  "Largest per-condition n in the corpus so far"
+  "Largest per-condition n in the corpus so far",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   100

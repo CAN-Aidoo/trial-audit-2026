@@ -43,11 +43,11 @@
    "task": "Scrape off Sticker Easy (full off)",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "RISE-2",
+   "baseline_name": "pi0.5 / RDP (tie)",
    "nP": 10,
    "sP": 10,
    "nX": 10,
-   "sX": 8,
+   "sX": 7,
    "source": "Table II p7",
    "n_ambiguous": false,
    "note": ""
@@ -95,7 +95,7 @@
    "task": "Push and Flip unseen obj 1",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "RISE-2 / TA-VLA (tie)",
+   "baseline_name": "TA-VLA",
    "nP": 5,
    "sP": 5,
    "nX": 5,
@@ -173,7 +173,7 @@
    "task": "Push and Flip unseen obj 4",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "RISE-2 / pi0.5 (tie)",
+   "baseline_name": "pi0.5",
    "nP": 5,
    "sP": 4,
    "nX": 5,
@@ -251,7 +251,8 @@
  "flags": [
   "Appendix Table VI reports '95% CI' as symmetric +/- intervals (t-based, matches 2.262*SD/sqrt(n)); they collapse to +/-0.0 at 0% and 100% (e.g. 100.0 +/- 0.0 with n=10) and are clipped to [0,100]",
   "Text says 'significantly outperforms' without a test",
-  "Table IV unseen-object generalisation uses 5 trials per object"
+  "Table IV unseen-object generalisation uses 5 trials per object",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   5,

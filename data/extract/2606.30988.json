@@ -27,32 +27,6 @@
    "note": "D2b"
   },
   {
-   "task": "Peg insertion (finetune task)",
-   "outcome": "success",
-   "kind": "B",
-   "baseline_name": "Diffusion Policy",
-   "nP": 15,
-   "sP": 13,
-   "nX": 15,
-   "sX": 10,
-   "source": "Table 3 p13",
-   "n_ambiguous": false,
-   "note": ""
-  },
-  {
-   "task": "Peg insertion (pretrain task, backward transfer)",
-   "outcome": "success",
-   "kind": "B",
-   "baseline_name": "Pretraining Only",
-   "nP": 15,
-   "sP": 10,
-   "nX": 15,
-   "sX": 8,
-   "source": "Table 4 p13",
-   "n_ambiguous": false,
-   "note": ""
-  },
-  {
    "task": "Vase wiping",
    "outcome": "partial credit",
    "kind": "A",
@@ -68,7 +42,7 @@
   {
    "task": "Pick and place",
    "outcome": "partial credit",
-   "kind": "B",
+   "kind": "A",
    "baseline_name": "No F/T",
    "nP": 10,
    "sP": null,
@@ -81,7 +55,8 @@
  ],
  "flags": [
   "Abstract figure reports '+17.5% success on pretrain tasks' from partial-credit scores",
-  "Wiping and pick-and-place use 0.5 partial credit"
+  "Wiping and pick-and-place use 0.5 partial credit",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   10,

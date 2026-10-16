@@ -15,7 +15,8 @@
  "comparisons": [],
  "flags": [
   "Seed paper",
-  "Positive practice noted: bootstrap 95% CIs over physical trials for recall, grouped by trial across model seeds; seeds stated not to add trials"
+  "Positive practice noted: bootstrap 95% CIs over physical trials for recall, grouped by trial across model seeds; seeds stated not to add trials",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": []
 }

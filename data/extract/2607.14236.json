@@ -43,7 +43,8 @@
  "flags": [
   "Headline claims use 'peak' performance, i.e. the maximum over evaluated checkpoints; maxima over many checkpoints are biased upward",
   "Reports 95% CIs from 3 groups of 10 rollouts",
-  "Single-frame force variant peaks higher than LIFT on towel folding (0.95 vs 0.825)"
+  "Single-frame force variant peaks higher than LIFT on towel folding (0.95 vs 0.825)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   30

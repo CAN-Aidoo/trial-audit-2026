@@ -10,7 +10,7 @@
   "sig_test": false,
   "seeds_reported": false,
   "success_defined": false,
-  "randomized_init": "yes"
+  "randomized_init": "unclear"
  },
  "comparisons": [
   {
@@ -120,7 +120,8 @@
  ],
  "flags": [
   "Perturbation tests use 5 trials per setting",
-  "Success criterion per task not explicitly defined in the retrieved pages"
+  "Success criterion per task not explicitly defined in the retrieved pages",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

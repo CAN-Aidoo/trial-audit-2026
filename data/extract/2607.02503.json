@@ -106,7 +106,8 @@
   }
  ],
  "flags": [
-  "Surface-interaction tasks use 0.5 partial credit; reported as 'success rate'"
+  "Surface-interaction tasks use 0.5 partial credit; reported as 'success rate'",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

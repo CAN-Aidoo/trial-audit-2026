@@ -29,7 +29,8 @@
  ],
  "flags": [
   "Real-world has no external baselines (baselines are simulation-only); only the observation ablation is testable",
-  "Date: v3 1 Oct 2026; v1 Sep 2026 within window"
+  "Date: v3 1 Oct 2026; v1 Sep 2026 within window",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   30

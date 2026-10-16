@@ -17,7 +17,8 @@
   "Per-task success rates appear only as bar values in Fig. 6 (image); not recoverable from text, so no testable comparisons coded",
   "n stated as '24-25 trials' per condition, not exact per cell",
   "Averages in text: CC-VLA 89.2% vs ForceVLA 73.2%; 'significantly outperforming' without a test",
-  "Ablations reported as percentage changes only (e.g. PI-Pro 72% -> 92%)"
+  "Ablations reported as percentage changes only (e.g. PI-Pro 72% -> 92%)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   24,

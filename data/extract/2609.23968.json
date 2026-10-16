@@ -15,7 +15,8 @@
  "comparisons": [],
  "flags": [
   "Seed paper",
-  "Positive practice noted: bootstrap 95% CIs on hardware force-tracking MAE; simulation SR tables state n per cell"
+  "Positive practice noted: bootstrap 95% CIs on hardware force-tracking MAE; simulation SR tables state n per cell",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": []
 }

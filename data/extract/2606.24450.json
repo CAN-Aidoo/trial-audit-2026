@@ -15,7 +15,8 @@
  "comparisons": [],
  "flags": [
   "Reports mean +/- SD over 10 trials",
-  "Uses a Spearman correlation test for a diagnostic analysis"
+  "Uses a Spearman correlation test for a diagnostic analysis",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   10

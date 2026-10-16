@@ -81,7 +81,8 @@
  ],
  "flags": [
   "No kind-A ablation: DP is a separate vision-only baseline; 'w/o Fast' keeps force in the planner",
-  "Abstract reports average +40 pp over baselines (mean of baselines, not strongest)"
+  "Abstract reports average +40 pp over baselines (mean of baselines, not strongest)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

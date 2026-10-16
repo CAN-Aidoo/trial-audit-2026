@@ -17,11 +17,11 @@
    "task": "Charger plugging",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "pi0.5+tactile, expert-only data",
+   "baseline_name": "pi0.5 (vision-only), expert-only data",
    "nP": 50,
    "sP": 32,
    "nX": 50,
-   "sX": 10,
+   "sX": 9,
    "source": "Table I p6",
    "n_ambiguous": false,
    "note": ""
@@ -43,11 +43,11 @@
    "task": "Cucumber peeling",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "pi0.5+tactile, expert-only data",
+   "baseline_name": "pi0.5 (vision-only), expert-only data",
    "nP": 50,
    "sP": 43,
    "nX": 50,
-   "sX": 22,
+   "sX": 14,
    "source": "Table I p6",
    "n_ambiguous": false,
    "note": ""
@@ -69,11 +69,11 @@
    "task": "U-Block insertion",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "pi0.5+tactile, expert-only data",
+   "baseline_name": "pi0.5 (vision-only), expert-only data",
    "nP": 50,
    "sP": 47,
    "nX": 50,
-   "sX": 36,
+   "sX": 24,
    "source": "Table I p6",
    "n_ambiguous": false,
    "note": ""
@@ -95,11 +95,11 @@
    "task": "Cuboid insertion",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "pi0.5+tactile, expert-only data",
+   "baseline_name": "pi0.5 (vision-only), expert-only data",
    "nP": 50,
    "sP": 37,
    "nX": 50,
-   "sX": 18,
+   "sX": 14,
    "source": "Table I p6",
    "n_ambiguous": false,
    "note": ""
@@ -122,7 +122,8 @@
   "P = pi0.5+tactile trained with expert + round-2 ViTacWorld rollouts; round-1 rows not coded",
   "Wilson 95% CIs shown only in Fig. 4 (real vs imagined), not on the policy table",
   "Date: v1 posted July 2026 (v2 28 Sep 2026); exact v1 day not shown in PDF",
-  "Text compares tactile vs vision-only gains (24.5 vs 20.5 pp; 36.5 vs 34.5 pp) without uncertainty"
+  "Text compares tactile vs vision-only gains (24.5 vs 20.5 pp; 36.5 vs 34.5 pp) without uncertainty",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   50

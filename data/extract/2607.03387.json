@@ -147,7 +147,8 @@
  "flags": [
   "Abstract: 'consistently outperforms all baselines'; Table I Peg Transfer: pi0.5 w/ T-UniT 66.7% vs ResTacVLA 60.0% (n=15)",
   "Reported average (62.8%) averages alignment-phase and interaction-phase columns together",
-  "25 trials for two tasks, 15 for three"
+  "25 trials for two tasks, 15 for three",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   15,

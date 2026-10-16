@@ -14,7 +14,8 @@
  },
  "comparisons": [],
  "flags": [
-  "Real-world cube pickup reported as 37% -> 97% with tactile reward; numbers of evaluation trials not given"
+  "Real-world cube pickup reported as 37% -> 97% with tactile reward; numbers of evaluation trials not given",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": []
 }

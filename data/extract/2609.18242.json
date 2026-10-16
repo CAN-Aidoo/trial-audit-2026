@@ -174,7 +174,8 @@
   "Signal: robot joint-torque-based wrench estimates (no wrist F/T sensor)",
   "Stage-1 Temporal Teacher is the method's own component; excluded from B under D5",
   "Kind A uses 'w/o force correction' (delay correction runs with the force token masked); ablations reported only pooled over two tasks per platform",
-  "Mean +/- SD reported for peak force and completion time, not for success"
+  "Mean +/- SD reported for peak force and completion time, not for success",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20,

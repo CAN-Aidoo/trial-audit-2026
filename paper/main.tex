@@ -60,7 +60,7 @@ For every real-robot task and condition we extracted the number of trials and su
 Where a paper reports several variants of its method, or several rows for the same task and comparator kind, the primary analysis keeps the first-listed row, which follows the paper's own table order; all rows are analysed as a sensitivity check (D7a).
 
 \subsection{Independent verification}\label{sec:verify-methods}
-After the first extraction was complete and before results were finalised, every paper was re-extracted by independent extractors (separate instances of the same language-model assistant used for the first extraction, given only the protocol rules and the papers). Verifiers first screened all \VerScreened{} papers against I1--I3 from the papers alone and wrote their decisions before seeing anything else. They then received, for each included paper, only the task names, comparator names and comparison kinds of the first extraction, with all trial counts, successes and decisions removed, filled in the numbers from the source, and judged whether each comparator met the kind-A and kind-B rules. Every disagreement was adjudicated against the paper by the first author, and corrections were applied by script with a logged reason.
+After the first extraction was complete and before results were finalised, every paper was re-extracted by independent extractors (separate instances of the same language-model assistant used for the first extraction, given only the protocol rules and the papers). Verifiers first screened all \VerScreened{} papers against I1--I3 from the papers alone and wrote their decisions before seeing anything else. They then received, for each included paper, only the task names, comparator names and comparison kinds of the first extraction, with all trial counts, successes and decisions removed, filled in the numbers from the source, and judged whether each comparator met the kind-A and kind-B rules. Every disagreement was adjudicated against the source paper, and corrections were applied by script, each with a logged reason.
 
 \subsection{Analyses}
 All analyses were fixed in the protocol (A1--A7) with implementation details fixed before the first run (D7).
@@ -82,7 +82,7 @@ The two screenings agreed on \VerIncAgree{} of \VerScreened{} inclusion decision
 \subsection{Trial counts and reporting (A1, A2)}
 Across \AuditConditions{} evaluated conditions in the \AuditIncluded{} included papers, the median number of trials was \AuditMedianN{} (interquartile range \AuditNQOne--\AuditNQThree; Figure~\ref{fig:n}). \AuditShareNLeTen{} of conditions used 10 or fewer trials, \AuditShareNLeTwenty{} used 20 or fewer, and \AuditShareNGeFifty{} used 50 or more.
 
-Table~\ref{tab:reporting} summarises reporting. Most papers defined success explicitly (\AuditRepSuccessDef{}), and about half described randomised or matched initial conditions (\AuditRepRandInit{}). Few reported any uncertainty: \AuditRepCI{} gave an interval or error bar on success, \AuditRepTest{} a significance test, and \AuditRepSeeds{} the number of training seeds. Several papers that did report intervals or tests used them well, for example by stating explicitly that a gain was within seed variation or not significant; these practices are noted in the released data.
+Table~\ref{tab:reporting} summarises reporting. Most papers defined success explicitly (\AuditRepSuccessDef{}); \AuditRepRandInit{} clearly described randomised or matched initial conditions. Few reported any uncertainty: \AuditRepCI{} gave an interval or error bar on success, \AuditRepTest{} a significance test, and \AuditRepSeeds{} the number of training seeds. Several papers that did report intervals or tests used them well, for example by stating explicitly that a gain was within seed variation or not significant; these practices are noted in the released data.
 
 \begin{figure}[t]
 \centering
@@ -111,7 +111,7 @@ Any significance test & \AuditRepTest\\
 \subsection{How many comparisons are resolved? (A3)}
 Table~\ref{tab:compare} gives the main result. The proposed method scored higher than its comparator in \AuditSharePBetter{} of the \AuditPrimaryRows{} primary comparisons, with a median gap of \AuditMedianDiff{} points. The Newcombe interval for the difference excluded zero in \AuditShareCIExcl{} of comparisons: \AuditShareBCIExcl{} against the strongest baseline and \AuditShareACIExcl{} against the no-signal ablation. The Fisher test was significant in \AuditShareFisherSig{}; Boschloo's more powerful unconditional test in \AuditShareBoschlooSig{}, with the two disagreeing on \AuditFisherBoschlooDisagree{} comparisons. Using all \AuditBinaryRows{} rows instead of the primary set gives \AuditSensAllRowsCIExcl{} resolved, and excluding rows whose counts were reconstructed from ambiguous percentages gives \AuditSensNoAmbCIExcl{}.
 
-Figure~\ref{fig:n} (right) shows why. Most comparisons sit at 10--25 trials per arm, where a gap must be 35--50 points to be detected reliably. Many reported gaps of 20--40 points fall below that line: large enough to be interesting, too small to be distinguished from noise at that sample size.
+Figure~\ref{fig:n} (right) shows why. Most comparisons sit at 10--30 trials per arm, where a gap must be roughly 30--50 points to be detected reliably. Many reported gaps of 20--40 points fall below that line: large enough to be interesting, too small to be distinguished from noise at that sample size.
 
 \begin{table}[t]
 \centering
@@ -167,7 +167,7 @@ Table~\ref{tab:sprt} shows a simple sequential test that alternates trials of th
 \end{table}
 
 \section{Discussion}\label{sec:discussion}
-\textbf{What the numbers mean.} The pattern is consistent. Proposed methods almost always score higher, and the gaps are often large, but the typical evaluation of 10--25 trials per arm can only distinguish gaps of 35--50 points from noise. About half of individual comparisons, and a minority of papers taken as a whole, are statistically resolved. Low power also means that the gaps which do pass a significance filter are likely to overstate the true effect~\cite{button2013,gelman2014}, and our null simulation shows that common reporting choices, such as reporting the best variant or configuration, make 10--20 point gains easy to obtain by chance. None of this implies that the force or touch signals do not help; the direction of the evidence is clearly positive. It implies that the size of the benefit, and which design choices produce it, are much less certain than the tables suggest.
+\textbf{What the numbers mean.} The pattern is consistent. Proposed methods almost always score higher, and the gaps are often large, but the typical evaluation of 10--30 trials per arm can only reliably distinguish gaps of roughly 30--50 points from noise. About half of individual comparisons, and a minority of papers taken as a whole, are statistically resolved. Low power also means that the gaps which do pass a significance filter are likely to overstate the true effect~\cite{button2013,gelman2014}, and our null simulation shows that common reporting choices, such as reporting the best variant or configuration, make 10--20 point gains easy to obtain by chance. None of this implies that the force or touch signals do not help; the direction of the evidence is clearly positive. It implies that the size of the benefit, and which design choices produce it, are much less certain than the tables suggest.
 
 \textbf{Why it happens.} Real-robot trials are expensive, and the incentive is to spend them across many tasks and baselines rather than on many trials per comparison. A paper with six tasks, four baselines and an ablation at 20 trials each runs 720 trials, a substantial effort, yet each cell is underpowered. Statistical reporting is also not expected by reviewers in this area. The fix is therefore partly cultural and partly a matter of allocating the same effort differently.
 
@@ -186,20 +186,20 @@ Table~\ref{tab:sprt} shows a simple sequential test that alternates trials of th
 \section{Limitations}
 \textbf{Sample.} The audit covers papers retrieved by six fixed queries from one search interface that ranks recent work first; it is a snapshot of 2026 work, not a census, and may over-represent prominent or recent papers. Most are preprints, and published versions may differ.
 
-\textbf{Extraction.} Both extractions were done by the same kind of language-model assistant under the author's supervision; although the second was blinded to values and decisions, the two may share systematic errors, and verifiers received the first extraction's task and comparator list, so omissions in that list were only partly checked (verifiers were asked to report missing comparisons). Coding rules required judgment (which baseline is eligible as ``strongest'', what counts as a no-signal ablation), and we made several of these rules explicit only during extraction; all are logged with dates, and none was introduced after analysis. Reconstructing counts from percentages introduces small errors, which the sensitivity analysis addresses.
+\textbf{Extraction.} Both extractions were done by the same kind of language-model assistant under the author's supervision; although the second was blinded to values and decisions, the two may share systematic errors, and verifiers received the first extraction's task and comparator list, so omissions in that list were only partly checked (verifiers were asked to report missing comparisons). Coding rules required judgment (which baseline is eligible as ``strongest'', what counts as a no-signal ablation), and we made several of these rules explicit only during extraction; all are logged with dates. One set of rules (D8) was written during verification, after a first run of the analysis code on the unverified data whose results were not used; it was prompted by the verifiers' screening and is applied uniformly. Reconstructing counts from percentages introduces small errors, which the sensitivity analysis addresses.
 
 \textbf{Statistics.} We treat trials as independent Bernoulli outcomes and the two arms as independent. Many papers use matched initial conditions, for which paired analyses would be more powerful, and some pool trials across training seeds, which ignores clustering. We test each comparison on its own, whereas papers often argue from consistency across tasks; a hierarchical model would use that information, at the cost of further assumptions. Partial-credit outcomes were excluded from tests.
 
 \textbf{Scope of conclusions.} Unresolved comparisons are not evidence of no effect. We did not attempt to judge any paper's contribution, and the per-paper data are released for checking, not ranking.
 
 \section{Conclusion}
-In 2026 work on force-, tactile- and current-aware manipulation, real-robot claims rest on a median of \AuditMedianN{} trials per condition, rarely with any statement of uncertainty. Under standard binomial statistics about half of individual comparisons, and a small minority of papers as a whole, are resolved, and the typical study can only detect gaps of 35 points or more. The methods may well be as good as reported; the evaluations mostly cannot tell. Reporting $k/n$ with intervals, testing a few pre-specified comparisons with exact methods, and allocating trials to the central claim, or using sequential tests, would make the same effort far more informative.
+In 2026 work on force-, tactile- and current-aware manipulation, real-robot claims rest on a median of \AuditMedianN{} trials per condition, rarely with any statement of uncertainty. Under standard binomial statistics about half of individual comparisons, and a small minority of papers as a whole, are resolved, and the median comparison could only reliably detect a gap of about \AuditMedianMDD{} points. The methods may well be as good as reported; the evaluations mostly cannot tell. Reporting $k/n$ with intervals, testing a few pre-specified comparisons with exact methods, and allocating trials to the central claim, or using sequential tests, would make the same effort far more informative.
 
 \section*{Data and code availability}
 The frozen protocol with all dated deviations, per-paper extraction records with sources and notes, the blinded verification packets and outputs, the adjudication log, the analysis code with unit tests, and all generated tables are released at [repository URL to be added]. Every number in this paper is read from files generated by the released scripts.
 
 \section*{Acknowledgements and disclosure}
-Extraction, verification and analysis code were produced with the assistance of an AI model (Claude, Anthropic) under the author's direction; the author defined the protocol, adjudicated all discrepancies against the source papers and takes responsibility for the content.
+Extraction, verification, adjudication and analysis code were carried out with the assistance of an AI model (Claude, Anthropic) under the author's direction; every decision is logged in the released repository, and the author takes responsibility for the content.
 
 \begin{thebibliography}{99}\small
 \bibitem{agarwal2021} R.~Agarwal, M.~Schwarzer, P.~S. Castro, A.~C. Courville, and M.~G. Bellemare. Deep reinforcement learning at the edge of the statistical precipice. In \emph{Advances in Neural Information Processing Systems}, vol.~34, 2021.
@@ -224,7 +224,7 @@ Extraction, verification and analysis code were produced with the assistance of 
 
 \appendix
 \section{Protocol deviations}\label{app:deviations}
-All deviations were committed to the repository, with timestamps, before they were applied; none was made after any analysis had been run on the corresponding data. In brief:
+All deviations were committed to the repository, with timestamps, before they were applied. D1--D7 were made before any analysis was run; D8 was made during verification, after a first run on unverified data. In brief:
 \textbf{D1} narrowed the window to 2026-01-01 -- 2026-09-30 because the search tool returns mostly recent work.
 \textbf{D2} (a) excluded partial-credit outcomes from binomial tests; (b) defined kind A as the proposed method with the signal removed.
 \textbf{D3} kept eligible papers with no stated trial counts in the reporting statistics.
@@ -232,7 +232,7 @@ All deviations were committed to the repository, with timestamps, before they we
 \textbf{D5} restricted kind B to external or author-built baselines.
 \textbf{D6} required the signal to be an input at deployment.
 \textbf{D7} fixed analysis details before the first run: primary-row selection, Holm families, the reading of ``best of $m$'', exact power by enumeration, and the sequential-test design.
-The full text is in the released protocol.
+\textbf{D8} (during verification) treated papers with only partial-credit outcomes as failing I2, admitted per-trial binary outcomes not labelled ``success'', and coded unresolved disagreements on two judgement fields conservatively. The full text is in the released protocol.
 
 \section{Screened papers}
 \input{tab_papers.tex}

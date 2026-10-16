@@ -83,7 +83,8 @@
   "Real-robot baselines exclude 'IHR + WSM-denoised depth' (uses the paper's own module; duck 8/10, cross 8/10, corner 10/10)",
   "Tactile is a binary contact stream; tactile ablations (zero/dropout) are simulation-only, so no real kind-A",
   "95% CIs reported for simulation metrics only, not real-robot success",
-  "Real success scored by four video annotators, averaged"
+  "Real success scored by four video annotators, averaged",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   10,

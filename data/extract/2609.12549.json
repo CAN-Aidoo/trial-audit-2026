@@ -17,11 +17,11 @@
    "task": "Earbud flipping",
    "outcome": "success",
    "kind": "B",
-   "baseline_name": "pi0.5",
+   "baseline_name": "LDA-1B-Dex",
    "nP": 20,
    "sP": 13,
    "nX": 20,
-   "sX": 3,
+   "sX": 8,
    "source": "Table I p7; n=20 p6",
    "n_ambiguous": false,
    "note": ""
@@ -95,7 +95,8 @@
  "flags": [
   "'pi0.5-Dex w/o STAR' (Table I: 5,9,15,6 of 20) has numbers identical to ablation 'Ours w/o STAR' (Table II), which the text says uses tactile; treated as own ablation, so B = strongest external baseline pi0.5",
   "Text says removing SFTP 'does not significantly affect performance' without a test",
-  "Same randomly selected initial configurations across methods (matched)"
+  "Same randomly selected initial configurations across methods (matched)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

@@ -10,13 +10,14 @@
   "sig_test": false,
   "seeds_reported": false,
   "success_defined": true,
-  "randomized_init": "yes"
+  "randomized_init": "unclear"
  },
  "comparisons": [],
  "flags": [
   "Real-robot evaluation has no external baseline and no no-tactile ablation (task is tactile-only); only a pretraining ablation: 27/100 vs 6/100",
   "5 trials per object, 100 total",
-  "Table 1 caption says results use the calibrated simulator; Appendix C.1 says calibration is disabled in both Table 5 variants, yet the 'w/ Pretrain' row (16/50, 11/50) equals Table 1"
+  "Table 1 caption says results use the calibrated simulator; Appendix C.1 says calibration is disabled in both Table 5 variants, yet the 'w/ Pretrain' row (16/50, 11/50) equals Table 1",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   5,

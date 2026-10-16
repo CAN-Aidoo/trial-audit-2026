@@ -56,7 +56,8 @@
  "flags": [
   "Residual imitation (19,22,8 of 30) and the force-conditioned prior (12,17,4) are the method's own ablation/component; excluded from B under D5",
   "SmolVLA-SFT lacks force input but also lacks the residual learner, so not coded as kind A",
-  "Wrist-feedback ablation (plug insertion 19/30 and 23/30 vs 25/30) keeps the force-conditioned prior; not a no-force ablation"
+  "Wrist-feedback ablation (plug insertion 19/30 and 23/30 vs 25/30) keeps the force-conditioned prior; not a no-force ablation",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   30

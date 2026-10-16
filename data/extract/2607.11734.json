@@ -41,7 +41,8 @@
   }
  ],
  "flags": [
-  "Main contribution is force estimation (continuous); downstream policy comparison is the only binary-success comparison"
+  "Main contribution is force estimation (continuous); downstream policy comparison is the only binary-success comparison",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   40

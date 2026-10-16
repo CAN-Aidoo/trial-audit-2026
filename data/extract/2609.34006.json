@@ -45,7 +45,8 @@
   "Headline comparisons are TacGB vs the bare normal-only sensor, which still feeds touch to the policy; excluded from B under D5. For sensitivity analysis: USB bare 15/20 vs off-the-shelf 19/20 and lab-made 18/20; lightbulb bare 15/25 vs TacGB 24/25 (nominal 13/20 vs 20/20; OOD 2/5 vs 4/5)",
   "Egg transfer 25/25 vs 25/25 (binary tie; contact-quality metrics differ); whiteboard drawing has no binary outcome",
   "Positive practice noted: authors state repeated rollouts do not replace independently trained policy seeds",
-  "Initial configurations matched across policies with reference images"
+  "Initial configurations matched across policies with reference images",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

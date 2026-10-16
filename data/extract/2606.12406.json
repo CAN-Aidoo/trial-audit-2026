@@ -2,8 +2,8 @@
  "id": "2606.12406",
  "title": "FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning",
  "date": "2026-06-10",
- "include": true,
- "exclude_reason": null,
+ "include": false,
+ "exclude_reason": "I2 (D8): all real-robot outcomes are partial-credit or progress scores; no binary or binarisable success outcome reported",
  "signal": "current",
  "reporting": {
   "ci_or_errorbars": false,
@@ -30,7 +30,8 @@
  "flags": [
   "Primary metric is task progress, not binary success; values shown only in a bar chart (Fig. 6)",
   "Appendix Table 9 caption says 'task success rates' but values such as 0.347, 0.687, 0.431 are not multiples of 1/20, consistent with progress scores",
-  "Abstract: 'outperforms prior force-aware policies by over 17% in task progress'"
+  "Abstract: 'outperforms prior force-aware policies by over 17% in task progress'",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

@@ -95,7 +95,8 @@
  "flags": [
   "Evaluation study: both torque-augmented variants treated as 'proposed'; no external baseline",
   "Plug insertion counts a pair of consecutive attempts as one rollout unit",
-  "Foam Stop task reported only as a force profile (no success rate)"
+  "Foam Stop task reported only as a force profile (no success rate)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   10,

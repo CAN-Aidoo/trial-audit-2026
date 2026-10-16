@@ -14,7 +14,8 @@
  },
  "comparisons": [],
  "flags": [
-  "Notable for rigorous uncertainty reporting (Wilson intervals, bootstrap CIs) in a non-force paper"
+  "Notable for rigorous uncertainty reporting (Wilson intervals, bootstrap CIs) in a non-force paper",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": []
 }

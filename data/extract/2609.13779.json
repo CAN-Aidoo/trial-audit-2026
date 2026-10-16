@@ -14,7 +14,8 @@
  },
  "comparisons": [],
  "flags": [
-  "Box-dragging comparison (10 trials) is simulation, continuous metrics"
+  "Box-dragging comparison (10 trials) is simulation, continuous metrics",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": []
 }

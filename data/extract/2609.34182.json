@@ -2,8 +2,8 @@
  "id": "2609.34182",
  "title": "Unified Visual-Tactile-Action Modeling from Human Demonstrations for Dexterous Manipulation (UVTA)",
  "date": "2026-09-29",
- "include": true,
- "exclude_reason": null,
+ "include": false,
+ "exclude_reason": "I2 (D8): all real-robot outcomes are partial-credit or progress scores; no binary or binarisable success outcome reported",
  "signal": "tactile",
  "reporting": {
   "ci_or_errorbars": false,
@@ -147,7 +147,8 @@
  "flags": [
   "All tasks scored with stage-wise partial credit (max milestone), n=10 rollouts per task; authors state scores are not binary completion rates",
   "Abstract and text report 'success rate' 70% vs 29% for these partial-credit scores",
-  "Latest version v2 used"
+  "Latest version v2 used",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   10

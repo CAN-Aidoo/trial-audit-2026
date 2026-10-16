@@ -96,7 +96,8 @@
   "Percentages at n=16 are rounded (e.g. 56 = 9/16, 81 = 13/16); successes recovered exactly",
   "Fixed-tactile ablation (Fig. 5) still uses touch; no no-touch ablation of TacForcing; GR00T N1.7 is the vision-only backbone, coded as baseline only (D2b)",
   "Real-world average gain '15 percentage points' over strongest baseline; per-task gaps 0-3 trials of 16",
-  "Date: v1 Aug 2026; v2 29 Sep 2026"
+  "Date: v1 Aug 2026; v2 29 Sep 2026",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   16

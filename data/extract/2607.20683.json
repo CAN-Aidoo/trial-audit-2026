@@ -228,7 +228,8 @@
   "Final-success columns extracted; per-stage columns not used",
   "Positive practice: states binomial SE ~7-11 pp at n=20, gives Wilson formula and example intervals (S7.1), interleaved randomized trial order; but no per-cell intervals in tables",
   "Abstract: 'both ... improve policy success over vision-only baselines' (e.g. Tube 10/20 vs 8/20)",
-  "Included under D4 (generated tactile consumed via tactile channel)"
+  "Included under D4 (generated tactile consumed via tactile channel)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

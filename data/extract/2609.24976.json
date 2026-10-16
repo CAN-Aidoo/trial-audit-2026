@@ -96,7 +96,8 @@
   "Positive practice noted: pooled Wilson 95% CIs and Fisher exact test over four binary tasks (55/80 vs 24/80 RDP, p=1.59e-6)",
   "No kind-A row: the policy-level ablation 'w/o tactile world modeling' keeps tactile features as policy input (D2b)",
   "Genie Envisioner is a vision-only WAM with matched backbone; paper says it isolates the tactile pathway, but it is an external method, so coded as B candidate only (D2b)",
-  "Text cites Table 1 for the ablation that is in Table 2 (minor)"
+  "Text cites Table 1 for the ablation that is in Table 2 (minor)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

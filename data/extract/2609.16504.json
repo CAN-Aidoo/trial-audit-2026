@@ -8,7 +8,7 @@
  "reporting": {
   "ci_or_errorbars": false,
   "sig_test": false,
-  "seeds_reported": true,
+  "seeds_reported": false,
   "success_defined": true,
   "randomized_init": "yes"
  },
@@ -160,7 +160,8 @@
  "flags": [
   "Real-world comparison is only contact vs no-contact (kind A); no external real-world baseline",
   "Pooled 73/110 vs 60/110 reported; per-object rows coded instead",
-  "Binary contact (4 bits) from barometric sensors; 5 seeds for simulation evaluation only"
+  "Binary contact (4 bits) from barometric sensors; 5 seeds for simulation evaluation only",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   10

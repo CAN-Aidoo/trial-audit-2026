@@ -8,7 +8,7 @@
  "reporting": {
   "ci_or_errorbars": false,
   "sig_test": false,
-  "seeds_reported": false,
+  "seeds_reported": true,
   "success_defined": true,
   "randomized_init": "unclear"
  },
@@ -148,7 +148,8 @@
   "Signal = fingertip tactile (wrench + deformation) plus 44 hand-joint torques",
   "Latest version v2 (posted 2026-10-11, after the D1 window end of 2026-09-30); v1 first posted within the window, so kept, with date of the version used recorded",
   "Single training seed (42) for every policy",
-  "Mean differences reported as percentage-point gaps (e.g. '48% above the strongest baseline') without intervals"
+  "Mean differences reported as percentage-point gaps (e.g. '48% above the strongest baseline') without intervals",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   20

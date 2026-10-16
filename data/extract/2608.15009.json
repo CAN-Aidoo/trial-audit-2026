@@ -149,7 +149,8 @@
   "Text reports percentage-point gains as '%' (e.g. 'improves the average success rate by 50.2%')",
   "Abstract/text: 'significantly improves' with no test",
   "45 trials per task spread over subjects in three BMI groups (15 each); text also says 'averaged over three subjects'",
-  "pi0 variants with US/F/S are author-built baselines; strongest external baseline by rate is plain pi0.5"
+  "pi0 variants with US/F/S are author-built baselines; strongest external baseline by rate is plain pi0.5",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   45

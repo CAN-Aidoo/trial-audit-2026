@@ -14,7 +14,8 @@
  },
  "comparisons": [],
  "flags": [
-  "Explicitly states evaluation is qualitative (Sec 4.4)"
+  "Explicitly states evaluation is qualitative (Sec 4.4)",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": []
 }

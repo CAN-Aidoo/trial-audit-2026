@@ -121,7 +121,8 @@
  "flags": [
   "Force regulation uses Franka joint-torque-based end-effector force estimates",
   "Force-profile ablation (variable vs constant force, Table II) compares force-on variants; not coded as B (D5)",
-  "+/- SD reported for peak force and impulse, not success"
+  "+/- SD reported for peak force and impulse, not success",
+  "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
   10
