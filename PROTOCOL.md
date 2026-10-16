@@ -64,3 +64,11 @@ retrieved by fixed queries, not a census of 2024-2026. Seed papers outside the w
 DexFruit 2508.07118) are excluded on date. Two pilot searches (each combining several queries) were run before Q1-Q6;
 papers found only by the pilots are logged but not screened, since the pilots are not protocol queries.
 Raw hits: data/raw_hits.py.
+
+D2 (2026-10-16, during extraction of paper 3 of 87; no analysis run yet). Two coding rules added where the protocol was silent:
+(a) Tasks scored with partial credit (e.g. 0.5 per trial) are not binomial; they are recorded and counted in the
+    trial-count and reporting statistics (A1, A2) but excluded from the binomial tests (A3-A5).
+(b) Kind "A" (no-signal ablation) is used only when the paper evaluates its own method with the force/touch input
+    removed. A separate baseline that merely lacks touch (e.g. a visuomotor policy with a different design) is coded
+    as a candidate for kind "B" only. If the paper itself identifies a baseline as its own method's no-force
+    component (e.g. "our global vision policy"), it is coded as "A".
