@@ -15,7 +15,28 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "human")
 final = {r["id"]: r for r in (json.load(open(f)) for f in glob.glob(os.path.join(ROOT, "data/extract/*.json")))}
 
-sheets = [os.path.join(D, "1_screening.csv"), os.path.join(D, "2_rows.csv")]
+def pick(stem):
+    """Use the filled .xlsx if present, else the .csv."""
+    x = os.path.join(D, stem + ".xlsx")
+    return x if os.path.exists(x) else os.path.join(D, stem + ".csv")
+
+
+def load(path):
+    if path.endswith(".xlsx"):
+        from openpyxl import load_workbook
+        ws = load_workbook(path, data_only=True).active
+        vals = [["" if v is None else str(v) for v in r] for r in ws.iter_rows(values_only=True)]
+        out = [dict(zip(vals[0], r)) for r in vals[1:]]
+    else:
+        out = list(csv.DictReader(open(path)))
+    out = [r for r in out if (r.get("id") or "").strip()]
+    bad = [r["id"] for r in out if r["id"].strip() not in final]
+    if bad:
+        raise SystemExit(f"Unknown paper IDs in {os.path.basename(path)} (did a spreadsheet turn them into numbers?): {bad}")
+    return out
+
+
+sheets = [pick("1_screening"), pick("2_rows")]
 digest = {os.path.basename(p): hashlib.sha256(open(p, "rb").read()).hexdigest() for p in sheets}
 lock = os.path.join(D, "sheets.sha256.json")
 if os.path.exists(lock) and json.load(open(lock)) != digest:
@@ -33,7 +54,7 @@ def num(v):
 
 
 disc = []
-scr = [r for r in csv.DictReader(open(sheets[0])) if r["id"]]
+scr = load(sheets[0])
 blank = [r["id"] for r in scr if yn(r["include (Y/N)"]) is None]
 if blank:
     raise SystemExit(f"Screening incomplete for: {blank}")
@@ -71,7 +92,7 @@ for r in scr:
             disc.append(dict(id=r["id"], row="", field="reporting." + k, final=a, human=r[col]))
 
 # ---- numbers
-rows = [r for r in csv.DictReader(open(sheets[1])) if r["id"]]
+rows = load(sheets[1])
 numeric = dict(rows=0, coded=0, binary_rows=0, binary_exact=0, outcome_agree=0, comparator_flagged=0, added=0)
 for r in rows:
     if r["row"].strip().lower() == "new":
