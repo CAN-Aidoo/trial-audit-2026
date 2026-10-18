@@ -598,7 +598,7 @@ paper,task,arm,label,n
 2609.37433,Insert Peg,B,ACP,25
 2609.37433,Insert Peg,A,GR00T N1.7 alone (no force control),25
 2609.37433,Wipe Curve,P,GR00T N1.7 + FP2,25
-2609.37433,Wipe Curve,B,ACP,25
+2609.37433,Wipe Curve,B,"pi0.5 (full), no FP2",25
 2609.37433,Wipe Curve,A,GR00T N1.7 alone (no force control),25
 2609.37433,Flip Box,P,LaWAM + FP2,25
 2609.37433,Flip Box,A,LaWAM alone (no force control),25
@@ -623,7 +623,11 @@ paper,task,arm,label,n
 2609.37433,Insert Peg,P,pi0.5 (full) + FP2,25
 2609.37433,Insert Peg,A,pi0.5 (full) alone (no force control),25
 2609.37433,Wipe Curve,P,pi0.5 (full) + FP2,25
+2609.37433,Wipe Curve,B,ACP,25
 2609.37433,Wipe Curve,A,pi0.5 (full) alone (no force control),25
+2609.37433,Insert Peg (full fine-tuning),P,pi0 (full FT) + FP2,25
+2609.37433,Insert Peg (full fine-tuning),B,TA-VLA (full FT),25
+2609.37433,Insert Peg (full fine-tuning),A,pi0 (full FT) alone,25
 2609.37552,Peg Insertion,P,,50
 2609.37552,Peg Insertion,B,Position ACT on VR data (pi_p_vr),50
 2609.37552,Fuse Clipping,P,,50

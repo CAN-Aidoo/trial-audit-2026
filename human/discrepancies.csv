@@ -1,0 +1,12 @@
+id,row,field,final,human,resolution
+2609.03889,,reporting.success_defined,True,N,final correct (author re-checked PDF; see screening_discrepancies.csv)
+2609.03889,,reporting.randomized_init,unclear,yes,final correct (author re-checked PDF; see screening_discrepancies.csv)
+2609.37433,,reporting.success_defined,True,N,final correct (author re-checked PDF; see screening_discrepancies.csv)
+2609.07747,,reporting.success_defined,True,N,final correct (author re-checked PDF; see screening_discrepancies.csv)
+2609.37433,6,kind B choice,ACP,π0.5 (full) (97% CR),"human correct; comparator renamed (partial-credit row, no effect on tests)"
+2609.37433,14,kind B choice,ACP,π0.5 (full) (97% CR),"human correct; comparator renamed (partial-credit row, no effect on tests)"
+2609.37433,22,kind B choice,ACP,π0.5 (full) (97% CR),"human correct; comparator renamed (partial-credit row, no effect on tests)"
+2607.07287,new,missing_row,,Six-task average (clean) | w/o tactile input (Fig. 5 ablation),valid omission but no per-task counts (chart average only); not added
+2609.37433,new,missing_row,,Insert Peg (full fine-tuning) | TA-VLA (full FT),human correct; row added to data
+2609.37433,new,missing_row,,Insert Peg (full fine-tuning) | π0 (full FT) alone,human correct; row added to data
+2607.07287,new,missing_row,,Six-task average (human perturbation) | w/o Tactile input (Fig. 5),valid omission but no per-task counts (chart average only); not added
