@@ -1,0 +1,44 @@
+[
+ {
+  "paper": "2609.37433",
+  "row": 6,
+  "change": "kind-B comparator ACP -> pi0.5 (full), no FP2",
+  "reason": "Human re-check: pi0.5 (full) without FP2 is an external model with the highest completion rate (97%) on Wipe Curve; for the GR00T/LaWAM/pi0 variants it is not their own no-FP2 version. Partial-credit row: no effect on any test."
+ },
+ {
+  "paper": "2609.37433",
+  "row": 14,
+  "change": "kind-B comparator ACP -> pi0.5 (full), no FP2",
+  "reason": "Human re-check: pi0.5 (full) without FP2 is an external model with the highest completion rate (97%) on Wipe Curve; for the GR00T/LaWAM/pi0 variants it is not their own no-FP2 version. Partial-credit row: no effect on any test."
+ },
+ {
+  "paper": "2609.37433",
+  "row": 22,
+  "change": "kind-B comparator ACP -> pi0.5 (full), no FP2",
+  "reason": "Human re-check: pi0.5 (full) without FP2 is an external model with the highest completion rate (97%) on Wipe Curve; for the GR00T/LaWAM/pi0 variants it is not their own no-FP2 version. Partial-credit row: no effect on any test."
+ },
+ {
+  "paper": "2609.37433",
+  "row": "new",
+  "change": "added Insert Peg (full fine-tuning) B: 19/25 vs TA-VLA 9/25",
+  "reason": "Missing comparison found in human re-check (text p6); n from paper default, flagged n_ambiguous"
+ },
+ {
+  "paper": "2609.37433",
+  "row": "new",
+  "change": "added Insert Peg (full fine-tuning) A: 19/25 vs pi0 full FT 15/25",
+  "reason": "Missing comparison found in human re-check (text p6); n from paper default, flagged n_ambiguous"
+ },
+ {
+  "paper": "2607.07287",
+  "row": "new",
+  "change": "none",
+  "reason": "Six-task averages for the no-tactile ablation are shown only as chart averages (Fig. 5) without per-task counts; not extractable as binary rows (I3/D2a). Recorded, not added."
+ },
+ {
+  "paper": "2607.07287",
+  "row": "new",
+  "change": "none",
+  "reason": "Same as above, human-perturbation setting."
+ }
+]

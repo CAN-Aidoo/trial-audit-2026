@@ -132,3 +132,11 @@ the exact two-sided Fisher power (alpha 0.05, equal arms of the smaller reported
 minimum detectable difference. (b) The accuracy of the arcsine sample-size formula is reported on a fixed design
 grid (comparator rate 0.1/0.3/0.5/0.7 x gain 15/20/30 points, improved rate <= 0.95), not at observed rates.
 (c) The observed-rate quantities remain in results/comparisons.csv and summary.json and are not interpreted.
+
+D10 (2026-10-18, after version 1 was posted). Human re-check: the author re-coded a seeded 20% sample (19 papers:
+12 included, 7 excluded; human/sample.json) from the papers alone, screening first, using human/INSTRUCTIONS.md.
+Sheets were hash-locked before scoring (human/screening.sha256.json, human/sheets.sha256.json). Disagreements were
+resolved against the source (human/screening_discrepancies.csv, human/discrepancies.csv, human/resolution_log.json):
+three kind-B comparator names on a partial-credit task changed (no effect on tests); two comparisons missing from the
+extraction were added (2609.37433, Insert Peg under full fine-tuning; n from the paper's stated default, flagged
+n_ambiguous); two further missing comparisons had no per-task counts and were not added.
