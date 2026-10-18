@@ -1,3 +1,5 @@
+![How many trials back a force-aware manipulation claim? 91% of comparisons favour the proposed method, but only 53% are statistically resolved.](assets/banner.png)
+
 # How Many Trials Back a Force-Aware Manipulation Claim?
 
 Data, code and protocol for a statistical audit of real-robot evaluations in 2026 force-, torque-, tactile- and
@@ -26,6 +28,7 @@ motor-current-aware robot manipulation papers.
 | `analyze.py` | Runs analyses A1–A7 and writes `results/` |
 | `make_figures.py`, `make_tables.py` | Figures and tables for the paper |
 | `paper/` | LaTeX source and PDF; every number is read from generated macro files |
+| `assets/` | README banner, generated from `results/summary.json` by `make_banner.py` |
 | `authors/` | Per-paper confirmation sheets for the papers' authors |
 
 ## Reproduce
