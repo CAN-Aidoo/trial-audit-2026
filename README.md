@@ -42,7 +42,11 @@ cd paper && pdflatex main.tex && pdflatex main.tex
 ```
 
 The git history is part of the record: commit timestamps show the protocol and each deviation were committed
-before they were applied. The audit concerns evaluation practice across the field, not the merit of any paper.
+before they were applied.
+On 2026-10-18 the commit author fields in this repository were set to the author and tool trailers were removed;
+commit dates and contents are unchanged. The original, unmodified history is preserved inside both Zenodo archives.
+As the paper discloses, extraction, verification, adjudication and analysis code were produced with AI assistance
+under the author's direction. The audit concerns evaluation practice across the field, not the merit of any paper.
 
 ## Licence
 
