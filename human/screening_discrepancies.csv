@@ -1,5 +1,5 @@
 id,field,final,human,resolution
-2609.03889,reporting.success_defined,True,N,
-2609.03889,reporting.randomized_init,unclear,yes,
-2609.37433,reporting.success_defined,True,N,
-2609.07747,reporting.success_defined,True,N,
+2609.03889,reporting.success_defined,True,N,"final correct: author re-checked PDF, success is explicitly defined"
+2609.03889,reporting.randomized_init,unclear,yes,"final correct: author re-checked PDF, unclear for main comparison"
+2609.37433,reporting.success_defined,True,N,"final correct: author re-checked full PDF, success is explicitly defined"
+2609.07747,reporting.success_defined,True,N,"final correct: author re-checked PDF, real-robot success is defined"
