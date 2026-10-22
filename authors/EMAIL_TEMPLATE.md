@@ -13,8 +13,8 @@ Dear Dr <name>,
 I am auditing the statistics of real-robot evaluations in 2026 force-, tactile- and current-aware
 manipulation papers. Your paper is one of the 58 we included. The audit looks at evaluation practice
 across the field as a whole, not at any one paper:
-- results are reported only in aggregate;
-- papers are not ranked or named in the text.
+- the main text reports results only in aggregate;
+- an appendix table lists each included paper by arXiv ID with its comparison counts, and the per-row data are public.
 
 Before the revision, I would be grateful if you could check the rows we extracted from your paper (below).
 In particular, please check:
