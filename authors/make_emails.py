@@ -3,9 +3,12 @@
 Usage: python3 authors/make_emails.py  ->  authors/emails/<arXiv id>.txt, authors/emails/TRACKER.csv
 The corresponding author's name and address must be read from the paper's first page (arXiv PDF) and filled in.
 """
+import sys
 import csv, glob, json, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
+from stats import newcombe
 OUT = os.path.join(ROOT, "authors", "emails")
 os.makedirs(OUT, exist_ok=True)
 REPO = "https://github.com/CAN-Aidoo/trial-audit-2026"
@@ -61,8 +64,12 @@ for f in sorted(glob.glob(os.path.join(ROOT, "data/extract/*.json"))):
         continue
     R = []
     for i, c in enumerate(rec["comparisons"], 1):
-        st = stats.get((rec["id"], c["task"], c["kind"], c["baseline_name"]))
-        ci = f"{100 * float(st['nc_lo']):+.0f} to {100 * float(st['nc_hi']):+.0f} points" if st else "not tested"
+        # CI computed from this row's own counts (a lookup keyed on task/role/baseline mixed up rows that share a key)
+        if None not in (c["sP"], c["nP"], c["sX"], c["nX"]) and c["nP"] and c["nX"]:
+            lo, hi = newcombe(c["sP"], c["nP"], c["sX"], c["nX"])
+            ci = f"{100 * lo:+.0f} to {100 * hi:+.0f} points"
+        else:
+            ci = "not tested"
         flag = " (count rebuilt from a percentage)" if c["n_ambiguous"] else ""
         R.append(f"{i}. {c['task']}\n   Compared with: {c['baseline_name']} ({ROLE[c['kind']]})\n"
                  f"   Your method: {kn(c['sP'], c['nP'])}{flag}   Comparator: {kn(c['sX'], c['nX'])}\n"

@@ -2,12 +2,15 @@
 
 Usage: python3 authors/make_sheets.py  ->  authors/sheets/<arXiv id>.md
 """
+import sys
 import csv
 import glob
 import json
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
+from stats import newcombe
 OUT = os.path.join(ROOT, "authors", "sheets")
 os.makedirs(OUT, exist_ok=True)
 stats = {}
@@ -26,8 +29,12 @@ for f in sorted(glob.glob(os.path.join(ROOT, "data/extract/*.json"))):
     for i, c in enumerate(rec["comparisons"]):
         def kn(s, nn):
             return f"{s}/{nn}" if s is not None else (f"partial credit, n={nn}" if nn else "n not stated")
-        st = stats.get((rec["id"], c["task"], c["kind"], c["baseline_name"]))
-        ci = f"{100 * float(st['nc_lo']):+.0f} to {100 * float(st['nc_hi']):+.0f}" if st else "not tested"
+        # CI computed from this row's own counts (a lookup keyed on task/role/baseline mixed up rows that share a key)
+        if None not in (c["sP"], c["nP"], c["sX"], c["nX"]) and c["nP"] and c["nX"]:
+            lo, hi = newcombe(c["sP"], c["nP"], c["sX"], c["nX"])
+            ci = f"{100 * lo:+.0f} to {100 * hi:+.0f}"
+        else:
+            ci = "not tested"
         flag = " (count rebuilt from a percentage)" if c["n_ambiguous"] else ""
         L.append(f"| {i} | {c['task']} | {c['baseline_name']} ({KIND[c['kind']]}) | {kn(c['sP'], c['nP'])}{flag} | "
                  f"{kn(c['sX'], c['nX'])} | {c['source']} | {ci} |")
