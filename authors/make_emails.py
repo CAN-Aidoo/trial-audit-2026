@@ -13,7 +13,7 @@ OUT = os.path.join(ROOT, "authors", "emails")
 os.makedirs(OUT, exist_ok=True)
 REPO = "https://github.com/CAN-Aidoo/trial-audit-2026"
 DOI = "https://doi.org/10.5281/zenodo.23452145"
-PDF = REPO + "/blob/main/paper/main.pdf"
+PDF = "https://doi.org/10.31224/8576"
 stats = {}
 for r in csv.DictReader(open(os.path.join(ROOT, "results/comparisons.csv"))):
     stats.setdefault((r["paper"], r["task"], r["kind"], r["baseline"]), r)

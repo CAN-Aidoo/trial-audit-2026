@@ -7,7 +7,7 @@ motor-current-aware robot manipulation papers.
 
 **Author:** Clement Aidoo (CANLABS) · ORCID [0009-0005-6893-2677](https://orcid.org/0009-0005-6893-2677) · clement.aidoo@canlabs.org  
 **Archived data and code:** [doi:10.5281/zenodo.23452145](https://doi.org/10.5281/zenodo.23452145) (v2.0; v1.0 is [doi:10.5281/zenodo.23442248](https://doi.org/10.5281/zenodo.23442248))  
-**Paper:** engrXiv preprint (link added on publication)
+**Paper:** engrXiv preprint, [doi:10.31224/8576](https://doi.org/10.31224/8576)
 
 ## Headline results (v2)
 
@@ -50,4 +50,4 @@ under the author's direction. The audit concerns evaluation practice across the 
 
 ## Licence
 
-CC BY 4.0. Please cite the Zenodo record.
+CC BY 4.0. Please cite the paper (doi:10.31224/8576); for the data and code, cite the Zenodo record.
