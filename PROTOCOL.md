@@ -140,3 +140,13 @@ resolved against the source (human/screening_discrepancies.csv, human/discrepanc
 three kind-B comparator names on a partial-credit task changed (no effect on tests); two comparisons missing from the
 extraction were added (2609.37433, Insert Peg under full fine-tuning; n from the paper's stated default, flagged
 n_ambiguous); two further missing comparisons had no per-task counts and were not added.
+
+D11 (2026-10-25, after version 2 was posted; first author response). Following Section 6, Chenguang Yang
+(corresponding author of 2609.05832) checked that paper's extraction. Changes: (a) the record noted no comparisons
+and n = 24-25; the authors state that Fig. 6 reports six binary-success conditions and that most bars average
+several batches of about 25 trials, so per-condition n is not recoverable. The paper is recoded as
+eligible_but_n_missing (D3): its comparisons stay out of the tests and it no longer contributes n = 24-25 to A1.
+(b) The authors point to success criteria and initial-condition ranges in the supplementary video of the journal
+version. The audit's source is the arXiv PDF (Section 2), so these reporting items keep their arXiv-text coding;
+the scope is now stated in the paper's Limitations. Author replies and resulting changes are logged in
+authors/log.csv.

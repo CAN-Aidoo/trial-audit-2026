@@ -1,1 +1,2 @@
 id,sent,replied,outcome,notes
+2609.05832,2026-10-23,2026-10-25,correction applied,"C. Yang: Fig. 6 has 6 binary conditions; bars average several ~25-trial batches -> recoded eligible_but_n_missing, n removed from A1 (D11). Success criteria/init ranges/seed 42 are in RA-L supplementary video, outside arXiv-PDF scope -> reporting codes kept, scope stated in Limitations."

@@ -32,7 +32,7 @@ paper,title,signal,ci_or_errorbars,sig_test,seeds_reported,success_defined,rando
 2608.25798,TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback,tactile,False,False,False,False,unclear,6,0,0,16
 2608.25872,VISTA: Visually Inferred Spatial ConTact Attention for Contact-Rich Manipulation,tactile,False,False,False,True,unclear,12,2,0,5 10
 2609.03889,FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation,torque,False,False,False,True,unclear,6,6,6,25
-2609.05832,CR-VLA-Force / CC-VLA: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation,force,False,False,False,False,unclear,0,0,0,24 25
+2609.05832,CR-VLA-Force / CC-VLA: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation,force,False,False,False,False,unclear,0,0,0,
 2609.07002,WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation,tactile,False,False,False,True,unclear,5,2,2,10 200
 2609.07747,Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction (DEX-X),tactile,False,False,False,True,unclear,1,1,1,30
 2609.12549,STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation,tactile,False,False,False,True,yes,6,1,1,20

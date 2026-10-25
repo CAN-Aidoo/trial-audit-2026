@@ -14,14 +14,13 @@
  },
  "comparisons": [],
  "flags": [
-  "Per-task success rates appear only as bar values in Fig. 6 (image); not recoverable from text, so no testable comparisons coded",
-  "n stated as '24-25 trials' per condition, not exact per cell",
-  "Averages in text: CC-VLA 89.2% vs ForceVLA 73.2%; 'significantly outperforming' without a test",
+  "Fig. 6 reports binary task success for six real-robot conditions (PB-Base, PB-OOD, PI-Base, PI-Pro, OW-1, OW-2), proposed method vs DP, Pi0, Pi05, Pi0 wi F and ForceVLA; values appear only in the figure image",
+  "Text states 'Each test condition comprised 24-25 trials' (p. 10). Author correspondence (C. Yang, 2026-10-25): this is one evaluation batch; many bars average several batches of about 25 trials, so per-condition denominators are not recoverable. Coded eligible_but_n_missing (Protocol D3/D11); originally coded with n 24-25 and no comparisons",
+  "Averages in text: CC-VLA 89.2% vs ForceVLA 73.2%; 'significantly outperforming' without a test (authors confirm no CI or test reported)",
   "Ablations reported as percentage changes only (e.g. PI-Pro 72% -> 92%)",
+  "Scope note: authors state success criteria and initial-condition ranges are shown in the supplementary video of the RA-L version (doi:10.1109/LRA.2026.3739025) and that training used one seed (42). The audit codes the arXiv PDF only, where these are not stated, so success_defined, randomized_init and seeds_reported keep their arXiv-text coding",
   "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
- "n_values": [
-  24,
-  25
- ]
+ "n_values": [],
+ "eligible_but_n_missing": true
 }

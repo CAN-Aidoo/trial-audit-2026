@@ -14,7 +14,7 @@
   "share_le_10": 0.20637329286798178,
   "share_le_20": 0.6464339908952959,
   "share_ge_50": 0.1244309559939302,
-  "papers_with_n": 57,
+  "papers_with_n": 56,
   "paper_median_of_medians": 20.0,
   "min": 5,
   "max": 200
@@ -26,7 +26,7 @@
   "success_defined": 0.7586206896551724,
   "randomized_init_yes": 0.3620689655172414,
   "papers": 58,
-  "eligible_but_n_missing": 1,
+  "eligible_but_n_missing": 2,
   "papers_without_binary_comparison": 6,
   "papers_with_partial_credit_rows": 7
  },

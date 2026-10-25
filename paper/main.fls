@@ -118,6 +118,12 @@ INPUT ../results/macros.tex
 INPUT ../verify/macros_verify.tex
 INPUT ../verify/macros_verify.tex
 INPUT ../verify/macros_verify.tex
+INPUT ../human/macros_human.tex
+INPUT ../human/macros_human.tex
+INPUT ../human/macros_human.tex
+INPUT ../human/macros_human_screening.tex
+INPUT ../human/macros_human_screening.tex
+INPUT ../human/macros_human_screening.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./main.aux
@@ -196,6 +202,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./tab_design.tex
+INPUT ./tab_design.tex
+INPUT tab_design.tex
 INPUT ./fig_null.pdf
 INPUT ./fig_null.pdf
 INPUT ./fig_null.pdf
@@ -207,6 +216,7 @@ INPUT tab_null.tex
 INPUT ./tab_sprt.tex
 INPUT ./tab_sprt.tex
 INPUT tab_sprt.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./tab_papers.tex
 INPUT ./tab_papers.tex
@@ -225,4 +235,5 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
