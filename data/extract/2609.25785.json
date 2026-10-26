@@ -59,6 +59,7 @@
   "T1 egg/toothpaste (P 70%/80%, n=20) not coded: pi0.5 rate not given in text; only D5-excluded comparators reported",
   "No kind-A row: pi0.5 removes both force and the goal image, so it is not a pure no-force ablation (D2b)",
   "Positive practice noted: Wilson 95% CIs on final success rates",
+  "Author check (J.-W. Lee for the corresponding author, 2026-10-26): trial counts, success counts and 95% CIs confirmed; pi0.5 confirmed as an appropriate overall baseline (kind B). Authors note that the B rows measure overall improvement, not the contribution of visual force representation; the comparison that isolates the current-force representation is Visual Force + Text Force Goal vs State Force + Text Force Goal. Both arms carry force, so it is not a no-signal ablation (kind A, D2b) and is not added; no change to the data",
   "Verified by blinded second extraction; see verify/adjudication_log.json"
  ],
  "n_values": [
